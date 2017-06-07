@@ -1,0 +1,68 @@
+/* BASE_226 | WIDGET | 226_CORMAIN_STYLE | WIDGET-OVERRIDE - 2016-04-08 */
+
+// -------------------------------------
+// EXTEND
+
+	%widget {}
+
+		%sidebar-widget {}
+		%sidebarprimary-widget-hidebg {
+			background-color: #fff;
+			border: 1px solid #fff;
+			padding: 1rem;
+			margin-bottom: 1rem;
+			box-shadow: none;
+		}
+		%sidebarsecondary-widget {}
+		%siteheader-widget {}
+		%footerwidgets-widget {}
+		%afterentry-widget {}
+
+// -------------------------------------
+// SELECTORS
+
+	.widget {
+		//@extend %widget !optional;
+	}
+
+		// SIDEBAR
+
+		.sidebar {
+			.widget {
+				//@extend %sidebar-widget !optional;
+			}
+		}
+		.sidebar.sidebar-primary {
+			#text-17.widget {
+				@extend %sidebarprimary-widget-hidebg !optional;
+			}
+		}
+		.sidebar.sidebar-secondary {
+			.widget {
+				//@extend %sidebarsecondary-widget !optional;
+			}
+		}
+
+		// SITE-HEADER
+
+		.site-header {
+			.widget {
+				//@extend %siteheader-widget !optional;				
+			}
+		}
+
+		// FOOTER-WIDGETS
+
+		.footer-widgets {
+			.widget {
+				//@extend %footerwidgets-widget !optional;
+			}
+		}
+
+		// AFTER-ENTRY
+
+		.after-entry {
+			.widget {
+				//@extend %afterentry-widget !optional;
+			}
+		}

@@ -1,0 +1,14 @@
+/* BASE_226 | MENU | 226_BASE_ATMOSPHEREPRO | NAVHEADER - 2016-03-17 */
+
+// -------------------------------------
+// EXTEND
+
+	%navheader {}
+
+// -------------------------------------
+// SELECTORS
+
+	.nav-header {
+		@extend %navheader-formula !optional;
+		@extend %navheader !optional;
+	}

@@ -1,0 +1,22 @@
+/* BASE_226 | INNER | 227_BASE | CONTENTSIDEBARWRAP - 2016-03-30 */
+
+// -------------------------------------
+// FORMULA
+
+	%csw-formula {}
+
+// -------------------------------------
+// EXTEND
+
+	%csw {
+		box-sizing: border-box;
+		overflow: hidden;
+	}
+
+// -------------------------------------
+// SELECTORS
+
+	.content-sidebar-wrap {
+		@extend %csw-formula !optional;
+		@extend %csw !optional;
+	}

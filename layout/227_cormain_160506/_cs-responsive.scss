@@ -1,0 +1,79 @@
+/* BASE_226 | LAYOUT | 227_CORMAIN | CS-RESPONSIVE - 2016-03-30 */
+
+// -------------------------------------
+// VARIABLES
+
+	$width-inner-home:					72.5;			// 1160px
+
+// -------------------------------------
+// EXTEND
+
+	%cs-sitecontainer {
+		background-color: #fff;
+		//max-width: #{$width-inner}rem;
+		//margin: 0 auto;
+		padding: 1rem;
+	}
+
+	%cs-siteinner {}
+	%cs-siteinnerwrap {
+		max-width: #{$width-inner-home}rem;
+		margin: 0 auto;
+	}
+
+	%cs-csw {
+		float: left;
+		width: 100%;
+	}
+
+	%cs-content {
+		//background-color: yellow;
+		float: left;
+		width: 70%;
+		padding: 2rem;
+	}
+
+	%cs-sidebarprimary {
+		//background-color: pink;
+		float: right;
+		width: 28%;
+	}
+
+// -------------------------------------
+// SELECTORS
+
+	.content-sidebar .site-container {
+		@extend %cs-sitecontainer !optional;
+	}
+
+	.content-sidebar .site-inner {
+		@extend %cs-siteinner !optional;
+	}
+
+	.content-sidebar .site-inner .wrap {
+		@extend %cs-siteinnerwrap !optional;
+	}
+
+	.content-sidebar .content-sidebar-wrap {
+		@extend %cs-csw !optional;
+	}
+
+	.content-sidebar .content {
+		@extend %cs-content !optional;
+
+		@include responsive-range(lrgbelowdown) {
+			float: none;
+			width: 100%;
+		}
+
+	}
+
+	.content-sidebar .sidebar-primary {
+		@extend %cs-sidebarprimary !optional;
+
+		@include responsive-range(lrgbelowdown) {
+			float: none;
+			width: 100%;
+		}
+
+	}

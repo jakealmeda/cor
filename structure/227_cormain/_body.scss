@@ -1,0 +1,15 @@
+/* BASE_227 | STRUCTURE | 227_CORMAIN | BODY - 2016-05-11 */
+
+// -------------------------------------
+// EXTEND
+
+	%body {
+		line-height: 1.4;
+	}
+
+// -------------------------------------
+// SELECTORS
+
+	body {
+		@extend %body !optional;
+	}

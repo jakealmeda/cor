@@ -1,0 +1,171 @@
+/* BASE_226 | MENU | 226_BASE_ATMOSPHEREPRO | SUBMENU - 2016-03-17 */
+
+// -------------------------------------
+// EXTEND
+
+	%submenu {
+		//margin-bottom: 0;
+	}
+	%submenu-submenu {}
+	
+	%gnm-submenu {
+		background-color: pink;
+		left: -9999px;
+		opacity: 0;
+		position: absolute;
+		width: 180px;
+		margin-bottom: 0;
+		margin-left: 0;
+		box-sizing: border-box;
+	}
+		%gnm-submenu-a {
+			width: 180px;
+			border: 1px solid #eee;
+			border-top: 0;
+			padding: 10px;
+			box-sizing: border-box;
+			position: relative;
+		}
+		%gnm-submenu-hvr {}
+	
+	%gnm-submenu-submenu {
+		margin: -39px 0 0 179px;
+	}
+
+	%navheader-submenu {}
+	%navheader-submenu-submenu {}
+
+	// determines the width of the submenu (needs to match %dropdown-menuprisec-submenu-menuitemwchildhvr-submenu)
+	%menuprisec-submenu {
+		//background-color: #f3f3f3;
+		//box-sizing: border-box;
+		//width: 150px;
+		//box-sizing: border-box;
+	}
+	%menuprisec-submenu-submenu {}
+
+	%menuprimary-submenu {}
+	%menuprimary-submenu-submenu {}
+
+	%menusecondary-submenu {}
+	%menusecondary-submenu-submenu {}
+
+	// defines the hierarchial structure of menus entered in the widget
+	%widget-submenu {
+		//margin-left: #{$size-default}rem;
+	}
+	%widget-submenu-submenu {}
+
+	%sidebar-submenu {}
+	%sidebar-submenu-submenu {}
+
+	%footerwidgets-submenu {}
+	%footerwidgets-submenu-submenu {}
+
+	%sidebarprimary-submenu {}
+	%sidebarprimary-submenu-submenu {}
+
+	%sidebarsecondary-submenu {}
+	%sidebarsecondary-submenu-submenu {}
+
+// -------------------------------------
+// SELECTORS
+
+	.sub-menu {
+		@extend %submenu !optional;
+	}
+
+		.sub-menu .sub-menu {
+			@extend %submenu-submenu !optional;
+		}
+
+	.genesis-nav-menu .sub-menu {
+		@extend %gnm-submenu !optional;
+	
+		a {
+			@extend %gnm-submenu-a !optional;
+		
+			&:hover {
+				@extend %gnm-submenu-hvr !optional;
+			}
+		}
+
+	}
+
+	.genesis-nav-menu .sub-menu .sub-menu {
+		@extend %gnm-submenu-submenu !optional;
+	}
+
+	.nav-header .sub-menu {
+		@extend %navheader-submenu !optional;
+	}
+
+		.nav-header .sub-menu .sub-menu {
+			@extend %navheader-submenu-submenu !optional;
+		}
+
+	.menu-primary .sub-menu,
+	.menu-secondary .sub-menu {
+		@extend %menuprisec-submenu !optional;
+	}
+
+		.menu-primary .sub-menu .sub-menu,
+		.menu-secondary .sub-menu .sub-menu {
+			@extend %menuprisec-submenu-submenu !optional;
+		}
+
+	.menu-primary .sub-menu {
+		@extend %menuprimary-submenu !optional;
+	}
+
+		.menu-primary .sub-menu .sub-menu {
+			@extend %menuprimary-submenu-submenu !optional;
+		}
+
+	.menu-secondary .sub-menu {
+		@extend %menusecondary-submenu !optional;
+	}
+
+		.menu-secondary .sub-menu .sub-menu {
+			@extend %menusecondary-submenu-submenu !optional;
+		}
+
+	.widget .sub-menu {
+		@extend %widget-submenu !optional;
+	}
+
+		.widget .sub-menu .sub-menu {
+			@extend %widget-submenu-submenu !optional;
+		}
+
+	.sidebar .sub-menu {
+		@extend %sidebar-submenu !optional;
+	}
+
+		.sidebar .sub-menu .sub-menu {
+			@extend %sidebar-submenu-submenu !optional;
+		}
+
+	.footer-widgets .sub-menu {
+		@extend %footerwidgets-submenu !optional;
+	}
+
+		.footer-widgets .sub-menu .sub-menu {
+			@extend %footerwidgets-submenu-submenu !optional;
+		}
+
+	.sidebar-primary .sub-menu {
+		@extend %sidebarprimary-submenu !optional;
+	}
+
+		.sidebar-primary .sub-menu .sub-menu {
+			@extend %sidebarprimary-submenu-submenu !optional;
+		}
+
+	.sidebar-secondary .sub-menu {
+		@extend %sidebarsecondary-submenu !optional;
+	}
+
+		.sidebar-secondary .sub-menu .sub-menu {
+			@extend %sidebarsecondary-submenu-submenu !optional;
+		}

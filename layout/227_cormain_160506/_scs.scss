@@ -1,0 +1,43 @@
+/* BASE_226 | LAYOUT | 227_CORMAIN | SCS - 2016-03-30 */
+
+// -------------------------------------
+// EXTEND
+
+	%scs-csw {
+		float: right;
+		width: 80%;
+	}
+
+	%scs-content {
+		float: left;
+		width: 70%;
+	}
+
+	%scs-sidebarprimary {
+		float: right;
+		width: 30%;
+	}
+
+	%scs-sidebarsecondary {
+		float: left;
+		width: 20%;
+	}
+
+// -------------------------------------
+// SELECTORS
+
+	.sidebar-content-sidebar .content-sidebar-wrap {
+		@extend %scs-csw !optional;
+	}
+
+	.sidebar-content-sidebar .content {
+		@extend %scs-content !optional;
+	}
+
+	.sidebar-content-sidebar .sidebar-primary {
+		@extend %scs-sidebarprimary !optional;
+	}
+
+	.sidebar-content-sidebar .sidebar-secondary {
+		@extend %scs-sidebarsecondary !optional;
+	}

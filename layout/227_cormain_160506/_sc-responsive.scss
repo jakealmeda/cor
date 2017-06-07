@@ -1,0 +1,46 @@
+/* BASE_226 | LAYOUT | 227_BASE | SC-RESPONSIVE - 2016-03-30 */
+
+// -------------------------------------
+// EXTEND
+
+	%sc-csw {
+		float: right;
+		width: 100%;
+	}
+
+	%sc-content {
+		float: right;
+		width: 70%;
+	}
+
+	%sc-sidebarprimary {
+		float: left;
+		width: 30%;
+	}
+
+// -------------------------------------
+// SELECTORS
+
+	.sidebar-content .content-sidebar-wrap {
+		@extend %sc-csw !optional;
+	}
+
+	.sidebar-content .content {
+		@extend %sc-content !optional;
+
+		@include responsive-range(medbelowdown) {
+			float: none;
+			width: 100%;
+		}
+
+	}
+
+	.sidebar-content .sidebar-primary {
+		@extend %sc-sidebarprimary !optional;
+
+		@include responsive-range(medbelowdown) {
+			float: none;
+			width: 100%;
+		}
+
+	}

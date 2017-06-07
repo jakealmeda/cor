@@ -1,0 +1,69 @@
+/* BASE_226 | ENTRY | 226_BASE | ENTRYFOOTER - 2016-01-12 */
+
+// -------------------------------------
+// FORMULA
+
+	%entryfooter-formula {}
+
+		%archive-entryfooter-formula {}
+		%single-entryfooter-formula {}
+		%page-entryfooter-formula {}
+
+// -------------------------------------
+// EXTEND
+
+	%entryfooter {}
+
+		%archive-entryfooter {}
+		%single-entryfooter {}
+		%page-entryfooter {}
+
+// -------------------------------------
+// SELECTORS
+
+	.entry-footer {
+		@extend %entryfooter-structure !optional;
+		@extend %entryfooter-style !optional;
+		@extend %entryfooter-display !optional;
+		@extend %entryfooter-formula !optional;
+		@extend %entryfooter !optional;
+	}
+
+		// ARCHIVE
+
+		.archive,
+		.category,
+		.tag,
+		.blog {
+			.entry-footer {
+				@extend %archive-entryfooter-structure !optional;
+				@extend %archive-entryfooter-style !optional;
+				@extend %archive-entryfooter-display !optional;
+				@extend %archive-entryfooter-formula !optional;
+				@extend %archive-entryfooter !optional;
+			}
+		}
+
+		// SINGLE
+
+		.single {
+			.entry-footer {
+				@extend %single-entryfooter-structure !optional;
+				@extend %single-entryfooter-style !optional;
+				@extend %single-entryfooter-display !optional;
+				@extend %single-entryfooter-formula !optional;
+				@extend %single-entryfooter !optional;
+			}
+		}
+
+		// PAGE
+
+		.page {
+			.entry-footer {
+				@extend %page-entryfooter-structure !optional;
+				@extend %page-entryfooter-style !optional;
+				@extend %page-entryfooter-display !optional;
+				@extend %page-entryfooter-formula !optional;
+				@extend %page-entryfooter !optional;
+			}
+		}

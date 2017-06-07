@@ -1,0 +1,50 @@
+/* BASE_227 | ENTRY-ARCHIVE | 227_BASE | ENTRYHEADER - 2016-06-01 */
+
+// -------------------------------------
+// EXTEND
+
+	%all-entryheader {}
+
+	%archive-entryheader {}
+	%category-entryheader {}
+	%tag-entryheader {}
+	%blog-entryheader {}
+
+// -------------------------------------
+// SELECTORS
+
+	// ARCHIVE
+
+	.archive {
+		.entry-header {
+			@extend %all-entryheader !optional;
+			@extend %archive-entryheader !optional;
+		}
+	}
+
+	// CATEGORY
+
+	.category {
+		.entry-header {
+			@extend %all-entryheader !optional;
+			@extend %category-entryheader !optional;
+		}
+	}
+
+	// TAG
+
+	.tag {
+		.entry-header {
+			@extend %all-entryheader !optional;
+			@extend %tag-entryheader !optional;
+		}
+	}
+
+	// BLOG
+
+	.blog {
+		.entry-header {
+			@extend %all-entryheader !optional;
+			@extend %blog-entryheader !optional;
+		}
+	}

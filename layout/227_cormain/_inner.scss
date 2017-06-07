@@ -1,0 +1,150 @@
+/* BASE_227 | LAYOUT | 227_BASE > COR-MAIN | INNER - 2016-05-23 */
+
+// -------------------------------------
+// EXTEND
+
+	// SITE-INNER
+
+	%siteinner {
+		background-color: #ddd;
+		@extend %boxsizing-borderbox !optional;
+	}
+	%siteinnerwrap {
+		margin: 0 auto;
+		padding: 1.5rem;
+		@extend %boxsizing-borderbox !optional;
+
+		@include responsive-range(lrgbelowdown) {
+			padding: 1rem;
+		}
+
+		@include responsive-range(medbelowdown) {
+			padding: 0.5rem;
+		}
+	}
+	%siteinnerwraponly {}
+
+	// CONTENT-SIDEBAR-WRAP
+
+	%csw {
+		float: left;
+		width: 100%;
+		margin-bottom: 1rem;
+		@extend %boxsizing-borderbox !optional;
+
+		@include responsive-range(lrgbelowdown) {
+			margin-bottom: 1rem;
+		}
+
+		@include responsive-range(medbelowdown) {
+			margin-bottom: 0.5rem;
+		}
+	}
+
+	// CONTENT
+
+	%content {
+		width: 100%;
+		padding: 2rem;
+		overflow: hidden;
+		background-color: #fff;
+		color: #333;
+		border: 1px solid #ccc;
+		box-shadow: 2px 2px 2px 0px #bbbbbb;
+		@extend %boxsizing-borderbox !optional;
+
+		@include responsive-range(lrgbelowdown) {
+			padding: 1rem;
+		}
+
+		@include responsive-range(medbelowdown) {
+			margin-bottom: 0.5rem;
+		}
+	}
+	%content-cs {
+		float: left;
+		width: 64%;
+		//width: 264px;
+
+		@include responsive-range(xlrgbelowdown) {
+			width: 58%;
+		}
+		@include responsive-range(medbelowdown) {
+			float: none;
+			width: 100%;
+		}
+	}
+
+	// SIDEBAR-PRIMARY
+
+	%sidebarprimary {
+		width: 100%;
+		@extend %boxsizing-borderbox !optional;
+	}
+	%sidebarprimary-cs {
+		float: right;
+		width: 34%;
+
+		@include responsive-range(xlrgbelowdown) {
+			width: 40%;
+		}
+		@include responsive-range(medbelowdown) {
+			float: none;
+			width: 100%;
+		}
+	}
+
+	// SIDEBAR-SECONDARY
+
+	%sidebarsecondary {
+		@extend %sidebarsecondary !optional;
+		@extend %responsive-layout-max !optional;
+		@extend %boxsizing-borderbox !optional;
+	}
+
+// -------------------------------------
+// SELECTORS
+
+	// SITE-INNER
+
+	.site-inner {
+		@extend %siteinner !optional;
+
+		.wrap {
+			@extend %siteinnerwrap !optional;
+		}
+	}
+	.site-inner > .wrap {
+		@extend %siteinnerwraponly !optional;
+	}
+
+	// CONTENT-SIDEBAR-WRAP
+
+	.content-sidebar-wrap {
+		@extend %csw !optional;
+	}
+
+	// CONTENT
+
+	.content {
+		@extend %content !optional;
+	}
+	.content-sidebar .content {
+		@extend %content-cs !optional;
+	}
+
+	// SIDEBAR-PRIMARY
+
+	.sidebar-primary {
+		@extend %sidebarprimary !optional;
+	}
+	.content-sidebar .sidebar-primary {
+		@extend %sidebarprimary-cs !optional;
+	}
+
+	// SIDEBAR-SECONDARY
+
+	.sidebar-secondary {
+		@extend %sidebarsecondary !optional;
+	}
+

@@ -1,0 +1,45 @@
+/* BASE_226 | FOOTER | 227_CORMAIN | FOOTERWIDGETS - 2016-04-15 */
+
+// -------------------------------------
+// EXTEND
+
+	%footerwidgets {
+		//background-image: linear-gradient(#ddd, #f0f0f0);
+		background-color: #234367;
+	}
+		%footerwidgets-a {
+			color: #fff;
+		}
+		%footerwidgets-hvr {}
+	%footerwidgetswrap {
+		max-width: #{$width-inner}rem;
+		padding: #{$size-default}rem;
+		margin-right: auto;
+		margin-left: auto;
+		//background-color: #eee;
+		box-sizing: border-box;
+	}
+	%footerwidgetswraponly {}
+
+// -------------------------------------
+// SELECTORS
+
+	.footer-widgets {
+		@extend %footerwidgets !optional;
+
+		.wrap {
+			@extend %footerwidgetswrap !optional;
+		}
+
+		a {
+			@extend %footerwidgets-a !optional;
+
+			&:hover {
+				@extend %footerwidgets-hvr !optional;
+			}
+		}
+
+	}
+	.footer-widgets > .wrap {
+		@extend %footerwidgetswraponly !optional;
+	}

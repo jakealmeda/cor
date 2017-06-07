@@ -1,0 +1,159 @@
+/* BASE_226 | ENTRY | 226_CORMAIN_STYLE | ENTRYTITLE - 2016-01-20 */
+
+// -------------------------------------
+// FORMULA
+
+	%entrytitle-formula {}
+		%entrytitle-a-formula {}
+		%entrytitle-hvr-formula {}
+
+		// ARCHIVE
+		%archive-entrytitle-formula {}
+			%archive-entrytitle-a-formula {}
+			%archive-entrytitle-hvr-formula {}
+
+		// SINGLE
+		%single-entrytitle-formula {}
+			%single-entrytitle-a-formula {}
+			%single-entrytitle-hvr-formula {}
+
+		// PAGE
+		%page-entrytitle-formula {}
+			%page-entrytitle-a-formula {}
+			%page-entrytitle-hvr-formula {}
+
+// -------------------------------------
+// EXTEND
+
+	%entrytitle {
+		font-family: $fontfamily-entrytitle;
+		font-weight: $fontweight-thicker;
+	}
+		%entrytitle-a {}
+		%entrytitle-hvr {}
+
+		%archive-entrytitle {}
+			%archive-entrytitle-a {}
+			%archive-entrytitle-hvr {}
+
+		%single-entrytitle {}
+			%single-entrytitle-a {}
+			%single-entrytitle-hvr {}
+
+		%page-entrytitle {}
+			%page-entrytitle-a {}
+			%page-entrytitle-hvr {}
+
+// -------------------------------------
+// SELECTORS
+
+	.entry-title {
+		@extend %entrytitle-structure !optional;
+		@extend %entrytitle-style !optional;
+		@extend %entrytitle-display !optional;
+		@extend %entrytitle-formula !optional;
+		@extend %entrytitle !optional;
+
+		a {
+			@extend %entrytitle-a-structure !optional;
+			@extend %entrytitle-a-style !optional;
+			@extend %entrytitle-a-display !optional;
+			@extend %entrytitle-a-formula !optional;
+			@extend %entrytitle-a !optional;
+
+			&:hover {
+				@extend %entrytitle-hvr-structure !optional;
+				@extend %entrytitle-hvr-style !optional;
+				@extend %entrytitle-hvr-display !optional;
+				@extend %entrytitle-hvr-formula !optional;
+				@extend %entrytitle-hvr !optional;
+			}
+		}
+	}
+
+		// ARCHIVE
+
+		.archive,
+		.category,
+		.tag,
+		.blog {
+			.entry-title {
+				@extend %archive-entrytitle-structure !optional;
+				@extend %archive-entrytitle-style !optional;
+				@extend %archive-entrytitle-display !optional;
+				@extend %archive-entrytitle-formula !optional;
+				@extend %archive-entrytitle !optional;
+
+				a {
+					@extend %archive-entrytitle-a-structure !optional;
+					@extend %archive-entrytitle-a-style !optional;
+					@extend %archive-entrytitle-a-display !optional;
+					@extend %archive-entrytitle-a-formula !optional;
+					@extend %archive-entrytitle-a !optional;
+
+					&:hover {
+						@extend %archive-entrytitle-hvr-structure !optional;
+						@extend %archive-entrytitle-hvr-style !optional;
+						@extend %archive-entrytitle-hvr-display !optional;
+						@extend %archive-entrytitle-hvr-formula !optional;
+						@extend %archive-entrytitle-hvr !optional;
+					}
+				}
+			}
+		}
+
+		// SINGLE
+
+		.single {
+			.entry-title {
+				@extend %single-entrytitle-structure !optional;
+				@extend %single-entrytitle-style !optional;
+				@extend %single-entrytitle-display !optional;
+				@extend %single-entrytitle-formula !optional;
+				@extend %single-entrytitle !optional;
+
+				a {
+					@extend %single-entrytitle-a-structure !optional;
+					@extend %single-entrytitle-a-style !optional;
+					@extend %single-entrytitle-a-display !optional;
+					@extend %single-entrytitle-a-formula !optional;
+					@extend %single-entrytitle-a !optional;
+
+					&:hover {
+						@extend %single-entrytitle-hvr-structure !optional;
+						@extend %single-entrytitle-hvr-style !optional;
+						@extend %single-entrytitle-hvr-display !optional;
+						@extend %single-entrytitle-hvr-formula !optional;
+						@extend %single-entrytitle-hvr !optional;
+					}
+				}
+			}
+		}
+
+		// PAGE
+
+		.page {
+			.entry-title {
+				@extend %page-entrytitle-structure !optional;
+				@extend %page-entrytitle-style !optional;
+				@extend %page-entrytitle-display !optional;
+				@extend %page-entrytitle-formula !optional;
+				@extend %page-entrytitle !optional;
+
+				a {
+					@extend %page-entrytitle-a-structure !optional;
+					@extend %page-entrytitle-a-style !optional;
+					@extend %page-entrytitle-a-display !optional;
+					@extend %page-entrytitle-a-formula !optional;
+					@extend %page-entrytitle-a !optional;
+
+					&:hover {
+						@extend %page-entrytitle-hvr-structure !optional;
+						@extend %page-entrytitle-hvr-style !optional;
+						@extend %page-entrytitle-hvr-display !optional;
+						@extend %page-entrytitle-hvr-formula !optional;
+						@extend %page-entrytitle-hvr !optional;
+					}
+				}
+			}
+		}

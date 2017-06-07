@@ -1,0 +1,48 @@
+/* BASE_226 | WIDGETAREA | 226_CORMAIN | CSWCONTENT - 2016-03-24 */
+
+// -------------------------------------
+// FORMULA
+
+// -------------------------------------
+// EXTEND
+
+	%beforecontent {}
+	%beforecontent-areawrap {}
+
+	%beforecontenthome {}
+	%beforecontenthome-areawrap {
+		max-width: 65%;
+	}
+
+// -------------------------------------
+// SELECTORS
+
+	.beforecontent.widget-area {
+		@extend %beforecontent !optional;
+	
+		.areawrap {
+			@extend %beforecontent-areawrap !optional;		
+		}
+
+		.widget {
+			margin-bottom: 0;
+		}
+
+		.widget-wrap {
+			margin-bottom: 0;
+		}
+
+	}
+
+	.home.beforecontent.widget-area {
+		@extend %beforecontenthome !optional;
+	
+		.areawrap {
+			@extend %beforecontenthome-areawrap !optional;
+		}
+
+		.widget {}
+
+		.widget-wrap {}
+
+	}

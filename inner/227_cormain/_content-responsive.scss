@@ -1,0 +1,58 @@
+/* BASE_226 | INNER | 227_BASE | CONTENT - 2016-03-30 */
+
+// -------------------------------------
+// EXTEND
+
+	%content {
+		box-sizing: border-box;
+		overflow: hidden;
+
+		font-family: "Lato",arial,sans-serif;
+		background-color: #fff;
+		color: #333;
+		border: 1px solid #ccc;
+		padding: 1rem;
+		overflow: hidden;
+		box-shadow: 2px 2px 2px 0px #bbbbbb;
+	}
+
+// -------------------------------------
+// SELECTORS
+
+	.content {
+		@extend %content !optional;
+	}
+
+
+
+
+
+// -------------------------------------
+// FORMULA
+
+	%content-formula {}
+
+// -------------------------------------
+// EXTEND
+
+	%content {
+
+		@extend %boxsizing-borderbox !optional;
+
+		@include responsive-mobile(mobile) {
+			width: 100%;
+			margin-bottom: 1rem;
+		}
+
+		@include responsive-mobile(mobile-sml) {
+			margin-bottom: 0.5rem;
+		}
+	}
+
+// -------------------------------------
+// SELECTORS
+
+	.content {
+		@extend %content-formula !optional;
+		@extend %content !optional;
+	}

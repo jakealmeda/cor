@@ -1,0 +1,64 @@
+/* BASE_226 | LAYOUT | 227_CORMAIN | SCS-RESPONSIVE - 2016-03-30 */
+
+// -------------------------------------
+// VARIABLES
+
+	//$width-inner-scs:					75;			// 1200px
+
+// -------------------------------------
+// EXTEND
+
+	%scs-siteinner {}
+	%scs-siteinnerwrap {
+		max-width: #{$width-inner}rem;
+		margin: 1.25rem auto;
+	}
+
+	%scs-csw {
+		float: right;
+		width: 83%;
+	}
+
+	%scs-content {
+		float: left;
+		width: 65%;
+		padding: 2rem;
+	}
+
+	%scs-sidebarprimary {
+		float: right;
+		width: 33%;
+	}
+
+	%scs-sidebarsecondary {
+		float: left;
+		width: 16%;
+	}
+
+// -------------------------------------
+// SELECTORS
+
+	.sidebar-content-sidebar .site-inner {
+		@extend %scs-siteinner !optional;
+	}
+
+	.sidebar-content-sidebar .site-inner .wrap {
+		@extend %scs-siteinnerwrap !optional;
+	}
+
+	.sidebar-content-sidebar .content-sidebar-wrap {
+		@extend %scs-csw !optional;
+	}
+
+	.sidebar-content-sidebar .content {
+		@extend %scs-content !optional;
+	}
+
+	.sidebar-content-sidebar .sidebar-primary {
+		@extend %scs-sidebarprimary !optional;
+	}
+
+	.sidebar-content-sidebar .minisidebar,
+	.sidebar-content-sidebar .sidebar-secondary {
+		@extend %scs-sidebarsecondary !optional;
+	}

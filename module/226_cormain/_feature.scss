@@ -1,0 +1,85 @@
+/* BASE_226 | STRUCTURE | 226_CORMAIN_STYLE | FEATURE - 2016-01-20 */
+
+// -------------------------------------
+// SILENT CLASS
+// -------------------------------------
+
+// FEATUREAREA
+
+	%featurearea {}
+
+// FEATURELEFT
+
+	%featureleft {
+		width: 48%;
+		float: left;
+		margin-right: 3%;
+
+		@include responsive-mobile(mobile-sml) {
+			width: 100%;
+			float: none;
+			margin-right: 0;
+		}
+	}
+
+// FEATURERIGHT
+
+	%featureright {
+		width: 49%;
+		float: left;
+
+		@include responsive-mobile(mobile-sml) {
+			width: 100%;
+			float: none;
+			margin-right: 0;
+		}
+	}
+
+// FEATUREMAIN
+
+	%featuremain {
+		clear: both;
+		display: block;
+	}
+
+// FEATUREINPOST
+
+	%featurepost {
+		clear: both;
+		display: block;
+	}
+
+
+// -------------------------------------
+// CODE
+// -------------------------------------
+
+// FEATUREAREA
+
+	.featurearea {
+		@extend %featurearea !optional;
+	}
+
+// FEATURELEFT
+
+	.featureleft {
+		@extend %featureleft !optional;
+	}
+
+// FEATURERIGHT
+
+	.featureright {
+		@extend %featureright !optional;
+	}
+
+// FEATUREMAIN
+
+	.featuremain {
+		@extend %featuremain !optional;
+	}
+
+// FEATUREINPOST
+
+	.featureinpost {
+		@extend %featureinpost !optional;
+	}

@@ -1,0 +1,237 @@
+/* BASE_226 | ENTRY | 226_CORMAIN_STYLE | ENTRYIMAGE - 2016-01-20 */
+
+// -------------------------------------
+// FORMULA
+
+	%entryimage-formula {}
+
+		%entryimagealignleft-formula {}
+		%imgentryimagealignleft-formula {}
+
+		%entryimagealignright-formula {}
+		%imgentryimagealignright-formula {}
+
+		// ARCHIVE
+		%archive-entryimage-formula {}
+			%archive-entryimagealignleft-formula {}
+			%archive-imgentryimagealignleft-formula {}
+			%archive-entryimagealignright-formula {}
+			%archive-imgentryimagealignright-formula {}
+
+		// SINGLE
+		%single-entryimage-formula {}
+			%single-entryimagealignleft-formula {}
+			%single-imgentryimagealignleft-formula {}
+			%single-entryimagealignright-formula {}
+			%single-imgentryimagealignright-formula {}
+
+		// PAGE
+		%page-entryimage-formula {}
+			%page-entryimagealignleft-formula {}
+			%page-imgentryimagealignleft-formula {}
+			%page-entryimagealignright-formula {}
+			%page-imgentryimagealignright-formula {}
+
+// -------------------------------------
+// EXTEND
+
+	%entryimage {}
+
+		%entryimagealignleft {}
+		%imgentryimagealignleft {}
+
+		%entryimagealignright {}
+		%imgentryimagealignright {}
+
+
+		%archive-entryimage {}
+			%archive-entryimagealignleft {}
+			%archive-imgentryimagealignleft {
+				width: 160px;
+				height: 160px;
+				border: 1px solid #d9d9d9;
+				box-sizing: border-box;
+				padding: 4px;
+			}
+			%archive-entryimagealignright {}
+			%archive-imgentryimagealignright {}
+
+		%single-entryimage {}
+			%single-entryimagealignleft {}
+			%single-imgentryimagealignleft {}
+			%single-entryimagealignright {}
+			%single-imgentryimagealignright {}
+
+		%page-entryimage {}
+			%page-entryimagealignleft {}
+			%page-imgentryimagealignleft {}
+			%page-entryimagealignright {}
+			%page-imgentryimagealignright {}
+
+// -------------------------------------
+// SELECTORS
+
+	.entry-image {
+		@extend %entryimage-structure !optional;
+		@extend %entryimage-style !optional;
+		@extend %entryimage-display !optional;
+		@extend %entryimage-formula !optional;
+		@extend %entryimage !optional;
+	}
+
+		// .ENTRY-IMAGE.ALIGNLEFT
+
+		.entry-image.alignleft {
+			@extend %entryimagealignleft-structure !optional;
+			@extend %entryimagealignleft-style !optional;
+			@extend %entryimagealignleft-display !optional;
+			@extend %entryimagealignleft-formula !optional;
+			@extend %entryimagealignleft !optional;
+		}
+		img.entry-image.alignleft {
+			@extend %imgentryimagealignleft-structure !optional;
+			@extend %imgentryimagealignleft-style !optional;
+			@extend %imgentryimagealignleft-display !optional;
+			@extend %imgentryimagealignleft-formula !optional;
+			@extend %imgentryimagealignleft !optional;
+		}
+
+		// .ENTRY-IMAGE.ALIGNRIGHT
+
+		.entry-image.alignright {
+			@extend %entryimagealignright-structure !optional;
+			@extend %entryimagealignright-style !optional;
+			@extend %entryimagealignright-display !optional;
+			@extend %entryimagealignright-formula !optional;
+			@extend %entryimagealignright !optional;
+		}
+		img.entry-image.alignright {
+			@extend %imgentryimagealignright-structure !optional;
+			@extend %imgentryimagealignright-style !optional;
+			@extend %imgentryimagealignright-display !optional;
+			@extend %imgentryimagealignright-formula !optional;
+			@extend %imgentryimagealignright !optional;
+		}
+
+		// ARCHIVE
+
+		.archive,
+		.category,
+		.tag,
+		.blog {
+			.entry-image {
+				@extend %archive-entryimage-structure !optional;
+				@extend %archive-entryimage-style !optional;
+				@extend %archive-entryimage-display !optional;
+				@extend %archive-entryimage-formula !optional;
+				@extend %archive-entryimage !optional;
+			}
+				.entry-image.alignleft {
+					@extend %archive-entryimagealignleft-structure !optional;
+					@extend %archive-entryimagealignleft-style !optional;
+					@extend %archive-entryimagealignleft-display !optional;
+					@extend %archive-entryimagealignleft-formula !optional;
+					@extend %archive-entryimagealignleft !optional;
+				}
+				img.entry-image.alignleft {
+					@extend %archive-imgentryimagealignleft-structure !optional;
+					@extend %archive-imgentryimagealignleft-style !optional;
+					@extend %archive-imgentryimagealignleft-display !optional;
+					@extend %archive-imgentryimagealignleft-formula !optional;
+					@extend %archive-imgentryimagealignleft !optional;
+				}
+				.entry-image.alignright {
+					@extend %archive-entryimagealignright-structure !optional;
+					@extend %archive-entryimagealignright-style !optional;
+					@extend %archive-entryimagealignright-display !optional;
+					@extend %archive-entryimagealignright-formula !optional;
+					@extend %archive-entryimagealignright !optional;
+				}
+				img.entry-image.alignright {
+					@extend %archive-imgentryimagealignright-structure !optional;
+					@extend %archive-imgentryimagealignright-style !optional;
+					@extend %archive-imgentryimagealignright-display !optional;
+					@extend %archive-imgentryimagealignright-formula !optional;
+					@extend %archive-imgentryimagealignright !optional;
+				}
+		}
+
+		// SINGLE
+
+		.single {
+			.entry-image {
+				@extend %single-entryimage-structure !optional;
+				@extend %single-entryimage-style !optional;
+				@extend %single-entryimage-display !optional;
+				@extend %single-entryimage-formula !optional;
+				@extend %single-entryimage !optional;
+			}
+				.entry-image.alignleft {
+					@extend %single-entryimagealignleft-structure !optional;
+					@extend %single-entryimagealignleft-style !optional;
+					@extend %single-entryimagealignleft-display !optional;
+					@extend %single-entryimagealignleft-formula !optional;
+					@extend %single-entryimagealignleft !optional;
+				}
+				img.entry-image.alignleft {
+					@extend %single-imgentryimagealignleft-structure !optional;
+					@extend %single-imgentryimagealignleft-style !optional;
+					@extend %single-imgentryimagealignleft-display !optional;
+					@extend %single-imgentryimagealignleft-formula !optional;
+					@extend %single-imgentryimagealignleft !optional;
+				}
+				.entry-image.alignright {
+					@extend %single-entryimagealignright-structure !optional;
+					@extend %single-entryimagealignright-style !optional;
+					@extend %single-entryimagealignright-display !optional;
+					@extend %single-entryimagealignright-formula !optional;
+					@extend %single-entryimagealignright !optional;
+				}
+				img.entry-image.alignright {
+					@extend %single-imgentryimagealignright-structure !optional;
+					@extend %single-imgentryimagealignright-style !optional;
+					@extend %single-imgentryimagealignright-display !optional;
+					@extend %single-imgentryimagealignright-formula !optional;
+					@extend %single-imgentryimagealignright !optional;
+				}
+		}
+
+		// PAGE
+
+		.page {
+			.entry-image {
+				@extend %page-entryimage-structure !optional;
+				@extend %page-entryimage-style !optional;
+				@extend %page-entryimage-display !optional;
+				@extend %page-entryimage-formula !optional;
+				@extend %page-entryimage !optional;
+			}
+				.entry-image.alignleft {
+					@extend %page-entryimagealignleft-structure !optional;
+					@extend %page-entryimagealignleft-style !optional;
+					@extend %page-entryimagealignleft-display !optional;
+					@extend %page-entryimagealignleft-formula !optional;
+					@extend %page-entryimagealignleft !optional;
+				}
+				img.entry-image.alignleft {
+					@extend %page-imgentryimagealignleft-structure !optional;
+					@extend %page-imgentryimagealignleft-style !optional;
+					@extend %page-imgentryimagealignleft-display !optional;
+					@extend %page-imgentryimagealignleft-formula !optional;
+					@extend %page-imgentryimagealignleft !optional;
+				}
+				.entry-image.alignright {
+					@extend %page-entryimagealignright-structure !optional;
+					@extend %page-entryimagealignright-style !optional;
+					@extend %page-entryimagealignright-display !optional;
+					@extend %page-entryimagealignright-formula !optional;
+					@extend %page-entryimagealignright !optional;
+				}
+				img.entry-image.alignright {
+					@extend %page-imgentryimagealignright-structure !optional;
+					@extend %page-imgentryimagealignright-style !optional;
+					@extend %page-imgentryimagealignright-display !optional;
+					@extend %page-imgentryimagealignright-formula !optional;
+					@extend %page-imgentryimagealignright !optional;
+				}
+		}

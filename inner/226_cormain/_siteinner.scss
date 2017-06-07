@@ -1,0 +1,40 @@
+/* BASE_226 | INNER | 226_CORMAIN_STYLE | SITEINNER - 2016-01-12 */
+
+// -------------------------------------
+// FORMULA
+
+	%siteinner-formula {}
+	%siteinnerwrap-formula {}
+	%siteinnerwraponly-formula {}
+
+// -------------------------------------
+// EXTEND
+
+	%siteinner {
+		background-color: #ddd;
+		@extend %boxsizing-borderbox !optional;
+	}
+	%siteinnerwrap {
+		max-width: #{$size-inside}rem;
+		margin-right: auto;
+		margin-left: auto;
+		@extend %boxsizing-borderbox !optional;
+	}
+	%siteinnerwraponly {}
+
+// -------------------------------------
+// SELECTORS
+
+	.site-inner {
+		@extend %siteinner-formula !optional;
+		@extend %siteinner !optional;
+
+		.wrap {
+			@extend %siteinnerwrap-formula !optional;
+			@extend %siteinnerwrap !optional;
+		}
+	}
+	.site-inner > .wrap {
+		@extend %siteinnerwraponly-formula !optional;
+		@extend %siteinnerwraponly !optional;
+	}

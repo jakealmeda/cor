@@ -1,0 +1,49 @@
+/* BASE_226 | LAYOUT | 227_CORMAIN | CS - 2016-05-10 */
+
+// -------------------------------------
+// EXTEND
+
+	%cs-csw {
+		float: left;
+	}
+
+	%cs-content {
+		float: left;
+	}
+
+	%cs-sidebarprimary {
+		float: right;
+	}
+
+	%cs-siteinner {}
+
+	%cs-siteinner-wrap {
+		padding: 1rem;
+
+		@include responsive-mobile(mobile-sml) {
+			padding: 0.5rem;
+		}
+	}
+
+// -------------------------------------
+// SELECTORS
+
+	.content-sidebar .content-sidebar-wrap {
+		@extend %cs-csw !optional;
+	}
+
+	.content-sidebar .content {
+		@extend %cs-content !optional;
+	}
+
+	.content-sidebar .sidebar-primary {
+		@extend %cs-sidebarprimary !optional;
+	}
+
+	.content-sidebar .side-inner {
+		@extend %cs-siteinner !optional;
+	}
+
+	.content-sidebar .side-inner .wrap {
+		@extend %cs-siteinner-wrap !optional;
+	}

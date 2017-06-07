@@ -1,0 +1,83 @@
+/* BASE_226 | WIDGET | 226_BASE | WIDGETWRAP - 2016-01-12 */
+
+// -------------------------------------
+// FORMULA
+
+	%widgetwrap-formula {}
+
+		%sidebar-widgetwrap-formula {}
+		%sidebarprimary-widgetwrap-formula {}
+		%sidebarsecondary-widgetwrap-formula {}
+		%siteheader-widgetwrap-formula {}
+		%footerwidgets-widgetwrap-formula {}
+		%afterentry-widgetwrap-formula {}
+
+// -------------------------------------
+// EXTEND
+
+	%widgetwrap {
+		margin-bottom: #{$space-default}rem;
+	}
+
+		%sidebar-widgetwrap {}
+		%sidebarprimary-widgetwrap {}
+		%sidebarsecondary-widgetwrap {}
+		%siteheader-widgetwrap {}
+		%footerwidgets-widgetwrap {}
+		%afterentry-widgetwrap {}
+
+// -------------------------------------
+// SELECTORS
+
+	.widget-wrap {
+		@extend %widgetwrap-formula !optional;
+		@extend %widgetwrap !optional;
+	}
+
+		// SIDEBAR
+
+		.sidebar {
+			.widget-wrap {
+				@extend %sidebar-widgetwrap-formula !optional;
+				@extend %sidebar-widgetwrap !optional;
+			}
+		}
+		.sidebar.sidebar-primary {
+			.widget-wrap {
+				@extend %sidebarprimary-widgetwrap-formula !optional;
+				@extend %sidebarprimary-widgetwrap !optional;
+			}
+		}
+		.sidebar.sidebar-secondary {
+			.widget-wrap {
+				@extend %sidebarsecondary-widgetwrap-formula !optional;
+				@extend %sidebarsecondary-widgetwrap !optional;
+			}
+		}
+
+		// SITE-HEADER
+
+		.site-header {
+			.widget-wrap {
+				@extend %siteheader-widgetwrap-formula !optional;
+				@extend %siteheader-widgetwrap !optional;				
+			}
+		}
+
+		// FOOTER-WIDGETS
+
+		.footer-widgets {
+			.widget-wrap {
+				@extend %footerwidgets-widgetwrap-formula !optional;
+				@extend %footerwidgets-widgetwrap !optional;
+			}
+		}
+
+		// AFTER-ENTRY
+
+		.after-entry {
+			.widget-wrap {
+				@extend %afterentry-widgetwrap-formula !optional;
+				@extend %afterentry-widgetwrap !optional;
+			}
+		}

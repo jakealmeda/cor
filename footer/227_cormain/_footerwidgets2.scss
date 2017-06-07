@@ -1,0 +1,29 @@
+/* BASE_226 | FOOTER | 226_CORMAIN_STYLE | FOOTERWIDGETS2 - 2016-01-26 */
+
+// -------------------------------------
+// FORMULA
+
+	%footerwidgets2-formula {}
+
+// -------------------------------------
+// EXTEND
+
+	%footerwidgets2 {
+		width: 30%;
+		margin-right: 3%;
+		float: left;
+
+		@include responsive-range(meddown) {
+			width: 100%;
+			margin-right: 0;
+			float: none;
+		}
+	}
+
+// -------------------------------------
+// SELECTORS
+
+	.footer-widgets-2 {
+		@extend %footerwidgets2-formula !optional;
+		@extend %footerwidgets2 !optional;
+	}

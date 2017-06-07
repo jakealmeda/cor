@@ -1,0 +1,154 @@
+/* BASE_226 | LAYOUT | 227_CORMAIN | CS-RESPONSIVE - 2016-06-14 */
+
+// -------------------------------------
+// VARIABLES
+
+	$width-inner-home:					72.5;			// 1160px
+
+// -------------------------------------
+// EXTEND
+
+	%cs-sitecontainer {
+		background-color: #fff;
+		max-width: #{$width-base}rem;
+		margin: 0 auto 2rem;
+		padding: 1rem;
+
+		@include responsive-range(smlbelowdown) {
+			padding: 0;
+		}
+
+	}
+
+	%cs-siteinner {}
+	%cs-siteinnerwrap {
+		//max-width: #{$width-inner-home}rem;
+		margin: 0 auto;
+		padding: 1.5rem;
+
+		@include responsive-mobile(mobile-sml) {
+			padding: 0.5rem;
+		}
+
+	}
+
+	%cs-csw {
+		float: left;
+		width: 100%;
+		//padding: 1.5rem;
+	}
+
+	%cs-content {
+		//background-color: yellow;
+		float: left;
+		width: 364px;
+		padding: 2rem;
+
+		@include responsive-range(xlrgbelowdown) {
+			width: 60%;
+		}
+
+		@include responsive-range(lrgbelowdown) {
+			float: none;
+			width: 100%;
+		}
+
+		@include responsive-range(smlbelowdown) {
+			padding: 1rem;
+		}
+
+	}
+
+	%cs-sidebarprimary {
+		//background-color: pink;
+		float: right;
+		width: 32%;
+
+		@include responsive-range(xlrgbelowdown) {
+			width: 40%;
+		}
+
+		@include responsive-range(lrgbelowdown) {
+			float: none;
+			width: 100%;
+		}
+
+	}
+
+	%cs-cswbefore {
+
+		max-width: 728px;
+		margin: 0 auto;
+
+		@include responsive-range(lrgbelowdown) {
+			float: none;
+			width: 100%;
+		}
+
+	}
+	%cs-cswbeforewidgetarea {
+		@include responsive-range(smlbelowdown) {
+			padding-bottom: 0;
+		}
+	}
+
+	%cs-cswafter {
+
+		max-width: 728px;
+		margin: 0 auto;
+
+		@include responsive-range(lrgbelowdown) {
+			float: none;
+			width: 100%;
+		}
+		@include responsive-range(smlbelowdown) {
+			padding-top: 0;
+		}
+
+	}
+	%cs-cswafterwidgetarea {
+		@include responsive-range(smlbelowdown) {
+			padding-top: 0;
+		}
+	}
+
+// -------------------------------------
+// SELECTORS
+
+	.content-sidebar .site-container {
+		@extend %cs-sitecontainer !optional;
+	}
+
+	.content-sidebar .site-inner {
+		@extend %cs-siteinner !optional;
+	}
+
+	.content-sidebar .site-inner .wrap {
+		@extend %cs-siteinnerwrap !optional;
+	}
+
+	.content-sidebar .content-sidebar-wrap {
+		@extend %cs-csw !optional;
+	}
+
+	.content-sidebar .content {
+		@extend %cs-content !optional;
+	}
+
+	.content-sidebar .sidebar-primary {
+		@extend %cs-sidebarprimary !optional;
+	}
+
+	.content-sidebar .cswbefore {
+		@extend %cs-cswbefore !optional;
+	}
+	.content-sidebar .cswbefore.widget-area {
+		@extend %cs-cswbeforewidgetarea !optional;
+	}
+
+	.content-sidebar .cswafter {
+		@extend %cs-cswafter !optional;
+	}
+	.content-sidebar .cswafter.widget-area {
+		@extend %cs-cswafterwidgetarea !optional;
+	}

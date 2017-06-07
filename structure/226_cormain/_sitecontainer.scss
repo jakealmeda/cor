@@ -1,0 +1,30 @@
+/* BASE_226 | STRUCTURE | 226_CORMAIN_STYLE | SITECONTAINER - 2016-01-19 */
+
+// -------------------------------------
+// FORMULA
+
+	%sitecontainer-formula {}
+
+// -------------------------------------
+// EXTEND
+
+	%sitecontainer {
+		max-width: #{$size-inside}rem;
+		background-color: #fff;
+		margin-right: auto;
+		margin-left: auto;
+		padding: 1rem;
+		@extend %boxsizing-borderbox !optional;
+
+		@include responsive-mobile(mobile-sml) {
+			padding: 0;
+		}
+	}
+
+// -------------------------------------
+// SELECTORS
+
+	.site-container {
+		@extend %sitecontainer-formula !optional;
+		@extend %sitecontainer !optional;
+	}

@@ -1,0 +1,26 @@
+/* BASE_226 | HEADER | 226_CORMAIN_STYLE | SITEDESCRIPTION - 2016-01-12 */
+
+// -------------------------------------
+// FORMULA
+
+	%sitedescription-formula {}
+
+// -------------------------------------
+// EXTEND
+
+	%sitedescription {
+		margin-bottom: 0;
+		font-family: $fontfamily-sitedescription;
+		font-weight: $fontweight-sitedescription;
+		font-size: #{$fontsize-sitedescription}rem;
+		text-align: center;
+		display: none;
+	}
+
+// -------------------------------------
+// SELECTORS
+
+	.site-description {
+		@extend %sitedescription-formula !optional;
+		@extend %sitedescription !optional;
+	}

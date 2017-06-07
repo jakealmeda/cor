@@ -1,0 +1,59 @@
+/* BASE_227 | VARIABLES | 227_BASE > 227_COR | BREAKPOINT - 2016-03-30 */
+
+// -------------------------------------
+// VARIABLES
+
+
+// NOTE: RELATIVE BREAKPOINTS BASED ON SITE DESIGN FUNCTIONALITY
+
+	$break-outer:						160;		// 2560px
+
+	$break-base:						75;			// 1200px
+	$break-mid:							75;			// 1200px
+
+	$break-inner:						75;			// 1200px
+		$break-inner-large:				64;			// 1024px
+		$break-inner-medium:			48;			// 768px
+		$break-inner-small:				26.563;		// 425px
+
+// NOTE: RELATIVE BREAKPOINTS BASED ON OVERALL SCALE
+
+	$break-huge:						160;		// 2560px
+	$break-xlrg:						75;			// 1200px
+	$break-lrg:							64;			// 1024px
+	$break-med:							48;			// 768px
+	$break-sml:							26.563;		// 425px
+	$break-xsml:						20;			// 320px
+
+// NOTE: RELATIVE BREAKPOINTS ACCORDING TO GOOGLE
+
+// 4K
+
+	$break-4k:							160;		// 2560px
+
+// LAPTOP (GOOGLE)
+
+	$break-laptop:						90;			// 1440px
+		$break-laptoplrg:				90;			// 1440px
+		$break-laptopmed:				64;			// 1024px
+		$break-laptopsml:				60;			// 960px
+	
+// TABLET (GOOGLE)
+
+	$break-tablet:						48;			// 768px
+		$break-tabletlrg:				48;			// 768px
+		$break-tabletmed:				48;			// 768px
+		$break-tabletsml:				48;			// 768px
+
+// MOBILE (GOOGLE)
+
+	$break-mobile:						26.563;		// 425px
+		$break-mobilelrg:				26.563;		// 425px
+		$break-mobilemed:				23.438;		// 375px
+		$break-mobilesml:				20;			// 320px
+
+
+// NOTE: FUNCTIONAL BREAKPOINTS
+
+	$break-pixel:						0.0625;		// 1px
+	$break-zero: 						0;

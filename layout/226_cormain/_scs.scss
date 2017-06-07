@@ -1,0 +1,56 @@
+/* BASE_226 | LAYOUT | 226_CORMAIN | SCS - 2016-01-19 */
+
+// -------------------------------------
+// FORMULA
+
+	%scs-csw-formula {}
+
+	%scs-content-formula {}
+
+	%scs-sidebarprimary-formula {}
+
+	%scs-sidebarsecondary-formula {}
+
+// -------------------------------------
+// EXTEND
+
+	%scs-csw {
+		width: 70%;
+		float: right;
+		padding: 1rem;
+	}
+
+	%scs-content {
+		float: left;
+	}
+
+	%scs-sidebarprimary {
+		float: right;
+	}
+
+	%scs-sidebarsecondary {
+		float: left;
+	}
+
+// -------------------------------------
+// SELECTORS
+
+	.sidebar-content-sidebar .content-sidebar-wrap {
+		@extend %scs-csw-formula !optional;
+		@extend %scs-csw !optional;
+	}
+
+	.sidebar-content-sidebar .content {
+		@extend %scs-content-formula !optional;
+		@extend %scs-content !optional;
+	}
+
+	.sidebar-content-sidebar .sidebar-primary {
+		@extend %scs-sidebarprimary-formula !optional;
+		@extend %scs-sidebarprimary !optional;
+	}
+
+	.sidebar-content-sidebar .sidebar-secondary {
+		@extend %scs-sidebarprimary-formula !optional;
+		@extend %scs-sidebarprimary !optional;
+	}

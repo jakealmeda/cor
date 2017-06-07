@@ -1,0 +1,23 @@
+/* BASE_226 | HEADER | 226_CORMAIN_STYLE | CONTENTSIDEBARWRAP - 2016-01-20 */
+
+// -------------------------------------
+// FORMULA
+
+	%csw-formula {}
+
+// -------------------------------------
+// EXTEND
+
+	%csw {
+		width: 100%;
+		@extend %boxsizing-borderbox !optional;
+		@extend %overflow-hidden !optional;
+	}
+
+// -------------------------------------
+// SELECTORS
+
+	.content-sidebar-wrap {
+		@extend %csw-formula !optional;
+		@extend %csw !optional;
+	}

@@ -1,0 +1,29 @@
+/* BASE_227 | ENTRY-ARCHIVE | 227_BASE | ARCHIVEDESCRIPTION - 2016-06-01 */
+
+// -------------------------------------
+// EXTEND
+
+	%archivedescription {}
+	%archivetitle {}
+	%archivedescription-p {}
+
+	%taxonomydescription {}
+
+// -------------------------------------
+// SELECTORS
+
+	.archive-description {
+		@extend %archivedescription !optional;
+	}
+
+	.archive-title {
+		@extend %archivetitle !optional;
+	}
+
+	.archive-description p {
+		@extend %archivedescription-p !optional;
+	}
+
+	.taxonomy-description {
+		@extend %taxonomydescription !optional;
+	}

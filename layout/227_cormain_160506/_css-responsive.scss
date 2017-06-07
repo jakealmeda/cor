@@ -1,0 +1,75 @@
+/* BASE_226 | LAYOUT | 227_CORMAIN | CSS-RESPONSIVE - 2016-03-30 */
+
+// -------------------------------------
+// EXTEND
+
+	%css-siteinner {}
+	%css-siteinnerwrap {}
+
+	%css-csw {
+		float: left;
+		width: 80%;
+	}
+
+	%css-content {
+		background-color: yellow;
+		float: left;
+		width: 70%;
+	}
+
+	%css-sidebarprimary {
+		background-color: pink;
+		float: right;
+		width: 30%;
+	}
+
+	%css-sidebarsecondary {
+		background-color: orange;
+		float: right;
+		width: 20%;
+	}
+
+// -------------------------------------
+// SELECTORS
+
+	.content-sidebar-sidebar .site-inner {
+		@extend %css-siteinner !optional;
+	}
+
+	.content-sidebar-sidebar .site-inner .wrap {
+		@extend %css-siteinnerwrap !optional;
+	}
+
+	.content-sidebar-sidebar .content-sidebar-wrap {
+		@extend %css-csw !optional;
+	}
+
+	.content-sidebar-sidebar .content {
+		@extend %css-content !optional;
+
+		@include responsive-range(lrgbelowdown) {
+			float: none;
+			width: 100%;
+		}
+
+	}
+
+	.content-sidebar-sidebar .sidebar-primary {
+		@extend %css-sidebarprimary !optional;
+
+		@include responsive-range(lrgbelowdown) {
+			float: none;
+			width: 100%;
+		}
+
+	}
+
+	.content-sidebar-sidebar .sidebar-secondary {
+		@extend %css-sidebarsecondary !optional;
+
+		@include responsive-range(lrgbelowdown) {
+			float: none;
+			width: 100%;
+		}
+
+	}

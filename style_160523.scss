@@ -1,0 +1,273 @@
+/* BASE_227 | COR-MAIN | STYLE - 2016-05-11 */
+/* BASE_226 | COR-MAIN | STYLE - 2016-01-20 */
+/* BASE_226 | BASE-226-CORMAIN | STYLE - 2016-01-19 */
+
+// THEME
+@import 	"wp/themeinfo";
+
+// NORMALIZE
+@import 	"wp/normalize";
+
+// BOURBON
+@import 	"bourbon";
+
+// SUZY
+@import 	"susy";
+
+// -------------------------------------------------------------------- VARIABLES | 2016-01-12
+@import 	"variables/226_base/susy";
+@import 	"variables/226_base/breakpoint";
+			@import 	"variables/226_cormain/color";
+@import 	"variables/226_base/size";
+			@import 	"variables/226_cormain/fontfamily";
+			@import 	"variables/226_cormain/fontsize";
+@import 	"variables/226_base/fontweight";
+@import 	"variables/226_base/lineheight";
+@import 	"variables/226_base/space";
+@import 	"variables/226_base/responsive";
+
+// -------------------------------------------------------------------- VARIABLES | 2016-03-30
+@import 	"variables/227_base/breakpoint";
+			@import 	"variables/227_cormain/width";
+@import 	"variables/227_base/responsive";
+
+// -------------------------------------------------------------------- GUIDE | 2016-01-12
+@import 	"guide/226_base/section";
+
+// -------------------------------------------------------------------- STRUCTURE | 2016-01-12
+@import 	"structure/227_base/html";
+			@import 	"structure/226_cormain/floatclear";
+@import 	"structure/227_base/selection";
+
+// -------------------------------------------------------------------- SELECTORS | 2016-01-12
+@import 	"selectors/226_base/boxsizing";
+@import 	"selectors/226_base/float";
+@import 	"selectors/226_base/display";
+@import 	"selectors/226_base/overflow";
+
+// -------------------------------------------------------------------- GUI | 2016-01-12
+@import 	"gui/226_base/align";
+@import 	"gui/226_base/position";
+@import 	"gui/226_base/clearfix";
+
+// SPACING
+@import 	"gui/226_base/space";
+@import 	"gui/226_base/pad";
+@import 		"gui/226_base/pad-csw";
+@import 		"gui/226_base/pad-content";
+
+// LINES
+@import 	"gui/226_base/border";
+@import 	"gui/226_base/divider";
+
+// COLORS
+@import 	"gui/226_base/color";
+@import 	"gui/226_base/background";
+
+// FORM
+			@import 	"gui/226_cormain/button";
+@import 	"gui/226_base/form";
+
+// LAYOUT
+@import 	"gui/226_base/media";
+@import 	"gui/226_base/flex";
+@import 	"gui/226_base/frame";
+@import 	"gui/226_base/aside";
+
+// IMAGES
+@import 	"gui/227_base/image";
+@import 	"gui/226_base/icon";
+
+// -------------------------------------------------------------------- GUIDES | 2016-02-06
+//@import 	"inner/226_base/guide";
+//@import 	"grid/226_base/guide";
+
+// -------------------------------------------------------------------- TYPOGRAPHY | 2016-01-12
+@import 	"typography/226_base/usage";
+@import 	"typography/226_base/family";
+@import 	"typography/226_base/size";
+@import 	"typography/226_base/weight";
+@import 	"typography/226_base/height";
+@import 	"typography/226_base/type";
+
+// -------------------------------------------------------------------- STRUCTURE - BODY | 2016-01-12
+			@import 	"structure/226_cormain/body";
+
+// -------------------------------------------------------------------- GRID | 2016-02-06
+@import 	"grid/226_base/column";
+//@import 	"grid/226_base/column-zerogutter";
+@import 	"grid/226_base/grid";
+//@import 	"grid/226_base/grid-zerogutter";
+@import 	"grid/226_base/last";
+//@import 	"grid/226_base/last-zerogutter";
+@import 	"grid/226_base/list";
+
+// -------------------------------------------------------------------- PANEL | 2016-01-12
+@import		"panel/226_base/width";
+@import		"panel/226_base/position";
+
+// -------------------------------------------------------------------- CONTENT | 2016-01-12
+			@import 	"content/227_cormain/emphasis";
+@import 	"content/226_base/link";
+@import 	"content/226_base/paragraph";
+			@import 	"content/226_cormain/headline";
+@import 	"content/226_base/h1";
+@import 	"content/226_base/h2";
+@import 	"content/226_base/h3";
+@import 	"content/226_base/h4";
+@import 	"content/226_base/h5";
+@import 	"content/226_base/h6";
+@import 	"content/226_base/list";
+@import 	"content/226_base/unorderedlist";
+@import 	"content/226_base/orderedlist";
+			@import 	"content/226_cormain/blockquote";
+@import 	"content/226_base/cite";
+@import 	"content/226_base/caption";
+
+// -------------------------------------------------------------------- META | 2016-03-23
+			@import 	"meta/226_cormain/breadcrumb";
+@import 	"meta/226_base/pagination";
+
+// -------------------------------------------------------------------- FORMS | 2015-11-11
+//@import 	"forms/2125/form";
+//@import 	"forms/2125/table";
+
+// -------------------------------------------------------------------- STRUCTURE SITE-CONTAINER | 2016-03-30
+			@import 	"structure/227_cormain/sitecontainer";
+
+// -------------------------------------------------------------------- HEADER SITE-HEADER | 2016-01-12
+			@import 	"header/226_cormain/siteheader";
+
+// -------------------------------------------------------------------- MENU | 2016-01-12
+@import 	"menu/226_base/navheader";
+			@import 	"menu/226_cormain/navprimary";
+			@import 	"menu/226_cormain/navsecondary";
+			@import 	"menu/226_cormain/menu";
+			@import 	"menu/226_cormain/submenu";
+@import 	"menu/226_base/menuitem";
+@import 	"menu/226_base/menuitem-header";
+			@import 	"menu/226_cormain/menuitem-prisec";
+			@import 	"menu/226_cormain/menuitem-primary";
+			@import 	"menu/226_cormain/menuitem-secondary";
+@import 	"menu/226_base/menuitem-widget";
+			@import 	"menu/226_cormain/menuitem-sidebar";
+			@import 	"menu/226_cormain/menuitem-footer";
+@import 	"menu/226_base/menuitem-haschild";
+			@import 	"menu/226_cormain/dropdown";
+			@import 	"menu/226_cormain/responsive";
+
+// -------------------------------------------------------------------- INNER SITE-INNER | 2016-03-30
+			@import 	"inner/227_cormain/siteinner";
+
+// -------------------------------------------------------------------- FOOTER-WIDGETS | 2016-04-15
+			@import 	"footer/227_cormain/footerwidgets";
+
+// -------------------------------------------------------------------- SITE-FOOTER | 2016-01-12
+			@import 	"footer/226_cormain/sitefooter";
+
+// -------------------------------------------------------------------- HEADER ITEMS | 2016-01-12
+@import 	"header/226_base/titlearea";
+			@import 	"header/226_cormain/sitetitle";
+@import 	"header/226_base/headerwidgetarea";
+			@import 	"header/226_cormain/sitedescription";
+
+// -------------------------------------------------------------------- INNER ITEMS | 2016-01-20
+			@import 	"inner/226_cormain/contentsidebarwrap";
+			@import 	"inner/227_cormain/content-responsive";
+			@import 	"inner/226_cormain/sidebarprimary";
+			@import 	"inner/226_cormain/sidebarsecondary";
+
+// -------------------------------------------------------------------- LAYOUT ITEMS | 2016-01-12
+			@import 	"layout/226_cormain/full";
+			@import 	"layout/227_cormain/cs-responsive";
+			@import 	"layout/226_cormain/sc";
+			@import 	"layout/227_cormain/css-responsive";
+			@import 	"layout/227_cormain/scs-responsive";
+			@import 	"layout/226_cormain/ssc";
+
+// -------------------------------------------------------------------- FOOTER-WIDGETS ITEMS | 2016-01-12
+			@import 	"footer/226_cormain/footerwidgets1";
+			@import 	"footer/226_cormain/footerwidgets2";
+			@import 	"footer/226_cormain/footerwidgets3";
+
+// -------------------------------------------------------------------- ENTRY | 2016-01-12
+			@import 	"entry/226_cormain/entry";
+			@import 	"entry/226_cormain/entrytitle";
+@import 	"entry/226_base/entrymeta";
+@import 	"entry/226_base/entryheader";
+@import 	"entry/226_base/entrycontent";
+@import 	"entry/226_base/entryfooter";
+			@import 	"entry/226_cormain/entryimage";
+@import 	"entry/226_base/archivedescription";
+
+// -------------------------------------------------------------------- COMMENT | 2016-01-12
+@import 	"comment/226_base/entrycomments";
+@import 	"comment/226_base/commentlist";
+@import 	"comment/226_base/comment";
+@import 	"comment/226_base/comment-child";
+@import 	"comment/226_base/commentauthor";
+@import 	"comment/226_base/commentmeta";
+@import 	"comment/226_base/commentcontent";
+@import 	"comment/226_base/commentreply";
+@import 	"comment/226_base/commenteditlink";
+@import 	"comment/226_base/commentrespond";
+@import 	"comment/226_base/commentrespond-form";
+@import 	"comment/226_base/loggedinas";
+@import 	"comment/226_base/formallowedtags";
+
+// -------------------------------------------------------------------- ENTRY-FEATURED | 2016-01-12
+//@import 	"entry-featured/226_base/entry";
+//@import 	"entry-featured/226_base/entrytitle";
+//@import 	"entry-featured/226_base/entrymeta";
+//@import 	"entry-featured/226_base/entryheader";
+//@import 	"entry-featured/226_base/entrycontent";
+//@import 	"entry-featured/226_base/entryfooter";
+//@import 	"entry-featured/226_base/entryimage";
+
+// -------------------------------------------------------------------- ENTRY-FEATURED-HOOK | 2016-01-19
+			@import 	"entry-featured-hook/226_cormain/entry";
+			@import 	"entry-featured-hook/226_cormain/entrytitle";
+			@import 	"entry-featured-hook/226_cormain/entrymeta";
+			@import 	"entry-featured-hook/226_cormain/entryheader";
+			@import 	"entry-featured-hook/226_cormain/entrycontent";
+@import 	"entry-featured-hook/226_base/entryfooter";
+			@import 	"entry-featured-hook/226_cormain/entryimage";
+			@import 	"entry-featured-hook/226_cormain/morelink";
+			@import 	"entry-featured-hook/226_cormain/morefromcategory";
+
+// -------------------------------------------------------------------- WIDGET | 2016-01-12
+@import 	"widget/226_base/widgetarea";
+			@import 	"widget/226_cormain/widget";
+			@import 	"widget/226_cormain/widget-override";
+			@import 	"widget/226_cormain/widgettitle";
+@import 	"widget/226_base/widgetwrap";
+
+// -------------------------------------------------------------------- WIDGETAREA | 2016-03-26
+@import 	"widgetarea/226_cormain/cswbefore";
+@import 	"widgetarea/226_cormain/cswafter";
+@import 	"widgetarea/226_cormain/contentbefore";
+
+// -------------------------------------------------------------------- MODULE | 2016-01-12
+			@import 	"module/227_cormain/feature";
+			@import 	"module/227_cormain/credits";
+			@import 	"module/227_cormain/siteby";
+			@import 	"module/227_cormain/copyright";
+			@import 	"module/227_cormain/message";
+			@import 	"module/227_cormain/important";
+			@import 	"module/227_cormain/cta";
+
+// -------------------------------------------------------------------- PLUGINS | 2016-04-15
+			@import 	"plugin/227_cormain/swps-socialtoolbar";
+			@import 	"plugin/227_cormain/soliloquyslider";
+			@import 	"plugin/227_cormain/spk-youtubeembeds";
+
+// -------------------------------------------------------------------- ITEM
+			@import 	"item/227_cormain/item-adsense";
+			@import 	"item-cor/default_2124/item-content";
+			@import 	"item-cor/default_2124/item-subscribe";
+			@import 	"item-cor/default_2124/item-titlebar";
+			@import 	"item-cor/default_2124/item-box";
+			@import 	"item/227_cormain/item-audio";
+			@import 	"item/227_cormain/item-product";
+			@import 	"item-cor/default_2124/item-tabs";
+			@import 	"item/227_cormain/item-hideshow";

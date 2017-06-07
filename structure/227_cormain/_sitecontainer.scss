@@ -1,0 +1,16 @@
+/* BASE_227 | STRUCTURE | 227_CORMAIN | SITECONTAINER - 2016-05-06 */
+
+// -------------------------------------
+// VARIABLES
+
+// -------------------------------------
+// EXTEND
+
+	%sitecontainer {}
+
+// -------------------------------------
+// SELECTORS
+
+	.site-container {
+		@extend %sitecontainer !optional;
+	}

@@ -1,0 +1,58 @@
+/* BASE_226 | HEADER | 226_CORMAIN | SITEHEADER - 2016-05-06 */
+
+// -------------------------------------
+// FORMULA
+
+	%siteheader-formula {}
+	%siteheaderwrap-formula {}
+	%siteheaderwraponly-formula {}
+
+// -------------------------------------
+// EXTEND
+
+	%siteheader {
+		background-color: #416799;
+	}
+	%siteheaderwrap {
+		background-image: url("/wp-content/themes/cor-main/images/siteheader.jpg");
+		background-position: top left;
+		background-repeat: no-repeat;
+		height: 199px;
+		max-width: #{$width-inner}rem;
+		margin: 0 auto;
+		box-sizing: border-box;
+
+		@media (-webkit-min-device-pixel-ratio: 2),
+		(min-resolution: 192dpi) {
+			background-image: url("/wp-content/themes/cor-main/images/siteheader2x.jpg");
+			background-size: 1200px;
+		}
+
+		@include responsive-range(basedown) {
+			background-position: top center;
+		}
+
+		@include responsive-range(meddown) {
+			background-size: cover;
+			max-height: 100px;
+		}
+
+	}
+	%siteheaderwraponly {}
+
+// -------------------------------------
+// SELECTORS
+
+	.site-header {
+		@extend %siteheader-formula !optional;
+		@extend %siteheader !optional;
+
+		.wrap {
+			@extend %siteheaderwrap-formula !optional;
+			@extend %siteheaderwrap !optional;
+		}
+	}
+	.site-header > .wrap {
+		@extend %siteheaderwraponly-formula !optional;
+		@extend %siteheaderwraponly !optional;
+	}

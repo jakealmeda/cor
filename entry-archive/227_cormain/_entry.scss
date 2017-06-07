@@ -1,0 +1,74 @@
+/* BASE_227 | ENTRY-ARCHIVE | 227_BASE | ENTRY - 2016-06-01 */
+
+// -------------------------------------
+// EXTEND
+
+	%all-entry {}
+		%all-entryfot {}
+
+	%archive-entry {}
+		%archive-entryfot {}
+
+	%category-entry {}
+		%category-entryfot {}
+
+	%tag-entry {}
+		%tag-entryfot {}
+
+	%blog-entry {}
+		%blog-entryfot {}
+
+// -------------------------------------
+// SELECTORS
+
+	// ARCHIVE
+
+	.archive {
+		.entry {
+			@extend %all-entry !optional;
+			@extend %archive-entry !optional;
+		}
+		article.entry:first-of-type {
+			@extend %all-entryfot !optional;
+			@extend %archive-entryfot !optional;
+		}
+	}
+
+	// CATEGORY
+
+	.category {
+		.entry {
+			@extend %all-entry !optional;
+			@extend %category-entry !optional;
+		}
+		article.entry:first-of-type {
+			@extend %all-entryfot !optional;
+			@extend %category-entryfot !optional;
+		}
+	}
+
+	// TAG
+
+	.tag {
+		.entry {
+			@extend %all-entry !optional;
+			@extend %tag-entry !optional;
+		}
+		article.entry:first-of-type {
+			@extend %all-entryfot !optional;
+			@extend %tag-entryfot !optional;
+		}
+	}
+
+	// BLOG
+
+	.blog {
+		.entry {
+			@extend %all-entry !optional;
+			@extend %blog-entry !optional;
+		}
+		article.entry:first-of-type {
+			@extend %all-entryfot !optional;
+			@extend %blog-entryfot !optional;
+		}
+	}

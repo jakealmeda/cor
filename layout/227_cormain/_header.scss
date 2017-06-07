@@ -1,0 +1,134 @@
+/* BASE_227 | LAYOUT | 227_BASE > COR-MAIN | HEADER - 2016-05-11 */
+
+// -------------------------------------
+// EXTEND
+
+	// SITE-HEADER
+
+	%siteheader {}
+	%siteheaderwrap {
+		background-image: url("/wp-content/themes/cor-main/images/siteheader.jpg");
+		background-position: top left;
+		background-repeat: no-repeat;
+		height: 199px;
+		//max-width: #{$width-inner}rem;
+		//margin: 0 auto;
+		@extend %boxsizing-borderbox !optional;
+
+		@media (-webkit-min-device-pixel-ratio: 2),
+		(min-resolution: 192dpi) {
+			background-image: url("/wp-content/themes/cor-main/images/siteheader2x.jpg");
+			background-size: 1200px;
+		}
+
+		@include responsive-range(basedown) {
+			background-position: top center;
+		}
+
+		@include responsive-range(meddown) {
+			background-size: cover;
+			max-height: 120px;
+		}
+	}
+	%siteheaderwraponly {}
+
+	// HEADER-WIDGET-AREA
+
+	%headerwidgetarea {}
+
+	// TITLE-AREA
+
+	%titlearea {}
+
+	// SITE-TITLE
+
+	%sitetitle {
+		font-family: $fontfamily-sitetitle;
+		font-weight: $fontweight-sitetitle;
+		font-size: #{$fontsize-sitetitle}rem;
+		line-height: $lineheight-single;
+	}
+	%sitetitle-a {
+		margin-top: 40px;
+		margin-left: 20px;
+		background-image: url("/wp-content/themes/cor-main/images/sprites.png");
+		background-position: -20px -18px;
+		background-repeat: no-repeat;
+		width: 292px;
+		height: 75px;
+		display: block;
+		text-indent: -9999px;
+
+		@media (-webkit-min-device-pixel-ratio: 2),
+		(min-resolution: 192dpi) {
+			background-image: url("/wp-content/themes/cor-main/images/sprites2x.png");
+			background-size: 1000px;
+		}
+
+		@include responsive-range(meddown) {
+			width: 226px;
+			height: 59px;
+			margin-top: 25px;
+			background-position: -355px -18px;
+		}
+	}
+	%sitetitle-hvr {}
+
+	// SITE-DESCRIPTION
+
+	%sitedescription {
+		margin-bottom: 0;
+		font-family: $fontfamily-sitedescription;
+		font-weight: $fontweight-sitedescription;
+		font-size: #{$fontsize-sitedescription}rem;
+		text-align: center;
+		display: none;
+	}
+
+
+// -------------------------------------
+// SELECTORS
+
+	// SITE-HEADER
+
+	.site-header {
+		@extend %siteheader !optional;
+		
+		.wrap {
+			@extend %siteheaderwrap !optional;
+		}
+	}
+	.site-header > .wrap {
+		@extend %siteheaderwraponly !optional;
+	}
+
+	// HEADER-WIDGET-AREA
+
+	.header-widget-area {
+		@extend %headerwidgetarea !optional;
+	}
+
+	// TITLE-AREA
+
+	.title-area {
+		@extend %titlearea !optional;
+	}
+
+	// SITE-TITLE
+
+	.site-title {
+		@extend %sitetitle !optional;
+
+		a {
+			@extend %sitetitle-a !optional;
+		}
+		a:hover {
+			@extend %sitetitle-hvr !optional;
+		}
+	}
+
+	// SITE-DESCRIPTION
+
+	.site-description {
+		@extend %sitedescription !optional;
+	}
