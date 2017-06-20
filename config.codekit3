@@ -8028,6 +8028,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/plugin\/250_cor\/_swp-socialtoolbar.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/plugin\/css\/_swp-socialtoolbar.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/responsive\/227_cormain\/_item-cta.scss": {
 		"aP": 0,
 		"bl": 0,

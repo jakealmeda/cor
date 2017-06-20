@@ -2262,7 +2262,7 @@ img.img-60,
   font-size: 0.75rem; }
 
 /* BASE_226 | MODULE | 227_CORMAIN | IMPORTANT - 2016-04-08 */
-/* BASE_230 | STRUCTURE | 230_COR | SOCIALTOOLBAR - 2017-01-10 */
+/* BASE_230 | PLUGIN | 250_COR | SWP-SOCIALTOOLBAR - 2017-06-20 */
 #at15pf, #at16pf {
   display: none !important; }
 
@@ -2566,6 +2566,9 @@ img.img-60,
 
 .item-icon.icon-amazon {
   background-position: -380px -108px; }
+
+.item-icon.icon-medium {
+  background-position: -420px -108px; }
 
 .item-icon-bar {
   background-image: url("images/sprites.png");
