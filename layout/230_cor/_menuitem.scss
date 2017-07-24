@@ -1,4 +1,4 @@
-/* BASE_230 | LAYOUT | 230_BASE | MENUITEM - 2016-08-04 */
+/* BASE_230 | LAYOUT | 230_COR | MENUITEM - 2017-07-19 */
 
 // -------------------------------------
 // EXTEND
@@ -29,6 +29,7 @@
 			margin-right: #{$space-double}rem;
 		}
 		%menuboth-menuitemlvlone-a_layout {
+			font-family: "Lato", arial, sans-serif;
 			font-size: #{$fontsize-xsml}rem;
 			font-weight: $fontweight-thicker;
 			text-transform: uppercase;

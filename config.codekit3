@@ -15,12 +15,6 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
-	"\/404.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/404.php",
-		"oF": 0
-		},
 	"\/content\/226_cormain\/_blockquote.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -203,150 +197,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/css\/style.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/style-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/css\/style_160523.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/style_160523-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/css\/style_160810.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/style_160810-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/css\/style_170207.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "\/css\/style_170207-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/entry-archive\/227_cormain\/_archivedescription.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/entry-archive\/css\/_archivedescription.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/entry-archive\/227_cormain\/_entry.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/entry-archive\/css\/_entry.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/entry-archive\/227_cormain\/_entrycontent.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/entry-archive\/css\/_entrycontent.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/entry-archive\/227_cormain\/_entryfooter.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/entry-archive\/css\/_entryfooter.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/entry-archive\/227_cormain\/_entryheader.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/entry-archive\/css\/_entryheader.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/entry-archive\/227_cormain\/_entryimage.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/entry-archive\/css\/_entryimage.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/entry-archive\/227_cormain\/_entrymeta.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/entry-archive\/css\/_entrymeta.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/entry-archive\/227_cormain\/_entrytitle.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/entry-archive\/css\/_entrytitle.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/entry-archive\/230_cor\/_archivedescription.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -439,6 +289,110 @@
 		"uL": 1
 		},
 	"\/entry-archive\/230_cor\/_entrytitle.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/entry-archive\/css\/_entrytitle.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/entry-archive\/250_cor\/_archivepagination.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/entry-archive\/css\/_archivepagination.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/entry-archive\/250_cor\/_entry.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/entry-archive\/css\/_entry.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/entry-archive\/250_cor\/_entrycontent.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/entry-archive\/css\/_entrycontent.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/entry-archive\/250_cor\/_entryfooter.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/entry-archive\/css\/_entryfooter.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/entry-archive\/250_cor\/_entryheader.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/entry-archive\/css\/_entryheader.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/entry-archive\/250_cor\/_entryimage.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/entry-archive\/css\/_entryimage.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/entry-archive\/250_cor\/_entrymeta.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/entry-archive\/css\/_entrymeta.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/entry-archive\/250_cor\/_entrytitle.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -568,448 +522,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/entry-featured-hook\/226_cormain_160506\/_entry.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/entry-featured-hook\/css\/_entry.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/entry-featured-hook\/226_cormain_160506\/_entrycontent.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/entry-featured-hook\/css\/_entrycontent.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/entry-featured-hook\/226_cormain_160506\/_entryfooter.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/entry-featured-hook\/css\/_entryfooter.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/entry-featured-hook\/226_cormain_160506\/_entryheader.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/entry-featured-hook\/css\/_entryheader.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/entry-featured-hook\/226_cormain_160506\/_entryimage.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/entry-featured-hook\/css\/_entryimage.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/entry-featured-hook\/226_cormain_160506\/_entrymeta.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/entry-featured-hook\/css\/_entrymeta.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/entry-featured-hook\/226_cormain_160506\/_entrytitle.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/entry-featured-hook\/css\/_entrytitle.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/entry-featured-hook\/226_cormain_160506\/_morefromcategory.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/entry-featured-hook\/css\/_morefromcategory.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/entry-featured-hook\/226_cormain_160506\/_morelink.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/entry-featured-hook\/css\/_morelink.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/entry\/226_base\/_archivedescription.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/entry\/css\/_archivedescription.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/entry\/226_base\/_entry.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/entry\/css\/_entry.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/entry\/226_base\/_entrycontent.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/entry\/css\/_entrycontent.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/entry\/226_base\/_entryfooter.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/entry\/css\/_entryfooter.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/entry\/226_base\/_entryheader.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/entry\/css\/_entryheader.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/entry\/226_base\/_entryimage.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/entry\/css\/_entryimage.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/entry\/226_base\/_entrymeta.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/entry\/css\/_entrymeta.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/entry\/226_base\/_entrytitle.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/entry\/css\/_entrytitle.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/entry\/226_base\/_hide.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/entry\/css\/_hide.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/entry\/226_cormain\/_archivedescription.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/entry\/css\/_archivedescription.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/entry\/226_cormain\/_entry.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/entry\/css\/_entry.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/entry\/226_cormain\/_entrycontent.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/entry\/css\/_entrycontent.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/entry\/226_cormain\/_entryfooter.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/entry\/css\/_entryfooter.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/entry\/226_cormain\/_entryheader.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/entry\/css\/_entryheader.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/entry\/226_cormain\/_entryimage.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/entry\/css\/_entryimage.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/entry\/226_cormain\/_entrymeta.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/entry\/css\/_entrymeta.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/entry\/226_cormain\/_entrytitle.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/entry\/css\/_entrytitle.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/entry\/227_cormain\/_archivedescription.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/entry\/css\/_archivedescription.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/entry\/227_cormain\/_entry.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/entry\/css\/_entry.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/entry\/227_cormain\/_entrycontent.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/entry\/css\/_entrycontent.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/entry\/227_cormain\/_entryfooter.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/entry\/css\/_entryfooter.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/entry\/227_cormain\/_entryheader.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/entry\/css\/_entryheader.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/entry\/227_cormain\/_entryimage.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/entry\/css\/_entryimage.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/entry\/227_cormain\/_entrymeta.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/entry\/css\/_entrymeta.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/entry\/227_cormain\/_entrytitle.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/entry\/css\/_entrytitle.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/entry\/230_cor\/_archivedescription.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1114,1016 +626,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/fonts\/Lato-100\/Lato-100.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Lato-100\/Lato-100.eot",
-		"oF": 0
-		},
-	"\/fonts\/Lato-100\/Lato-100.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/fonts\/Lato-100\/Lato-100.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/fonts\/Lato-100\/Lato-100.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Lato-100\/Lato-100.ttf",
-		"oF": 0
-		},
-	"\/fonts\/Lato-100\/Lato-100.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Lato-100\/Lato-100.woff",
-		"oF": 0
-		},
-	"\/fonts\/Lato-100\/Lato-100.woff2": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Lato-100\/Lato-100.woff2",
-		"oF": 0
-		},
-	"\/fonts\/Lato-100\/LICENSE.txt": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Lato-100\/LICENSE.txt",
-		"oF": 0
-		},
-	"\/fonts\/Lato-100italic\/Lato-100italic.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Lato-100italic\/Lato-100italic.eot",
-		"oF": 0
-		},
-	"\/fonts\/Lato-100italic\/Lato-100italic.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/fonts\/Lato-100italic\/Lato-100italic.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/fonts\/Lato-100italic\/Lato-100italic.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Lato-100italic\/Lato-100italic.ttf",
-		"oF": 0
-		},
-	"\/fonts\/Lato-100italic\/Lato-100italic.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Lato-100italic\/Lato-100italic.woff",
-		"oF": 0
-		},
-	"\/fonts\/Lato-100italic\/Lato-100italic.woff2": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Lato-100italic\/Lato-100italic.woff2",
-		"oF": 0
-		},
-	"\/fonts\/Lato-100italic\/LICENSE.txt": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Lato-100italic\/LICENSE.txt",
-		"oF": 0
-		},
-	"\/fonts\/Lato-300\/Lato-300.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Lato-300\/Lato-300.eot",
-		"oF": 0
-		},
-	"\/fonts\/Lato-300\/Lato-300.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/fonts\/Lato-300\/Lato-300.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/fonts\/Lato-300\/Lato-300.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Lato-300\/Lato-300.ttf",
-		"oF": 0
-		},
-	"\/fonts\/Lato-300\/Lato-300.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Lato-300\/Lato-300.woff",
-		"oF": 0
-		},
-	"\/fonts\/Lato-300\/Lato-300.woff2": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Lato-300\/Lato-300.woff2",
-		"oF": 0
-		},
-	"\/fonts\/Lato-300\/LICENSE.txt": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Lato-300\/LICENSE.txt",
-		"oF": 0
-		},
-	"\/fonts\/Lato-300italic\/Lato-300italic.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Lato-300italic\/Lato-300italic.eot",
-		"oF": 0
-		},
-	"\/fonts\/Lato-300italic\/Lato-300italic.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/fonts\/Lato-300italic\/Lato-300italic.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/fonts\/Lato-300italic\/Lato-300italic.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Lato-300italic\/Lato-300italic.ttf",
-		"oF": 0
-		},
-	"\/fonts\/Lato-300italic\/Lato-300italic.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Lato-300italic\/Lato-300italic.woff",
-		"oF": 0
-		},
-	"\/fonts\/Lato-300italic\/Lato-300italic.woff2": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Lato-300italic\/Lato-300italic.woff2",
-		"oF": 0
-		},
-	"\/fonts\/Lato-300italic\/LICENSE.txt": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Lato-300italic\/LICENSE.txt",
-		"oF": 0
-		},
-	"\/fonts\/Lato-700\/Lato-700.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Lato-700\/Lato-700.eot",
-		"oF": 0
-		},
-	"\/fonts\/Lato-700\/Lato-700.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/fonts\/Lato-700\/Lato-700.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/fonts\/Lato-700\/Lato-700.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Lato-700\/Lato-700.ttf",
-		"oF": 0
-		},
-	"\/fonts\/Lato-700\/Lato-700.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Lato-700\/Lato-700.woff",
-		"oF": 0
-		},
-	"\/fonts\/Lato-700\/Lato-700.woff2": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Lato-700\/Lato-700.woff2",
-		"oF": 0
-		},
-	"\/fonts\/Lato-700\/LICENSE.txt": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Lato-700\/LICENSE.txt",
-		"oF": 0
-		},
-	"\/fonts\/Lato-700italic\/Lato-700italic.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Lato-700italic\/Lato-700italic.eot",
-		"oF": 0
-		},
-	"\/fonts\/Lato-700italic\/Lato-700italic.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/fonts\/Lato-700italic\/Lato-700italic.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/fonts\/Lato-700italic\/Lato-700italic.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Lato-700italic\/Lato-700italic.ttf",
-		"oF": 0
-		},
-	"\/fonts\/Lato-700italic\/Lato-700italic.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Lato-700italic\/Lato-700italic.woff",
-		"oF": 0
-		},
-	"\/fonts\/Lato-700italic\/Lato-700italic.woff2": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Lato-700italic\/Lato-700italic.woff2",
-		"oF": 0
-		},
-	"\/fonts\/Lato-700italic\/LICENSE.txt": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Lato-700italic\/LICENSE.txt",
-		"oF": 0
-		},
-	"\/fonts\/Lato-900\/Lato-900.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Lato-900\/Lato-900.eot",
-		"oF": 0
-		},
-	"\/fonts\/Lato-900\/Lato-900.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/fonts\/Lato-900\/Lato-900.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/fonts\/Lato-900\/Lato-900.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Lato-900\/Lato-900.ttf",
-		"oF": 0
-		},
-	"\/fonts\/Lato-900\/Lato-900.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Lato-900\/Lato-900.woff",
-		"oF": 0
-		},
-	"\/fonts\/Lato-900\/Lato-900.woff2": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Lato-900\/Lato-900.woff2",
-		"oF": 0
-		},
-	"\/fonts\/Lato-900\/LICENSE.txt": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Lato-900\/LICENSE.txt",
-		"oF": 0
-		},
-	"\/fonts\/Lato-900italic\/Lato-900italic.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Lato-900italic\/Lato-900italic.eot",
-		"oF": 0
-		},
-	"\/fonts\/Lato-900italic\/Lato-900italic.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/fonts\/Lato-900italic\/Lato-900italic.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/fonts\/Lato-900italic\/Lato-900italic.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Lato-900italic\/Lato-900italic.ttf",
-		"oF": 0
-		},
-	"\/fonts\/Lato-900italic\/Lato-900italic.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Lato-900italic\/Lato-900italic.woff",
-		"oF": 0
-		},
-	"\/fonts\/Lato-900italic\/Lato-900italic.woff2": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Lato-900italic\/Lato-900italic.woff2",
-		"oF": 0
-		},
-	"\/fonts\/Lato-900italic\/LICENSE.txt": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Lato-900italic\/LICENSE.txt",
-		"oF": 0
-		},
-	"\/fonts\/Lato-italic\/Lato-italic.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Lato-italic\/Lato-italic.eot",
-		"oF": 0
-		},
-	"\/fonts\/Lato-italic\/Lato-italic.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/fonts\/Lato-italic\/Lato-italic.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/fonts\/Lato-italic\/Lato-italic.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Lato-italic\/Lato-italic.ttf",
-		"oF": 0
-		},
-	"\/fonts\/Lato-italic\/Lato-italic.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Lato-italic\/Lato-italic.woff",
-		"oF": 0
-		},
-	"\/fonts\/Lato-italic\/Lato-italic.woff2": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Lato-italic\/Lato-italic.woff2",
-		"oF": 0
-		},
-	"\/fonts\/Lato-italic\/LICENSE.txt": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Lato-italic\/LICENSE.txt",
-		"oF": 0
-		},
-	"\/fonts\/Lato-regular\/Lato-regular.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Lato-regular\/Lato-regular.eot",
-		"oF": 0
-		},
-	"\/fonts\/Lato-regular\/Lato-regular.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/fonts\/Lato-regular\/Lato-regular.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/fonts\/Lato-regular\/Lato-regular.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Lato-regular\/Lato-regular.ttf",
-		"oF": 0
-		},
-	"\/fonts\/Lato-regular\/Lato-regular.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Lato-regular\/Lato-regular.woff",
-		"oF": 0
-		},
-	"\/fonts\/Lato-regular\/Lato-regular.woff2": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Lato-regular\/Lato-regular.woff2",
-		"oF": 0
-		},
-	"\/fonts\/Lato-regular\/LICENSE.txt": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Lato-regular\/LICENSE.txt",
-		"oF": 0
-		},
-	"\/fonts\/Roboto-100\/LICENSE.txt": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Roboto-100\/LICENSE.txt",
-		"oF": 0
-		},
-	"\/fonts\/Roboto-100\/Roboto-100.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Roboto-100\/Roboto-100.eot",
-		"oF": 0
-		},
-	"\/fonts\/Roboto-100\/Roboto-100.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/fonts\/Roboto-100\/Roboto-100.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/fonts\/Roboto-100\/Roboto-100.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Roboto-100\/Roboto-100.ttf",
-		"oF": 0
-		},
-	"\/fonts\/Roboto-100\/Roboto-100.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Roboto-100\/Roboto-100.woff",
-		"oF": 0
-		},
-	"\/fonts\/Roboto-100\/Roboto-100.woff2": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Roboto-100\/Roboto-100.woff2",
-		"oF": 0
-		},
-	"\/fonts\/Roboto-100italic\/LICENSE.txt": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Roboto-100italic\/LICENSE.txt",
-		"oF": 0
-		},
-	"\/fonts\/Roboto-100italic\/Roboto-100italic.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Roboto-100italic\/Roboto-100italic.eot",
-		"oF": 0
-		},
-	"\/fonts\/Roboto-100italic\/Roboto-100italic.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/fonts\/Roboto-100italic\/Roboto-100italic.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/fonts\/Roboto-100italic\/Roboto-100italic.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Roboto-100italic\/Roboto-100italic.ttf",
-		"oF": 0
-		},
-	"\/fonts\/Roboto-100italic\/Roboto-100italic.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Roboto-100italic\/Roboto-100italic.woff",
-		"oF": 0
-		},
-	"\/fonts\/Roboto-100italic\/Roboto-100italic.woff2": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Roboto-100italic\/Roboto-100italic.woff2",
-		"oF": 0
-		},
-	"\/fonts\/Roboto-300\/LICENSE.txt": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Roboto-300\/LICENSE.txt",
-		"oF": 0
-		},
-	"\/fonts\/Roboto-300\/Roboto-300.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Roboto-300\/Roboto-300.eot",
-		"oF": 0
-		},
-	"\/fonts\/Roboto-300\/Roboto-300.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/fonts\/Roboto-300\/Roboto-300.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/fonts\/Roboto-300\/Roboto-300.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Roboto-300\/Roboto-300.ttf",
-		"oF": 0
-		},
-	"\/fonts\/Roboto-300\/Roboto-300.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Roboto-300\/Roboto-300.woff",
-		"oF": 0
-		},
-	"\/fonts\/Roboto-300\/Roboto-300.woff2": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Roboto-300\/Roboto-300.woff2",
-		"oF": 0
-		},
-	"\/fonts\/Roboto-300italic\/LICENSE.txt": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Roboto-300italic\/LICENSE.txt",
-		"oF": 0
-		},
-	"\/fonts\/Roboto-300italic\/Roboto-300italic.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Roboto-300italic\/Roboto-300italic.eot",
-		"oF": 0
-		},
-	"\/fonts\/Roboto-300italic\/Roboto-300italic.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/fonts\/Roboto-300italic\/Roboto-300italic.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/fonts\/Roboto-300italic\/Roboto-300italic.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Roboto-300italic\/Roboto-300italic.ttf",
-		"oF": 0
-		},
-	"\/fonts\/Roboto-300italic\/Roboto-300italic.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Roboto-300italic\/Roboto-300italic.woff",
-		"oF": 0
-		},
-	"\/fonts\/Roboto-300italic\/Roboto-300italic.woff2": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Roboto-300italic\/Roboto-300italic.woff2",
-		"oF": 0
-		},
-	"\/fonts\/Roboto-500\/LICENSE.txt": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Roboto-500\/LICENSE.txt",
-		"oF": 0
-		},
-	"\/fonts\/Roboto-500\/Roboto-500.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Roboto-500\/Roboto-500.eot",
-		"oF": 0
-		},
-	"\/fonts\/Roboto-500\/Roboto-500.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/fonts\/Roboto-500\/Roboto-500.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/fonts\/Roboto-500\/Roboto-500.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Roboto-500\/Roboto-500.ttf",
-		"oF": 0
-		},
-	"\/fonts\/Roboto-500\/Roboto-500.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Roboto-500\/Roboto-500.woff",
-		"oF": 0
-		},
-	"\/fonts\/Roboto-500\/Roboto-500.woff2": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Roboto-500\/Roboto-500.woff2",
-		"oF": 0
-		},
-	"\/fonts\/Roboto-500italic\/LICENSE.txt": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Roboto-500italic\/LICENSE.txt",
-		"oF": 0
-		},
-	"\/fonts\/Roboto-500italic\/Roboto-500italic.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Roboto-500italic\/Roboto-500italic.eot",
-		"oF": 0
-		},
-	"\/fonts\/Roboto-500italic\/Roboto-500italic.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/fonts\/Roboto-500italic\/Roboto-500italic.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/fonts\/Roboto-500italic\/Roboto-500italic.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Roboto-500italic\/Roboto-500italic.ttf",
-		"oF": 0
-		},
-	"\/fonts\/Roboto-500italic\/Roboto-500italic.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Roboto-500italic\/Roboto-500italic.woff",
-		"oF": 0
-		},
-	"\/fonts\/Roboto-500italic\/Roboto-500italic.woff2": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Roboto-500italic\/Roboto-500italic.woff2",
-		"oF": 0
-		},
-	"\/fonts\/Roboto-700\/LICENSE.txt": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Roboto-700\/LICENSE.txt",
-		"oF": 0
-		},
-	"\/fonts\/Roboto-700\/Roboto-700.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Roboto-700\/Roboto-700.eot",
-		"oF": 0
-		},
-	"\/fonts\/Roboto-700\/Roboto-700.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/fonts\/Roboto-700\/Roboto-700.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/fonts\/Roboto-700\/Roboto-700.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Roboto-700\/Roboto-700.ttf",
-		"oF": 0
-		},
-	"\/fonts\/Roboto-700\/Roboto-700.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Roboto-700\/Roboto-700.woff",
-		"oF": 0
-		},
-	"\/fonts\/Roboto-700\/Roboto-700.woff2": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Roboto-700\/Roboto-700.woff2",
-		"oF": 0
-		},
-	"\/fonts\/Roboto-700italic\/LICENSE.txt": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Roboto-700italic\/LICENSE.txt",
-		"oF": 0
-		},
-	"\/fonts\/Roboto-700italic\/Roboto-700italic.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Roboto-700italic\/Roboto-700italic.eot",
-		"oF": 0
-		},
-	"\/fonts\/Roboto-700italic\/Roboto-700italic.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/fonts\/Roboto-700italic\/Roboto-700italic.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/fonts\/Roboto-700italic\/Roboto-700italic.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Roboto-700italic\/Roboto-700italic.ttf",
-		"oF": 0
-		},
-	"\/fonts\/Roboto-700italic\/Roboto-700italic.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Roboto-700italic\/Roboto-700italic.woff",
-		"oF": 0
-		},
-	"\/fonts\/Roboto-700italic\/Roboto-700italic.woff2": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Roboto-700italic\/Roboto-700italic.woff2",
-		"oF": 0
-		},
-	"\/fonts\/Roboto-900\/LICENSE.txt": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Roboto-900\/LICENSE.txt",
-		"oF": 0
-		},
-	"\/fonts\/Roboto-900\/Roboto-900.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Roboto-900\/Roboto-900.eot",
-		"oF": 0
-		},
-	"\/fonts\/Roboto-900\/Roboto-900.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/fonts\/Roboto-900\/Roboto-900.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/fonts\/Roboto-900\/Roboto-900.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Roboto-900\/Roboto-900.ttf",
-		"oF": 0
-		},
-	"\/fonts\/Roboto-900\/Roboto-900.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Roboto-900\/Roboto-900.woff",
-		"oF": 0
-		},
-	"\/fonts\/Roboto-900\/Roboto-900.woff2": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Roboto-900\/Roboto-900.woff2",
-		"oF": 0
-		},
-	"\/fonts\/Roboto-900italic\/LICENSE.txt": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Roboto-900italic\/LICENSE.txt",
-		"oF": 0
-		},
-	"\/fonts\/Roboto-900italic\/Roboto-900italic.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Roboto-900italic\/Roboto-900italic.eot",
-		"oF": 0
-		},
-	"\/fonts\/Roboto-900italic\/Roboto-900italic.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/fonts\/Roboto-900italic\/Roboto-900italic.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/fonts\/Roboto-900italic\/Roboto-900italic.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Roboto-900italic\/Roboto-900italic.ttf",
-		"oF": 0
-		},
-	"\/fonts\/Roboto-900italic\/Roboto-900italic.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Roboto-900italic\/Roboto-900italic.woff",
-		"oF": 0
-		},
-	"\/fonts\/Roboto-900italic\/Roboto-900italic.woff2": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Roboto-900italic\/Roboto-900italic.woff2",
-		"oF": 0
-		},
-	"\/fonts\/Roboto-italic\/LICENSE.txt": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Roboto-italic\/LICENSE.txt",
-		"oF": 0
-		},
-	"\/fonts\/Roboto-italic\/Roboto-italic.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Roboto-italic\/Roboto-italic.eot",
-		"oF": 0
-		},
-	"\/fonts\/Roboto-italic\/Roboto-italic.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/fonts\/Roboto-italic\/Roboto-italic.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/fonts\/Roboto-italic\/Roboto-italic.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Roboto-italic\/Roboto-italic.ttf",
-		"oF": 0
-		},
-	"\/fonts\/Roboto-italic\/Roboto-italic.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Roboto-italic\/Roboto-italic.woff",
-		"oF": 0
-		},
-	"\/fonts\/Roboto-italic\/Roboto-italic.woff2": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Roboto-italic\/Roboto-italic.woff2",
-		"oF": 0
-		},
-	"\/fonts\/Roboto-regular\/LICENSE.txt": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Roboto-regular\/LICENSE.txt",
-		"oF": 0
-		},
-	"\/fonts\/Roboto-regular\/Roboto-regular.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Roboto-regular\/Roboto-regular.eot",
-		"oF": 0
-		},
-	"\/fonts\/Roboto-regular\/Roboto-regular.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/fonts\/Roboto-regular\/Roboto-regular.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/fonts\/Roboto-regular\/Roboto-regular.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Roboto-regular\/Roboto-regular.ttf",
-		"oF": 0
-		},
-	"\/fonts\/Roboto-regular\/Roboto-regular.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Roboto-regular\/Roboto-regular.woff",
-		"oF": 0
-		},
-	"\/fonts\/Roboto-regular\/Roboto-regular.woff2": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/fonts\/Roboto-regular\/Roboto-regular.woff2",
-		"oF": 0
-		},
-	"\/footer\/226_cormain\/_footerwidgets.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/footer\/css\/_footerwidgets.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/footer\/226_cormain\/_footerwidgets1.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/footer\/css\/_footerwidgets1.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/footer\/226_cormain\/_footerwidgets2.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/footer\/css\/_footerwidgets2.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/footer\/226_cormain\/_footerwidgets3.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/footer\/css\/_footerwidgets3.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/footer\/226_cormain\/_sitefooter.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/footer\/css\/_sitefooter.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/footer\/227_cormain\/_footerwidgets.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/footer\/css\/_footerwidgets.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/footer\/227_cormain\/_footerwidgets1.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/footer\/css\/_footerwidgets1.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/footer\/227_cormain\/_footerwidgets2.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/footer\/css\/_footerwidgets2.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/footer\/227_cormain\/_footerwidgets3.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/footer\/css\/_footerwidgets3.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/footer\/227_cormain\/_sitefooter.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/footer\/css\/_sitefooter.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/form\/230_cor\/_button.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -2168,51 +670,6 @@
 		"oA": 0,
 		"oAP": "\/functions.php",
 		"oF": 0
-		},
-	"\/functions_170413.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/functions_170413.php",
-		"oF": 0
-		},
-	"\/gui\/226_cormain\/_button.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/gui\/css\/_button.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/gui\/226_cormain\/_hide.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/gui\/css\/_hide.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/gui\/226_cormain\/_image.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/gui\/css\/_image.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
 		},
 	"\/gui\/230_cor\/_align.scss": {
 		"aP": 0,
@@ -2279,350 +736,11 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/header\/226_cormain\/_headerwidgetarea.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/header\/css\/_headerwidgetarea.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/header\/226_cormain\/_sitedescription.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/header\/css\/_sitedescription.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/header\/226_cormain\/_siteheader.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/header\/css\/_siteheader.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/header\/226_cormain\/_sitetitle.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/header\/css\/_sitetitle.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/header\/226_cormain\/_titlearea.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/header\/css\/_titlearea.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/header\/226_cormain_160506\/_headerwidgetarea.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/header\/css\/_headerwidgetarea.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/header\/226_cormain_160506\/_sitedescription.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/header\/css\/_sitedescription.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/header\/226_cormain_160506\/_siteheader.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/header\/css\/_siteheader.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/header\/226_cormain_160506\/_sitetitle.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/header\/css\/_sitetitle.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/header\/226_cormain_160506\/_titlearea.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/header\/css\/_titlearea.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/hometest-page-template.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/hometest-page-template.php",
-		"oF": 0
-		},
-	"\/images\/archive\/siteheader2x.jpg": {
-		"ft": 16384,
-		"iS": 176506,
-		"oA": 0,
-		"oAP": "\/images\/archive\/siteheader2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/archive\/siteheader2x_old.jpg": {
-		"ft": 16384,
-		"iS": 291169,
-		"oA": 0,
-		"oAP": "\/images\/archive\/siteheader2x_old.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/archive\/siteheader2x_old2.jpg": {
-		"ft": 16384,
-		"iS": 245424,
-		"oA": 0,
-		"oAP": "\/images\/archive\/siteheader2x_old2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/archive\/siteheader_old.jpg": {
-		"ft": 16384,
-		"iS": 125679,
-		"oA": 0,
-		"oAP": "\/images\/archive\/siteheader_old.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/archive\/siteheader_old2.jpg": {
-		"ft": 16384,
-		"iS": 111963,
-		"oA": 0,
-		"oAP": "\/images\/archive\/siteheader_old2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/archive\/siteheaderbg-1120x200.jpg": {
-		"ft": 16384,
-		"iS": 58188,
-		"oA": 0,
-		"oAP": "\/images\/archive\/siteheaderbg-1120x200.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/archive\/sprites.png": {
-		"ft": 32768,
-		"iS": 386419,
-		"oA": 0,
-		"oAP": "\/images\/archive\/sprites.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/archive\/sprites2x.png": {
-		"ft": 32768,
-		"iS": 980585,
-		"oA": 0,
-		"oAP": "\/images\/archive\/sprites2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/archive\/sprites2x_160609.png": {
-		"ft": 32768,
-		"iS": 934326,
-		"oA": 0,
-		"oAP": "\/images\/archive\/sprites2x_160609.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/archive\/sprites2x_160616.png": {
-		"ft": 32768,
-		"iS": 958888,
-		"oA": 0,
-		"oAP": "\/images\/archive\/sprites2x_160616.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/archive\/sprites2x_160802.png": {
-		"ft": 32768,
-		"iS": 985000,
-		"oA": 0,
-		"oAP": "\/images\/archive\/sprites2x_160802.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/archive\/sprites2x_170110.png": {
-		"ft": 32768,
-		"iS": 1128877,
-		"oA": 0,
-		"oAP": "\/images\/archive\/sprites2x_170110.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/archive\/sprites_160609.png": {
-		"ft": 32768,
-		"iS": 379733,
-		"oA": 0,
-		"oAP": "\/images\/archive\/sprites_160609.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/archive\/sprites_160616.png": {
-		"ft": 32768,
-		"iS": 388970,
-		"oA": 0,
-		"oAP": "\/images\/archive\/sprites_160616.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/archive\/sprites_160802.png": {
-		"ft": 32768,
-		"iS": 388736,
-		"oA": 0,
-		"oAP": "\/images\/archive\/sprites_160802.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/archive\/sprites_170110.png": {
-		"ft": 32768,
-		"iS": 435631,
-		"oA": 0,
-		"oAP": "\/images\/archive\/sprites_170110.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"\/images\/brand-sitelogo.png": {
 		"ft": 32768,
 		"iS": 0,
 		"oA": 0,
 		"oAP": "\/images\/brand-sitelogo.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/cta-bookaudio.png": {
-		"ft": 32768,
-		"iS": 2652,
-		"oA": 0,
-		"oAP": "\/images\/cta-bookaudio.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/cta-bookebook.png": {
-		"ft": 32768,
-		"iS": 2199,
-		"oA": 0,
-		"oAP": "\/images\/cta-bookebook.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/cta-bookpaperback.png": {
-		"ft": 32768,
-		"iS": 2685,
-		"oA": 0,
-		"oAP": "\/images\/cta-bookpaperback.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -2646,11 +764,77 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/pixel.png": {
+	"\/images\/mock\/mock-photo-ratioguide-1400x1080.png": {
 		"ft": 32768,
-		"iS": 68,
+		"iS": 79640,
 		"oA": 0,
-		"oAP": "\/images\/pixel.png",
+		"oAP": "\/images\/mock\/mock-photo-ratioguide-1400x1080.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/mock\/mock-photo-ratioguide-1610.png": {
+		"ft": 32768,
+		"iS": 91543,
+		"oA": 0,
+		"oAP": "\/images\/mock\/mock-photo-ratioguide-1610.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/mock\/mock-photo-ratioguide-169.png": {
+		"ft": 32768,
+		"iS": 89352,
+		"oA": 0,
+		"oAP": "\/images\/mock\/mock-photo-ratioguide-169.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/mock\/mock-photo-ratioguide-1920x1080.png": {
+		"ft": 32768,
+		"iS": 83599,
+		"oA": 0,
+		"oAP": "\/images\/mock\/mock-photo-ratioguide-1920x1080.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/mock\/mock-photo-ratioguide-32.png": {
+		"ft": 32768,
+		"iS": 92530,
+		"oA": 0,
+		"oAP": "\/images\/mock\/mock-photo-ratioguide-32.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/mock\/mock-photo-ratioguide-43.png": {
+		"ft": 32768,
+		"iS": 98634,
+		"oA": 0,
+		"oAP": "\/images\/mock\/mock-photo-ratioguide-43.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/mock\/mock-photo-ratioguide.png": {
+		"ft": 32768,
+		"iS": 98634,
+		"oA": 0,
+		"oAP": "\/images\/mock\/mock-photo-ratioguide.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -2675,17 +859,6 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
-		},
-	"\/images\/sitelogo-285x70.png": {
-		"ft": 32768,
-		"iS": 9337,
-		"oA": 0,
-		"oAP": "\/images\/sitelogo-285x70.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
 		"q": 100
 		},
 	"\/images\/smarterwebpackages-120x30.png": {
@@ -2739,7 +912,7 @@
 		"oAP": "\/images\/sprites.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -2753,425 +926,6 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
-		},
-	"\/images\/sprites2x_170602.png": {
-		"ft": 32768,
-		"iS": 1135983,
-		"oA": 0,
-		"oAP": "\/images\/sprites2x_170602.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/sprites_170602.png": {
-		"ft": 32768,
-		"iS": 439981,
-		"oA": 0,
-		"oAP": "\/images\/sprites_170602.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/YouTube-icon-dark.png": {
-		"ft": 32768,
-		"iS": 12820,
-		"oA": 0,
-		"oAP": "\/images\/YouTube-icon-dark.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/YouTube-icon-full_color.png": {
-		"ft": 32768,
-		"iS": 13530,
-		"oA": 0,
-		"oAP": "\/images\/YouTube-icon-full_color.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/YouTube_light_color_icon.png": {
-		"ft": 32768,
-		"iS": 13195,
-		"oA": 0,
-		"oAP": "\/images\/YouTube_light_color_icon.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/inner\/226_cormain\/_content.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/inner\/css\/_content.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/inner\/226_cormain\/_contentsidebarwrap.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/inner\/css\/_contentsidebarwrap.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/inner\/226_cormain\/_sidebarprimary.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/inner\/css\/_sidebarprimary.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/inner\/226_cormain\/_sidebarsecondary.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/inner\/css\/_sidebarsecondary.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/inner\/226_cormain\/_siteinner.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/inner\/css\/_siteinner.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/inner\/227_cormain\/_content-responsive.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/inner\/css\/_content-responsive.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/inner\/227_cormain\/_content.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/inner\/css\/_content.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/inner\/227_cormain\/_contentsidebarwrap.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/inner\/css\/_contentsidebarwrap.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/inner\/227_cormain\/_guide.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/inner\/css\/_guide.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/inner\/227_cormain\/_sidebarprimary.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/inner\/css\/_sidebarprimary.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/inner\/227_cormain\/_sidebarsecondary.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/inner\/css\/_sidebarsecondary.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/inner\/227_cormain\/_siteinner.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/inner\/css\/_siteinner.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/inner\/227_cormain_160506\/_content-responsive.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/inner\/css\/_content-responsive.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/inner\/227_cormain_160506\/_content.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/inner\/css\/_content.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/inner\/227_cormain_160506\/_contentsidebarwrap.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/inner\/css\/_contentsidebarwrap.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/inner\/227_cormain_160506\/_guide.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/inner\/css\/_guide.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/inner\/227_cormain_160506\/_sidebarprimary.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/inner\/css\/_sidebarprimary.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/inner\/227_cormain_160506\/_sidebarsecondary.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/inner\/css\/_sidebarsecondary.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/inner\/227_cormain_160506\/_siteinner.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/inner\/css\/_siteinner.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/item-cor\/default_2124\/_item-adsense.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/item-cor\/css\/_item-adsense.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/item-cor\/default_2124\/_item-audio.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/item-cor\/css\/_item-audio.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/item-cor\/default_2124\/_item-box.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/item-cor\/css\/_item-box.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/item-cor\/default_2124\/_item-content.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/item-cor\/css\/_item-content.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/item-cor\/default_2124\/_item-product.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/item-cor\/css\/_item-product.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/item-cor\/default_2124\/_item-subscribe.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/item-cor\/css\/_item-subscribe.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/item-cor\/default_2124\/_item-tabs.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/item-cor\/css\/_item-tabs.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/item-cor\/default_2124\/_item-titlebar.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/item-cor\/css\/_item-titlebar.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/item-cor\/default_2124\/_item-video.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/item-cor\/css\/_item-video.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
 		},
 	"\/item\/227_cormain\/_item-adsense.scss": {
 		"aP": 0,
@@ -3394,102 +1148,141 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/js\/atmosphere-pro\/backstretch-set.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/atmosphere-pro\/min\/backstretch-set-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/atmosphere-pro\/backstretch.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/atmosphere-pro\/min\/backstretch-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/atmosphere-pro\/front-page.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/atmosphere-pro\/min\/front-page-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/atmosphere-pro\/jquery.localScroll.min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/atmosphere-pro\/min\/jquery.localScroll.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/atmosphere-pro\/jquery.scrollTo.min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/atmosphere-pro\/min\/jquery.scrollTo.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/atmosphere-pro\/min\/responsive-menu-min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "\/js\/atmosphere-pro\/min\/min\/responsive-menu-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/atmosphere-pro\/responsive-menu.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/atmosphere-pro\/min\/responsive-menu-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/atmosphere-pro\/style.css": {
+	"\/item\/250_cor\/_item-titlebar.scss": {
 		"aP": 0,
 		"bl": 0,
-		"ft": 16,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
 		"ma": 0,
-		"oA": 0,
-		"oAP": "\/js\/atmosphere-pro\/style-min.css",
+		"oA": 1,
+		"oAP": "\/item\/css\/_item-titlebar.css",
 		"oF": 0,
-		"oS": 0
+		"oS": 0,
+		"uL": 1
+		},
+	"\/item\/default_2124\/_item-adsense.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/item\/css\/_item-adsense.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/item\/default_2124\/_item-audio.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/item\/css\/_item-audio.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/item\/default_2124\/_item-box.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/item\/css\/_item-box.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/item\/default_2124\/_item-content.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/item\/css\/_item-content.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/item\/default_2124\/_item-product.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/item\/css\/_item-product.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/item\/default_2124\/_item-subscribe.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/item\/css\/_item-subscribe.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/item\/default_2124\/_item-tabs.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/item\/css\/_item-tabs.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/item\/default_2124\/_item-titlebar.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/item\/css\/_item-titlebar.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/item\/default_2124\/_item-video.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/item\/css\/_item-video.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		},
 	"\/js\/jquery.matchHeight.min.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/min\/jquery.matchHeight.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/menu.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/min\/menu-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/responsive-menu.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/min\/responsive-menu-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -3511,383 +1304,6 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
-		},
-	"\/layout\/226_cormain\/_cs.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/layout\/css\/_cs.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/layout\/226_cormain\/_css.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/layout\/css\/_css.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/layout\/226_cormain\/_full.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/layout\/css\/_full.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/layout\/226_cormain\/_sc.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/layout\/css\/_sc.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/layout\/226_cormain\/_scs.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/layout\/css\/_scs.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/layout\/226_cormain\/_ssc.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/layout\/css\/_ssc.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/layout\/227_cormain\/_base.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/layout\/css\/_base.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/layout\/227_cormain\/_cs-responsive.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/layout\/css\/_cs-responsive.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/layout\/227_cormain\/_footer.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/layout\/css\/_footer.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/layout\/227_cormain\/_full.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/layout\/css\/_full.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/layout\/227_cormain\/_header.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/layout\/css\/_header.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/layout\/227_cormain\/_inner.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/layout\/css\/_inner.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/layout\/227_cormain\/_inside.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/layout\/css\/_inside.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/layout\/227_cormain\/_outside.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/layout\/css\/_outside.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/layout\/227_cormain\/_structure.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/layout\/css\/_structure.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/layout\/227_cormain\/_widgetarea.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/layout\/css\/_widgetarea.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/layout\/227_cormain_160506\/_base.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/layout\/css\/_base.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/layout\/227_cormain_160506\/_cs-responsive.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/layout\/css\/_cs-responsive.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/layout\/227_cormain_160506\/_cs.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/layout\/css\/_cs.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/layout\/227_cormain_160506\/_css-responsive.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/layout\/css\/_css-responsive.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/layout\/227_cormain_160506\/_css.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/layout\/css\/_css.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/layout\/227_cormain_160506\/_full.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/layout\/css\/_full.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/layout\/227_cormain_160506\/_inside.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/layout\/css\/_inside.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/layout\/227_cormain_160506\/_outside.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/layout\/css\/_outside.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/layout\/227_cormain_160506\/_sc-responsive.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/layout\/css\/_sc-responsive.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/layout\/227_cormain_160506\/_sc.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/layout\/css\/_sc.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/layout\/227_cormain_160506\/_scs-responsive.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/layout\/css\/_scs-responsive.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/layout\/227_cormain_160506\/_scs.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/layout\/css\/_scs.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/layout\/227_cormain_160506\/_ssc.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/layout\/css\/_ssc.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
 		},
 	"\/layout\/230_cor\/_align.scss": {
 		"aP": 0,
@@ -4292,7 +1708,137 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/layout\/230_cormain\/_inner.scss": {
+	"\/layout\/250_cor\/_body.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/layout\/css\/_body.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/layout\/250_cor\/_cs.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/layout\/css\/_cs.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/layout\/250_cor\/_entry.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/layout\/css\/_entry.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/layout\/250_cor\/_footer-override.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/layout\/css\/_footer-override.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/layout\/250_cor\/_footer.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/layout\/css\/_footer.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/layout\/250_cor\/_full.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/layout\/css\/_full.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/layout\/250_cor\/_header-override.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/layout\/css\/_header-override.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/layout\/250_cor\/_header.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/layout\/css\/_header.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/layout\/250_cor\/_hide.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/layout\/css\/_hide.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/layout\/250_cor\/_inner-override.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/layout\/css\/_inner-override.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/layout\/250_cor\/_inner.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -4305,66 +1851,83 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/lib\/customize.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/lib\/customize.php",
-		"oF": 0
-		},
-	"\/lib\/helper-functions.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/lib\/helper-functions.php",
-		"oF": 0
-		},
-	"\/lib\/output.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/lib\/output.php",
-		"oF": 0
-		},
-	"\/lib\/theme-defaults.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/lib\/theme-defaults.php",
-		"oF": 0
-		},
-	"\/lib\/woocommerce\/genesis-sample-woocommerce.css": {
+	"\/layout\/250_cor\/_sc.scss": {
 		"aP": 0,
 		"bl": 0,
-		"ft": 16,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
 		"ma": 0,
-		"oA": 2,
-		"oAP": "\/lib\/woocommerce\/genesis-sample-woocommerce-min.css",
+		"oA": 1,
+		"oAP": "\/layout\/css\/_sc.css",
 		"oF": 0,
-		"oS": 3
+		"oS": 0,
+		"uL": 1
 		},
-	"\/lib\/woocommerce\/js\/notice-update.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/lib\/woocommerce\/js\/min\/notice-update-min.js",
+	"\/layout\/250_cor\/_structure-override.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/layout\/css\/_structure-override.css",
 		"oF": 0,
-		"sC": 1,
-		"tS": 0
+		"oS": 0,
+		"uL": 1
 		},
-	"\/lib\/woocommerce\/woocommerce-notice.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/lib\/woocommerce\/woocommerce-notice.php",
-		"oF": 0
+	"\/layout\/250_cor\/_structure.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/layout\/css\/_structure.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		},
-	"\/lib\/woocommerce\/woocommerce-output.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/lib\/woocommerce\/woocommerce-output.php",
-		"oF": 0
+	"\/layout\/250_cor\/_widget.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/layout\/css\/_widget.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		},
-	"\/lib\/woocommerce\/woocommerce-setup.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/lib\/woocommerce\/woocommerce-setup.php",
-		"oF": 0
+	"\/layout\/250_cor\/_widgetarea.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/layout\/css\/_widgetarea.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/layout\/250_cor\/_width.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/layout\/css\/_width.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		},
 	"\/menu\/226_cormain\/_dropdown.scss": {
 		"aP": 0,
@@ -4574,7 +2137,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/menu\/226_cormain_atmospherepro\/_dropdown.scss": {
+	"\/menu\/230_cor\/_dropdown.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -4587,7 +2150,20 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/menu\/226_cormain_atmospherepro\/_menu.scss": {
+	"\/menu\/230_cor\/_grm.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/menu\/css\/_grm.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/menu\/230_cor\/_menu.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -4600,7 +2176,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/menu\/226_cormain_atmospherepro\/_menuitem-footer.scss": {
+	"\/menu\/230_cor\/_menuitem-footer.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -4613,7 +2189,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/menu\/226_cormain_atmospherepro\/_menuitem-gnm.scss": {
+	"\/menu\/230_cor\/_menuitem-gnm.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -4626,46 +2202,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/menu\/226_cormain_atmospherepro\/_menuitem-haschild.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/menu\/css\/_menuitem-haschild.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/menu\/226_cormain_atmospherepro\/_menuitem-header.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/menu\/css\/_menuitem-header.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/menu\/226_cormain_atmospherepro\/_menuitem-primary-header.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/menu\/css\/_menuitem-primary-header.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/menu\/226_cormain_atmospherepro\/_menuitem-primary.scss": {
+	"\/menu\/230_cor\/_menuitem-primary.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -4678,7 +2215,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/menu\/226_cormain_atmospherepro\/_menuitem-prisec.scss": {
+	"\/menu\/230_cor\/_menuitem-responsive.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -4686,25 +2223,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/menu\/css\/_menuitem-prisec.css",
+		"oAP": "\/menu\/css\/_menuitem-responsive.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/menu\/226_cormain_atmospherepro\/_menuitem-secondary-header.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/menu\/css\/_menuitem-secondary-header.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/menu\/226_cormain_atmospherepro\/_menuitem-secondary.scss": {
+	"\/menu\/230_cor\/_menuitem-secondary.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -4717,7 +2241,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/menu\/226_cormain_atmospherepro\/_menuitem-sidebar.scss": {
+	"\/menu\/230_cor\/_menuitem-sidebar.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -4730,7 +2254,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/menu\/226_cormain_atmospherepro\/_menuitem-widget.scss": {
+	"\/menu\/230_cor\/_menuitem-widget.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -4743,7 +2267,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/menu\/226_cormain_atmospherepro\/_menuitem.scss": {
+	"\/menu\/230_cor\/_menuitem.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -4756,20 +2280,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/menu\/226_cormain_atmospherepro\/_navheader.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/menu\/css\/_navheader.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/menu\/226_cormain_atmospherepro\/_navprimary.scss": {
+	"\/menu\/230_cor\/_navprimary.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -4782,7 +2293,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/menu\/226_cormain_atmospherepro\/_navsecondary.scss": {
+	"\/menu\/230_cor\/_navsecondary.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -4795,20 +2306,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/menu\/226_cormain_atmospherepro\/_responsive.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/menu\/css\/_responsive.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/menu\/226_cormain_atmospherepro\/_submenu.scss": {
+	"\/menu\/230_cor\/_submenu.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -4821,7 +2319,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/menu\/226_cormain_atmospherepro\/_toggle.scss": {
+	"\/menu\/230_cor\/_toggle.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -4843,19 +2341,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/meta\/css\/_breadcrumb.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/module\/226_cormain\/_feature.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/module\/css\/_feature.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -4951,51 +2436,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/module\/227_cormain_160506\/_cta.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/module\/css\/_cta.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/module\/227_cormain_160506\/_important.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/module\/css\/_important.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/module\/227_cormain_160506\/_message.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/module\/css\/_message.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/page-hometest.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/page-hometest.php",
-		"oF": 0
-		},
 	"\/panel\/227_cormain\/_panel-ctacontent.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -5005,37 +2445,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/panel\/css\/_panel-ctacontent.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/paypal.html": {
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/paypal.html",
-		"oF": 0
-		},
-	"\/plg-session_170306-02.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/plg-session_170306-02.php",
-		"oF": 0
-		},
-	"\/plg-session_170306.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/plg-session_170306.php",
-		"oF": 0
-		},
-	"\/plugin\/226_cormain\/_swps-socialtoolbar.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/plugin\/css\/_swps-socialtoolbar.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -5207,71 +2616,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/structure\/226_cormain\/_body.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/structure\/css\/_body.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/structure\/226_cormain\/_floatclear.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/structure\/css\/_floatclear.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/structure\/226_cormain\/_sitecontainer.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/structure\/css\/_sitecontainer.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/structure\/227_cormain\/_body.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/structure\/css\/_body.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/structure\/227_cormain\/_sitecontainer.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/structure\/css\/_sitecontainer.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/style.css": {
 		"aP": 0,
 		"bl": 0,
@@ -5292,254 +2636,6 @@
 		"oA": 0,
 		"oAP": "\/style.css",
 		"oF": 3,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/style_160523.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/style_160523.css",
-		"oF": 1,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/style_160810.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/style_160810.css",
-		"oF": 1,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/style_170207.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/style_170207-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/style_170207.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/style_170207.css",
-		"oF": 1,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/style_170221.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/style_170221.css",
-		"oF": 1,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/style_170607.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "\/style_170607-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/style_critical_min.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "\/style_critical_min-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/style_critical_non_min.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "\/style_critical_non_min-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/variables\/226_cormain\/_breakpoint.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/variables\/css\/_breakpoint.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/variables\/226_cormain\/_color.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/variables\/css\/_color.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/variables\/226_cormain\/_fontfamily.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/variables\/css\/_fontfamily.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/variables\/226_cormain\/_fontsize.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/variables\/css\/_fontsize.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/variables\/226_cormain\/_fontweight.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/variables\/css\/_fontweight.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/variables\/226_cormain\/_lineheight.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/variables\/css\/_lineheight.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/variables\/226_cormain\/_size.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/variables\/css\/_size.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/variables\/226_cormain\/_space.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/variables\/css\/_space.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/variables\/226_cormain\/_susy.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/variables\/css\/_susy.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/variables\/227_cormain\/_breakpoint.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/variables\/css\/_breakpoint.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/variables\/227_cormain\/_responsive.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/variables\/css\/_responsive.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/variables\/227_cormain\/_width.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/variables\/css\/_width.css",
-		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
@@ -5686,7 +2782,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/widget\/226_cormain\/_widget-override.scss": {
+	"\/variables\/250_cor\/_break.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -5694,12 +2790,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/widget\/css\/_widget-override.css",
+		"oAP": "\/variables\/css\/_break.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/widget\/226_cormain\/_widget.scss": {
+	"\/variables\/250_cor\/_width.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -5707,111 +2803,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/widget\/css\/_widget.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/widget\/226_cormain\/_widgetarea.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/widget\/css\/_widgetarea.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/widget\/226_cormain\/_widgettitle.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/widget\/css\/_widgettitle.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/widget\/226_cormain\/_widgetwrap.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/widget\/css\/_widgetwrap.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/widget\/226_cormain_160506\/_widget-override.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/widget\/css\/_widget-override.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/widget\/226_cormain_160506\/_widget.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/widget\/css\/_widget.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/widget\/226_cormain_160506\/_widgetarea.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/widget\/css\/_widgetarea.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/widget\/226_cormain_160506\/_widgettitle.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/widget\/css\/_widgettitle.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/widget\/226_cormain_160506\/_widgetwrap.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/widget\/css\/_widgetwrap.css",
+		"oAP": "\/variables\/css\/_width.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -5851,76 +2843,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/widget\/css\/_widgetwrap.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/widgetarea\/226_cormain\/_contentbefore.php": {
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/widgetarea\/226_cormain\/_contentbefore.php",
-		"oF": 0
-		},
-	"\/widgetarea\/226_cormain\/_contentbefore.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/widgetarea\/css\/_contentbefore.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/widgetarea\/226_cormain\/_cswafter.php": {
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/widgetarea\/226_cormain\/_cswafter.php",
-		"oF": 0
-		},
-	"\/widgetarea\/226_cormain\/_cswafter.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/widgetarea\/css\/_cswafter.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/widgetarea\/226_cormain\/_cswbefore.php": {
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/widgetarea\/226_cormain\/_cswbefore.php",
-		"oF": 0
-		},
-	"\/widgetarea\/226_cormain\/_cswbefore.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/widgetarea\/css\/_cswbefore.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/widgetarea\/230_cor\/_widgetarea.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/widgetarea\/css\/_widgetarea.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

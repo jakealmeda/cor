@@ -1,4 +1,4 @@
-/* BASE_226 | ENTRY-FEATURED-HOOK | 226_CORMAIN_STYLE | ENTRYMETA-FEATUREDCONTENT - 2016-01-19 */
+/* BASE_226 | ENTRY-FEATURED-HOOK | 226_CORMAIN_STYLE | ENTRYMETA-FEATUREDCONTENT - 2017-07-13 */
 
 // -------------------------------------
 // FORMULA
@@ -26,7 +26,8 @@
 // EXTEND
 
 	%featuredcontent-entrymeta {
-		margin-bottom: #{$space-half}rem;
+		margin-top: 0.25rem;
+		margin-bottom: 0.5rem;
 	}
 		%featuredcontent-entrymeta-a {}
 		%featuredcontent-entrymeta-hvr {}
