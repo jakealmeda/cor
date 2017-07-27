@@ -1,4 +1,4 @@
-/* BASE_230 | LAYOUT | 250_MODEL-BASICSETUP | ENTRY - 2017-07-13 */
+/* BASE_230 | LAYOUT | 250_COR | ENTRY - 2017-07-25 */
 // BASE_230 | ENTRY | 230_BASE
 
 // -------------------------------------
@@ -51,10 +51,10 @@
 
 	%entrymeta_layout {
 		font-family: $fontfamily-entrymeta;
-		font-size: #{$fontsize-xxsml}rem;	// 11px
+		font-size: #{$fontsize-xxsml}rem;
 		font-weight: bold;
-		letter-spacing: 0.0125rem;
-		text-transform: uppercase;
+		//letter-spacing: 0.0125rem;
+		//text-transform: uppercase;
 		color: $color-mid;
 	}
 		%entrymeta-a_layout {}

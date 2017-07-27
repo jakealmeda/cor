@@ -29,6 +29,9 @@
 			}
 		}
 		%sidebarsecondary-widget_layout {}
+		%siteheader-widget {}
+		%footerwidgets-widget {}
+		%afterentry-widget {}
 
 	// WIDGET-WRAP
 
@@ -77,6 +80,30 @@
 		.sidebar.sidebar-secondary {
 			.widget {
 				@extend %sidebarsecondary-widget_layout !optional;
+			}
+		}
+
+		// SITE-HEADER
+
+		.site-header {
+			.widget {
+				@extend %siteheader-widget !optional;				
+			}
+		}
+
+		// FOOTER-WIDGETS
+
+		.footer-widgets {
+			.widget {
+				@extend %footerwidgets-widget !optional;
+			}
+		}
+
+		// AFTER-ENTRY
+
+		.after-entry {
+			.widget {
+				@extend %afterentry-widget !optional;
 			}
 		}
 

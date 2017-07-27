@@ -1,11 +1,19 @@
-/* BASE_230 | MENU | 230_BASE | MENUITEM-FOOTER - 2016-09-19 */
+/* BASE_230 | MENU | 230_COR | MENUITEM-FOOTER - 2017-07-24 */
 
 // -------------------------------------
 // EXTEND
 
 	// MENU-ITEM
-	%footerwidgets-menu-menuitem {}
-	%footerwidgets-menu-menuitem-a {}
+	%footerwidgets-menu-menuitem {
+		font-size: 0.75rem;
+		font-weight: 500;
+		border-top: 1px solid #bbd0e8;
+	}
+	%footerwidgets-menu-menuitem-a {
+		padding: 0.5rem;
+		padding-left: 0;
+		display: block;
+	}
 	%footerwidgets-menu-menuitem-hvr {}
 		
 		// LEVEL 1 MENU-ITEM

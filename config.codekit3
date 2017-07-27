@@ -522,6 +522,123 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/entry-featured-hook\/250_cor\/_entry.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/entry-featured-hook\/css\/_entry.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/entry-featured-hook\/250_cor\/_entrycontent.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/entry-featured-hook\/css\/_entrycontent.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/entry-featured-hook\/250_cor\/_entryfooter.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/entry-featured-hook\/css\/_entryfooter.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/entry-featured-hook\/250_cor\/_entryheader.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/entry-featured-hook\/css\/_entryheader.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/entry-featured-hook\/250_cor\/_entryimage.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/entry-featured-hook\/css\/_entryimage.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/entry-featured-hook\/250_cor\/_entrymeta.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/entry-featured-hook\/css\/_entrymeta.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/entry-featured-hook\/250_cor\/_entrytitle.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/entry-featured-hook\/css\/_entrytitle.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/entry-featured-hook\/250_cor\/_morefromcategory.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/entry-featured-hook\/css\/_morefromcategory.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/entry-featured-hook\/250_cor\/_morelink.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/entry-featured-hook\/css\/_morelink.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/entry\/230_cor\/_archivedescription.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -626,6 +743,359 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/fontS\/250_cor\/_lato.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/fonts\/css\/_lato.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/fonts\/lato-v13-latin-100.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/lato-v13-latin-100.eot",
+		"oF": 0
+		},
+	"\/fonts\/lato-v13-latin-100.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/lato-v13-latin-100.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fonts\/lato-v13-latin-100.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/lato-v13-latin-100.ttf",
+		"oF": 0
+		},
+	"\/fonts\/lato-v13-latin-100.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/lato-v13-latin-100.woff",
+		"oF": 0
+		},
+	"\/fonts\/lato-v13-latin-100.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/lato-v13-latin-100.woff2",
+		"oF": 0
+		},
+	"\/fonts\/lato-v13-latin-100italic.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/lato-v13-latin-100italic.eot",
+		"oF": 0
+		},
+	"\/fonts\/lato-v13-latin-100italic.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/lato-v13-latin-100italic.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fonts\/lato-v13-latin-100italic.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/lato-v13-latin-100italic.ttf",
+		"oF": 0
+		},
+	"\/fonts\/lato-v13-latin-100italic.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/lato-v13-latin-100italic.woff",
+		"oF": 0
+		},
+	"\/fonts\/lato-v13-latin-100italic.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/lato-v13-latin-100italic.woff2",
+		"oF": 0
+		},
+	"\/fonts\/lato-v13-latin-300.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/lato-v13-latin-300.eot",
+		"oF": 0
+		},
+	"\/fonts\/lato-v13-latin-300.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/lato-v13-latin-300.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fonts\/lato-v13-latin-300.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/lato-v13-latin-300.ttf",
+		"oF": 0
+		},
+	"\/fonts\/lato-v13-latin-300.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/lato-v13-latin-300.woff",
+		"oF": 0
+		},
+	"\/fonts\/lato-v13-latin-300.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/lato-v13-latin-300.woff2",
+		"oF": 0
+		},
+	"\/fonts\/lato-v13-latin-300italic.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/lato-v13-latin-300italic.eot",
+		"oF": 0
+		},
+	"\/fonts\/lato-v13-latin-300italic.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/lato-v13-latin-300italic.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fonts\/lato-v13-latin-300italic.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/lato-v13-latin-300italic.ttf",
+		"oF": 0
+		},
+	"\/fonts\/lato-v13-latin-300italic.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/lato-v13-latin-300italic.woff",
+		"oF": 0
+		},
+	"\/fonts\/lato-v13-latin-300italic.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/lato-v13-latin-300italic.woff2",
+		"oF": 0
+		},
+	"\/fonts\/lato-v13-latin-700.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/lato-v13-latin-700.eot",
+		"oF": 0
+		},
+	"\/fonts\/lato-v13-latin-700.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/lato-v13-latin-700.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fonts\/lato-v13-latin-700.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/lato-v13-latin-700.ttf",
+		"oF": 0
+		},
+	"\/fonts\/lato-v13-latin-700.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/lato-v13-latin-700.woff",
+		"oF": 0
+		},
+	"\/fonts\/lato-v13-latin-700.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/lato-v13-latin-700.woff2",
+		"oF": 0
+		},
+	"\/fonts\/lato-v13-latin-700italic.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/lato-v13-latin-700italic.eot",
+		"oF": 0
+		},
+	"\/fonts\/lato-v13-latin-700italic.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/lato-v13-latin-700italic.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fonts\/lato-v13-latin-700italic.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/lato-v13-latin-700italic.ttf",
+		"oF": 0
+		},
+	"\/fonts\/lato-v13-latin-700italic.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/lato-v13-latin-700italic.woff",
+		"oF": 0
+		},
+	"\/fonts\/lato-v13-latin-700italic.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/lato-v13-latin-700italic.woff2",
+		"oF": 0
+		},
+	"\/fonts\/lato-v13-latin-900.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/lato-v13-latin-900.eot",
+		"oF": 0
+		},
+	"\/fonts\/lato-v13-latin-900.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/lato-v13-latin-900.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fonts\/lato-v13-latin-900.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/lato-v13-latin-900.ttf",
+		"oF": 0
+		},
+	"\/fonts\/lato-v13-latin-900.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/lato-v13-latin-900.woff",
+		"oF": 0
+		},
+	"\/fonts\/lato-v13-latin-900.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/lato-v13-latin-900.woff2",
+		"oF": 0
+		},
+	"\/fonts\/lato-v13-latin-900italic.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/lato-v13-latin-900italic.eot",
+		"oF": 0
+		},
+	"\/fonts\/lato-v13-latin-900italic.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/lato-v13-latin-900italic.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fonts\/lato-v13-latin-900italic.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/lato-v13-latin-900italic.ttf",
+		"oF": 0
+		},
+	"\/fonts\/lato-v13-latin-900italic.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/lato-v13-latin-900italic.woff",
+		"oF": 0
+		},
+	"\/fonts\/lato-v13-latin-900italic.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/lato-v13-latin-900italic.woff2",
+		"oF": 0
+		},
+	"\/fonts\/lato-v13-latin-italic.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/lato-v13-latin-italic.eot",
+		"oF": 0
+		},
+	"\/fonts\/lato-v13-latin-italic.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/lato-v13-latin-italic.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fonts\/lato-v13-latin-italic.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/lato-v13-latin-italic.ttf",
+		"oF": 0
+		},
+	"\/fonts\/lato-v13-latin-italic.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/lato-v13-latin-italic.woff",
+		"oF": 0
+		},
+	"\/fonts\/lato-v13-latin-italic.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/lato-v13-latin-italic.woff2",
+		"oF": 0
+		},
+	"\/fonts\/lato-v13-latin-regular.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/lato-v13-latin-regular.eot",
+		"oF": 0
+		},
+	"\/fonts\/lato-v13-latin-regular.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/lato-v13-latin-regular.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fonts\/lato-v13-latin-regular.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/lato-v13-latin-regular.ttf",
+		"oF": 0
+		},
+	"\/fonts\/lato-v13-latin-regular.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/lato-v13-latin-regular.woff",
+		"oF": 0
+		},
+	"\/fonts\/lato-v13-latin-regular.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/lato-v13-latin-regular.woff2",
+		"oF": 0
+		},
 	"\/form\/230_cor\/_button.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -669,6 +1139,12 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/functions.php",
+		"oF": 0
+		},
+	"\/functions_menu.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/functions_menu.php",
 		"oF": 0
 		},
 	"\/gui\/230_cor\/_align.scss": {
@@ -732,6 +1208,32 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/gui\/css\/_space.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hook\/250_cor\/_hook-cswafter.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hook\/css\/_hook-cswafter.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/hook\/250_cor\/_hook-cswbefore.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/hook\/css\/_hook-cswbefore.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -905,11 +1407,33 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/sprites copy.png": {
+		"ft": 32768,
+		"iS": 558486,
+		"oA": 0,
+		"oAP": "\/images\/sprites copy.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/sprites.png": {
 		"ft": 32768,
 		"iS": 558486,
 		"oA": 0,
 		"oAP": "\/images\/sprites.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/sprites2x copy.png": {
+		"ft": 32768,
+		"iS": 309364,
+		"oA": 0,
+		"oAP": "\/images\/sprites2x copy.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -922,8 +1446,8 @@
 		"oA": 0,
 		"oAP": "\/images\/sprites2x.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1161,6 +1685,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/item\/250_cor\/_item-transfer.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/item\/css\/_item-transfer.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/item\/default_2124\/_item-adsense.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1283,6 +1820,15 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/min\/jquery.matchHeight.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/menu.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/min\/menu-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -1851,6 +2397,45 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/layout\/250_cor\/_menu.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/layout\/css\/_menu.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/layout\/250_cor\/_menuitem.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/layout\/css\/_menuitem.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/layout\/250_cor\/_menusubmenu.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/layout\/css\/_menusubmenu.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/layout\/250_cor\/_sc.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1916,6 +2501,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/layout\/250_cor\/_widgettitle.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/layout\/css\/_widgettitle.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/layout\/250_cor\/_width.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1928,6 +2526,67 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/lib\/customize.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/lib\/customize.php",
+		"oF": 0
+		},
+	"\/lib\/helper-functions.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/lib\/helper-functions.php",
+		"oF": 0
+		},
+	"\/lib\/output.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/lib\/output.php",
+		"oF": 0
+		},
+	"\/lib\/theme-defaults.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/lib\/theme-defaults.php",
+		"oF": 0
+		},
+	"\/lib\/woocommerce\/genesis-sample-woocommerce.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/lib\/woocommerce\/genesis-sample-woocommerce-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/lib\/woocommerce\/js\/notice-update.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/lib\/woocommerce\/js\/min\/notice-update-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/lib\/woocommerce\/woocommerce-notice.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/lib\/woocommerce\/woocommerce-notice.php",
+		"oF": 0
+		},
+	"\/lib\/woocommerce\/woocommerce-output.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/lib\/woocommerce\/woocommerce-output.php",
+		"oF": 0
+		},
+	"\/lib\/woocommerce\/woocommerce-setup.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/lib\/woocommerce\/woocommerce-setup.php",
+		"oF": 0
 		},
 	"\/menu\/226_cormain\/_dropdown.scss": {
 		"aP": 0,
@@ -2588,6 +3247,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/plugin\/css\/_swp-socialtoolbar.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/plugin\/250_cor\/_swp-soliloquyslider.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/plugin\/css\/_swp-soliloquyslider.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

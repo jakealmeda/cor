@@ -1,4 +1,4 @@
-/* BASE | BASE-250 > COR | STYLE - 2017-07-21 9:21AM */
+/* BASE | COR | STYLE - 2017-07-26 2:49 PM */
 /* BASE | BASE-230 | STYLE - 2016-11-23 */
 
 // THEME
@@ -12,6 +12,9 @@
 
 // SUZY
 @import 	"susy";
+
+// -------------------------------------------------------------------- FONTS | 2017-07-26
+			@import 	"fonts/250_cor/lato";
 
 // -------------------------------------------------------------------- VARIABLES | 2017-06-06
 @import 	"variables/230_base/susy";
@@ -97,8 +100,8 @@
 
 // CLEARED - MAIN SOURCE
 // -------------------------------------------------------------------- ICON | 2016-09-18
-@import 	"icon/230_base/material";
-@import 	"icon/230_base/social";
+//@import 	"icon/230_base/material";
+//@import 	"icon/230_base/social";
 
 // CLEARED - MAIN SOURCE
 // -------------------------------------------------------------------- GRAPHIC | 2017-01-12
@@ -128,27 +131,45 @@
 			@import 	"meta/226_cormain/breadcrumb";
 @import 	"meta/230_base/pagination";
 
+// -------------------------------------------------------------------- MENU | 2016-01-12
+//@import 	"menu/226_base/navheader";
+			@import 	"menu/226_cormain/navprimary";
+			@import 	"menu/226_cormain/navsecondary";
+			@import 	"menu/226_cormain/menu";
+			@import 	"menu/226_cormain/submenu";
+//@import 	"menu/226_base/menuitem";
+//@import 	"menu/226_base/menuitem-header";
+			@import 	"menu/226_cormain/menuitem-prisec";
+			@import 	"menu/226_cormain/menuitem-primary";
+			@import 	"menu/226_cormain/menuitem-secondary";
+//@import 	"menu/226_base/menuitem-widget";
+			@import 	"menu/226_cormain/menuitem-sidebar";
+			@import 	"menu/226_cormain/menuitem-footer";
+//@import 	"menu/226_base/menuitem-haschild";
+			@import 	"menu/226_cormain/dropdown";
+			@import 	"menu/226_cormain/responsive";
+
 // -------------------------------------------------------------------- MENU (STRUCTURE) | 2016-09-19
 			//@import 	"menu/230_model-basicsetup/navprimary";
 			//@import 	"menu/230_model-basicsetup/navsecondary";
 
 // -------------------------------------------------------------------- MENU | 2017-07-19
-			@import 	"menu/230_cor/menu";
-			@import 	"menu/230_cor/submenu";
+			//@import 	"menu/230_cor/menu";
+			//@import 	"menu/230_cor/submenu";
 
 // -------------------------------------------------------------------- MENU (MENUITEM) | 2017-04-26
-			@import 	"menu/230_cor/menuitem";
-			@import 	"menu/230_cor/menuitem-gnm";
-			@import 	"menu/230_cor/menuitem-primary";
-			@import 	"menu/230_cor/menuitem-secondary";
+			//@import 	"menu/230_cor/menuitem";
+			//@import 	"menu/230_cor/menuitem-gnm";
+			//@import 	"menu/230_cor/menuitem-primary";
+			//@import 	"menu/230_cor/menuitem-secondary";
 			//@import 	"menu/230_model-basicsetup/menuitem-widget";
 			//@import 	"menu/230_model-basicsetup/menuitem-sidebar";
 			//@import 	"menu/230_model-basicsetup/menuitem-footer";
 
 // -------------------------------------------------------------------- MENU (MISC) | 2017-04-26
 			//@import 	"menu/230_model-basicsetup/dropdown";
-			@import 	"menu/230_model-basicsetup/toggle";
-			@import 	"menu/230_model-basicsetup/grm";
+			//@import 	"menu/230_model-basicsetup/toggle";
+			//@import 	"menu/230_model-basicsetup/grm";
 
 // -------------------------------------------------------------------- STRUCTURE - SITE-CONTAINER | 2016-07-13
 @import 	"structure/230_base/sitecontainer";
@@ -174,25 +195,7 @@
 @import 	"footer/230_base/footerwidgets3";
 @import 	"footer/230_base/sitefooter";
 
-// -------------------------------------------------------------------- ENTRY | 2017-07-13
-@import 	"entry/230_base/entry";
-@import 	"entry/230_base/entrytitle";
-@import 	"entry/230_base/entrymeta";
-@import 	"entry/230_base/entryheader";
-@import 	"entry/230_base/entrycontent";
-@import 	"entry/230_base/entryfooter";
-@import 	"entry/230_base/entryimage";
-
-// -------------------------------------------------------------------- ENTRY | 2017-07-13
-@import 	"entry/230_base/entry";
-			@import 	"entry/230_cor/entrytitle";
-@import 	"entry/230_base/entrymeta";
-@import 	"entry/230_base/entryheader";
-@import 	"entry/230_base/entrycontent";
-@import 	"entry/230_base/entryfooter";
-@import 	"entry/230_base/entryimage";
-
-// -------------------------------------------------------------------- LAYOUT | 2017-06-26
+// -------------------------------------------------------------------- LAYOUT | 2017-07-26
 			@import 	"layout/250_cor/body";
 			@import 	"layout/250_cor/structure";
 			//@import 	"layout/250_model-basicsetup/structure-override";
@@ -205,13 +208,14 @@
 
 			// MENU
 			//@import 	"layout/230_model-basicsetup/menunav";
-			//@import 	"layout/230_model-basicsetup/menu";
-			//@import 	"layout/230_model-basicsetup/menusubmenu";
-			//@import 	"layout/230_model-basicsetup/menuitem";
+			//@import 	"layout/250_cor/menu";
+			//@import 	"layout/250_cor/menusubmenu";
+			//@import 	"layout/250_cor/menuitem";
 			//@import 	"layout/230_model-basicsetup/menutoggle";
 			//@import 	"layout/230_model-basicsetup/menudropdown";
 
 			@import 	"layout/250_cor/widget";
+			@import 	"layout/250_cor/widgettitle";
 @import 	"layout/230_base/widgetarea";
 
 @import 	"layout/230_base/image";
@@ -238,6 +242,10 @@
 			//@import 	"layout/250_guide/inner";
 			//@import 	"layout/250_guide/footer";
 
+// -------------------------------------------------------------------- HOOK | 2017-07-25
+			@import 	"hook/250_cor/hook-cswbefore";
+			@import 	"hook/250_cor/hook-cswafter";
+
 // -------------------------------------------------------------------- COMMENT | 2017-04-19
 			@import 	"comment/230_model-basicsetup/entrycomments";
 			@import 	"comment/230_model-basicsetup/entrypings";
@@ -254,6 +262,15 @@
 			@import 	"comment/230_model-basicsetup/commentrespond-form";
 			@import 	"comment/230_model-basicsetup/loggedinas";
 			@import 	"comment/230_model-basicsetup/formallowedtags";
+
+// -------------------------------------------------------------------- ENTRY | 2017-07-25
+@import 	"entry/230_base/entry";
+@import 	"entry/230_base/entrytitle";
+@import 	"entry/230_base/entrymeta";
+@import 	"entry/230_base/entryheader";
+@import 	"entry/230_base/entrycontent";
+@import 	"entry/230_base/entryfooter";
+@import 	"entry/230_base/entryimage";
 
 // -------------------------------------------------------------------- ENTRY-ARCHIVE | 2017-07-21
 			@import 	"entry-archive/250_cor/entry";
@@ -275,16 +292,16 @@
 //@import 	"entry-featured/226_base/entryfooter";
 //@import 	"entry-featured/226_base/entryimage";
 
-// -------------------------------------------------------------------- ENTRY-FEATURED-HOOK | 2016-01-19
-			@import 	"entry-featured-hook/226_cor/entry";
-			@import 	"entry-featured-hook/226_cor/entrytitle";
-			@import 	"entry-featured-hook/226_cor/entrymeta";
-			@import 	"entry-featured-hook/226_cor/entryheader";
-			@import 	"entry-featured-hook/226_cor/entrycontent";
+// -------------------------------------------------------------------- ENTRY-FEATURED-HOOK | 2017-07-24
+			@import 	"entry-featured-hook/250_cor/entry";
+			@import 	"entry-featured-hook/250_cor/entrytitle";
+			@import 	"entry-featured-hook/250_cor/entrymeta";
+			@import 	"entry-featured-hook/250_cor/entryheader";
+@import 	"entry-featured-hook/226_base/entrycontent";
 @import 	"entry-featured-hook/226_base/entryfooter";
-			@import 	"entry-featured-hook/226_cor/entryimage";
-			@import 	"entry-featured-hook/226_cor/morelink";
-			@import 	"entry-featured-hook/226_cor/morefromcategory";
+			@import 	"entry-featured-hook/250_cor/entryimage";
+			@import 	"entry-featured-hook/250_cor/morelink";
+			@import 	"entry-featured-hook/250_cor/morefromcategory";
 
 // -------------------------------------------------------------------- RESPONSIVE ITEMS | 2016-07-13
 @import 	"responsive/250_model-basicsetup/layout";
@@ -300,16 +317,18 @@
 			@import 	"module/227_cormain/important";
 			//@import 	"module/227_cormain/cta";
 
-// -------------------------------------------------------------------- PLUGINS | 2016-02-11
+// -------------------------------------------------------------------- PLUGINS | 2017-07-24
 			@import 	"plugin/250_cor/swp-socialtoolbar";
-			@import 	"plugin/230_cor/soliloquyslider";
+			@import 	"plugin/250_cor/swp-soliloquyslider";
 			@import 	"plugin/230_cor/spk-youtubeembeds";
 			@import 	"plugin/227_cormain/spk-accordion";
 
 // -------------------------------------------------------------------- PANEL | 2016-07-05
 			@import 	"panel/227_cormain/panel-ctacontent";
 
-// -------------------------------------------------------------------- ITEM | 2017-07-18
+// -------------------------------------------------------------------- ITEM | 2017-07-25
+			@import 	"item/250_cor/item-transfer";
+
 			@import 	"item/227_cormain/item-adsense";
 			@import 	"item/default_2124/item-content";
 			@import 	"item/default_2124/item-subscribe";
@@ -321,7 +340,6 @@
 			@import 	"item/227_cormain/item-hideshow";
 			@import 	"item/227_cormain/item-cta";
 			@import 	"item/227_cormain/item-icon";
-			@import 	"item/227_cormain/item-transfer";
 			@import 	"item/227_cormain/item-ctacontent";
 			@import 	"item/230_cor/item-instagram";
 			@import 	"item/230_cor/item-focus";

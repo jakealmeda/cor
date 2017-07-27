@@ -45,45 +45,20 @@ include_once( get_stylesheet_directory() . '/lib/woocommerce/woocommerce-notice.
 //* Child theme (do not remove)
 define( 'CHILD_THEME_NAME', 'COR' );
 define( 'CHILD_THEME_URL', 'http://layout.basestructure.com/cor' );
-define( 'CHILD_THEME_VERSION', '2.3.0.3' );
+define( 'CHILD_THEME_VERSION', '2.3.0.5' );
 
 // Enqueue Scripts and Styles.
 add_action( 'wp_enqueue_scripts', 'basestarter_enqueue_scripts_styles' );
-function basestarter_enqueue_scripts_styles() {
+	function basestarter_enqueue_scripts_styles() {
 
-	wp_enqueue_style( 'basestarter-fonts', '//fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Roboto+Condensed:300,400,700|Lato:100,300,400,700,900', array(), CHILD_THEME_VERSION );
-	wp_enqueue_style( 'dashicons' );
+		//wp_enqueue_style( 'basestarter-fonts', '//fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Roboto+Condensed:300,400,700|Lato:100,300,400,700,900', array(), CHILD_THEME_VERSION );
+		//wp_enqueue_style( 'dashicons' );
 
-	$suffix = ( defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ) ? '' : '.min';
-	wp_enqueue_script( 'basestarter-responsive-menu', get_stylesheet_directory_uri() . "/js/responsive-menus{$suffix}.js", array( 'jquery' ), CHILD_THEME_VERSION, true );
-	wp_localize_script(
-		'basestarter-responsive-menu',
-		'genesis_responsive_menu',
-		basestarter_responsive_menu_settings()
-	);
+		$suffix = ( defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ) ? '' : '.min';
 
-}
+		wp_enqueue_script( 'menu-responsive', get_bloginfo( 'stylesheet_directory' ) . '/js/menu.js', array( 'jquery' ), '1.0.0', true );
 
-// Define our responsive menu settings.
-function basestarter_responsive_menu_settings() {
-
-	$settings = array(
-		'mainMenu'          => __( 'Menu', 'base-starter' ),
-		'menuIconClass'     => 'dashicons-before dashicons-menu',
-		'subMenu'           => __( 'Submenu', 'base-starter' ),
-		'subMenuIconsClass' => 'dashicons-before dashicons-arrow-down-alt2',
-		'menuClasses'       => array(
-			'combine' => array(
-				'.nav-primary',
-				'.nav-secondary',
-			),
-			'others'  => array(),
-		),
-	);
-
-	return $settings;
-
-}
+	}
 
 // Add HTML5 markup structure.
 add_theme_support( 'html5', array( 'caption', 'comment-form', 'comment-list', 'gallery', 'search-form' ) );
@@ -115,48 +90,57 @@ add_theme_support( 'genesis-footer-widgets', 3 );
 // Add Image Sizes.
 add_image_size( 'featured-image', 720, 405, TRUE );
 
-// Rename primary and secondary navigation menus.
-add_theme_support( 'genesis-menus', array( 'primary' => __( 'Main Menu', 'genesis-sample' ), 'secondary' => __( 'Sub Menu', 'genesis-sample' ) ) );
-
-// Reduce the secondary navigation menu to one level depth.
-add_filter( 'wp_nav_menu_args', 'genesis_sample_secondary_menu_args' );
-function genesis_sample_secondary_menu_args( $args ) {
-
-	if ( 'secondary' != $args['theme_location'] ) {
-		return $args;
-	}
-
-	$args['depth'] = 1;
-
-	return $args;
-
-}
-
 // Modify size of the Gravatar in the author box.
 add_filter( 'genesis_author_box_gravatar_size', 'genesis_sample_author_box_gravatar' );
-function genesis_sample_author_box_gravatar( $size ) {
-	return 90;
-}
+	function genesis_sample_author_box_gravatar( $size ) {
+		return 90;
+	}
 
 // Modify size of the Gravatar in the entry comments.
 add_filter( 'genesis_comment_list_args', 'genesis_sample_comments_gravatar' );
-function genesis_sample_comments_gravatar( $args ) {
-
-	$args['avatar_size'] = 60;
-
-	return $args;
-
-}
+	function genesis_sample_comments_gravatar( $args ) {
+		$args['avatar_size'] = 60;
+		return $args;
+	}
 
 //* Customize the entire footer | functions-sitefooter
 remove_action( 'genesis_footer', 'genesis_do_footer' );
-add_action( 'genesis_footer', 'spt_sitefooter' );
-function spt_sitefooter() {
-	?>
-	<div class="siteby"><a href="http://smarterwebpackages.com/">SmarterWebPackages.com</a></div>
-	<div class="copyright">© Copyright <?php echo date("Y"); ?> UnderstandingRelationships.com · All Rights Reserved | <a href="https://understandingrelationships.com/">Visit Site</a></div>
-	<?php
-}
+add_action( 'genesis_footer', 'swp_sitefooter' );
+	function swp_sitefooter() {
+		?>
+		<div class="siteby"><a href="http://smarterwebpackages.com/">SmarterWebPackages.com</a></div>
+		<div class="copyright">Copyright © <?php echo date("Y"); ?> UnderstandingRelatonships.com | All Rights Reserved | <a href="http://www.understandingrelationships.com/privacy-policy/">Privacy Policy</a><br>
+		The Corey Wayne Companies | Orlando, FL USA<br>
+		Site Design by <a href="http://smarterwebpackages.com/">SmarterWebPackages.com</a>
+		</div>
+		<?php
+	}
+
+// HOOK-CSWBEFORE (SINGLE POST)
+add_action( 'genesis_before_content_sidebar_wrap', 'swp_hook_cswbefore' );
+	function swp_hook_cswbefore() {
+		?>
+		<div class="hook-cswbefore"><div class="hook-wrap">
+			<div class="item-ad-top">
+				<div style="width: 100%; height: 90px; background: #428bca; color: #fff; line-height: 90px; text-align: center; ">LEADERBOARD</div>
+			</div>
+			<div id="subscribeto" class="item-subscribeto"></div>
+			<div id="booksto" class="item-booksto"></div>
+		</div></div>
+		<?php
+	}
+
+// HOOK-CSWAFTER (SINGLE POST)
+add_action( 'genesis_after_content_sidebar_wrap', 'swp_hook_cswafter' );
+	function swp_hook_cswafter() {
+		?>
+		<div class="hook-cswafter"><div class="hook-wrap">
+			<div class="item-ad-bottom">
+				<div style="width: 100%; height: 90px; background: #428bca; color: #fff; line-height: 90px; text-align: center; ">LEADERBOARD</div>
+			</div>
+		</div></div>
+		<?php
+	}
 
 // FEATURERIGHT (HOMEPAGE)
 // FEATURELEFT (HOMEPAGE)

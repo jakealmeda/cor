@@ -1,4 +1,4 @@
-/* BASE_230 | LAYOUT | 250_COR | FOOTER - 2017-06-06 */
+/* BASE_230 | LAYOUT | 250_COR | FOOTER - 2017-07-24 */
 // BASE_230 | FOOTER | 230_BASE
 
 // -------------------------------------
@@ -12,17 +12,21 @@
 	%sitefooterwrap_layout {}
 	%sitefooterwraponly_layout {
 		@extend %clearfix !optional;
+		padding-top: 1rem;
 
 		// BASEUP
 		@include responsive-range(baseup) {
 			max-width: #{$width-base}rem;
 			margin-left: auto;
 			margin-right: auto;
-			padding-top: 1rem;
 			//padding-bottom: 1rem;
 		}
 		// BASEDOWN
-		@include responsive-range(basedown) {
+		@include responsive-range(basedown) {}
+		// LARGEBELOWDOWN
+		@include responsive-range(lrgbelowdown) {}
+		// MEDBELOWDOWN
+		@include responsive-range(medbelowdown) {
 			padding: 1rem;
 		}
 
@@ -33,6 +37,8 @@
 
 	%footerwidgets_layout {
 		@extend %clearfix !optional;
+		background-color: #a8c3e1;
+		padding: 1rem;
 	}
 	%footerwidgetswrap_layout {}
 	%footerwidgetswraponly_layout {
@@ -43,13 +49,9 @@
 			max-width: #{$width-base}rem;
 			margin-left: auto;
 			margin-right: auto;
-			padding-top: 1rem;
-			padding-bottom: 1rem;
 		}
 		// BASEDOWN
-		@include responsive-range(basedown) {
-			padding: 1rem;
-		}
+		@include responsive-range(basedown) {}
 
 		@extend %responsive-layout-max !optional;
 	}
