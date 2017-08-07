@@ -1,4 +1,4 @@
-/* BASE_230 | ITEM | COR_250 | ITEM-TRANSFER - 2017-07-25 */
+/* BASE_230 | ITEM | COR_250 | ITEM-TRANSFER - 2017-08-07 */
 
 // -------------------------------------
 // UNIVERSAL
@@ -9,7 +9,7 @@
 // -------------------------------------
 
 	%item-transfer-widget {
-		@include responsive-range(medbelowdown) {
+		@include responsive-range(meddown) {
 		    padding: 1rem;
 		    margin-top: 1rem;
 		    //margin-right: 1rem;

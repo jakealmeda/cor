@@ -45,7 +45,7 @@ include_once( get_stylesheet_directory() . '/lib/woocommerce/woocommerce-notice.
 //* Child theme (do not remove)
 define( 'CHILD_THEME_NAME', 'COR' );
 define( 'CHILD_THEME_URL', 'http://layout.basestructure.com/cor' );
-define( 'CHILD_THEME_VERSION', '2.3.0.5' );
+define( 'CHILD_THEME_VERSION', '2.3.0.7' );
 
 // Enqueue Scripts and Styles.
 add_action( 'wp_enqueue_scripts', 'basestarter_enqueue_scripts_styles' );
@@ -59,6 +59,13 @@ add_action( 'wp_enqueue_scripts', 'basestarter_enqueue_scripts_styles' );
 		wp_enqueue_script( 'menu-responsive', get_bloginfo( 'stylesheet_directory' ) . '/js/menu.js', array( 'jquery' ), '1.0.0', true );
 
 	}
+
+// Unregister Superfish Dropdown
+function unregister_superfish() {
+wp_deregister_script( 'superfish' );
+wp_deregister_script( 'superfish-args' );
+}
+add_action( 'wp_enqueue_scripts', 'unregister_superfish' );
 
 // Add HTML5 markup structure.
 add_theme_support( 'html5', array( 'caption', 'comment-form', 'comment-list', 'gallery', 'search-form' ) );
@@ -77,6 +84,9 @@ add_theme_support( 'custom-header', array(
 	'header-text'     => false,
 	'flex-height'     => true,
 ) );
+
+// Increase memory limit
+define( 'WP_MEMORY_LIMIT', '256M' );
 
 // Add support for custom background.
 add_theme_support( 'custom-background' );

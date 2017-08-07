@@ -6,9 +6,7 @@
 	%cs-csw_layout {
 
 		// MEDDOWN
-		@include responsive-range(meddown) {
-			padding: 1rem;
-		}
+		@include responsive-range(meddown) {}
 	}
 
 	%cs-content_layout {
@@ -23,8 +21,10 @@
 			float: left;
 			width: 64%;
 		}
+		// LARGEDOWN
+		@include responsive-range(largedown) {}
 		// MEDDOWN
-		@include responsive-range(medbelowdown) {
+		@include responsive-range(meddown) {
 			float: none;
 			width: 100%;
 		}
@@ -44,8 +44,10 @@
 			float: right;
 			width: 35%;
 		}
+		// LARGEDOWN
+		@include responsive-range(largedown) {}
 		// MEDDOWN
-		@include responsive-range(medbelowdown) {
+		@include responsive-range(meddown) {
 			float: none;
 			width: 100%;
 		}

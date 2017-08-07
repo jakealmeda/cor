@@ -24,22 +24,16 @@
 			max-width: #{$width-base}rem;
 			margin-left: auto;
 			margin-right: auto;
-			padding-top: 1rem;
-			padding-bottom: 1rem;
 		}
 		// BASEDOWN
 		@include responsive-range(basedown) {
-			padding: 1rem;
+			//padding: 1rem;
 		}
 
 		// LARGEBELOWDOWN
-		@include responsive-range(lrgbelowdown) {
-			padding: 1rem;
-		}
-		// MEDBELOWDOWN
-		@include responsive-range(medbelowdown) {
-			padding: 0.5rem;
-		}
+		@include responsive-range(lrgbelowdown) {}
+		// MEDDOWN
+		@include responsive-range(medbelowdown) {}
 	}
 
 	// CONTENT
@@ -47,7 +41,6 @@
 	%content_layout {
 		@extend %clearfix !optional;
 		width: 100%;
-		padding: 1.5rem;
 		overflow: hidden;
 		background-color: #fff;
 		color: #333;
@@ -58,11 +51,22 @@
 		@include responsive-range(baseup) {
 			//max-width: #{$width-inner-medium}rem;
 			max-width: 48.125rem; // 768px + 2px borders
+			padding: 1.5rem;
 		}
 		// BASEDOWN
 		@include responsive-range(basedown) {
 			//max-width: #{$width-inner-medium}rem;
 			max-width: 48.125rem;
+			padding: 1rem;
+		}
+
+		// LARGEDOWN
+		@include responsive-range(lrgbelowdown) {
+			//padding: 1rem;
+		}
+		// MEDDOWN
+		@include responsive-range(meddown) {
+			max-width: none;
 		}
 	}
 
@@ -81,10 +85,17 @@
 			//max-width: #{$width-inner-xsmall}rem;
 			max-width: 25rem; // 400px
 		}
+
 		// MEDDOWN
 		@include responsive-range(meddown) {
-			margin-top: 2rem;
+			margin-top: 1rem;
+			max-width: none;
 		}
+
+		// LARGEBELOWDOWN
+		@include responsive-range(lrgbelowdown) {}
+		// MEDDOWN
+		@include responsive-range(medbelowdown) {}
 	}
 
 	// SIDEBAR-SECONDARY

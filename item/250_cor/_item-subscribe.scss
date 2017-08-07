@@ -1,9 +1,4 @@
-/* BASIC_2123 | ITEM-COR | DEFAULT_2124 | ITEM-SUBSCRIBE - 2015-7-14 */
-
-// -------------------------------------
-// UNIVERSAL
-// -------------------------------------
-
+/* BASE_230 | ITEM | 250_COR | ITEM-SUBSCRIBE - 2017-08-07 */
 
 // -------------------------------------
 // SILENT CLASS
@@ -38,11 +33,7 @@
 // ITEM-SUBSCRIBE PHOTO
 
 	%item-subscribe-photo {}
-	%item-subscribe-photo-img {
-		width: 100%;
-		max-width: 670px;
-		text-align: center;
-	}
+	%item-subscribe-photo-img {}
 
 // ITEM-SUBSCRIBE DISCLAIMER
 
@@ -73,7 +64,6 @@
 		clear: both;
 	}
 
-
 // -------------------------------------
 // CODE
 // -------------------------------------
@@ -93,27 +83,30 @@
 // ITEM-SUBSCRIBE PHOTO
 
 	.item-subscribe .photo {
-		//@extend %item-subscribe-photo !optional;
+		@extend %item-subscribe-photo !optional;
 	}
 	.item-subscribe .photo img {
-		//@extend %item-subscribe-photo-img !optional;
+		@extend %item-subscribe-photo-img !optional;
 	}
 
 	.item-subscribe .photo {
 		background-image: url("images/pic-subscribe.png");
 		background-repeat: no-repeat;
+		background-position: center;
 
 		// BASEUP
 		@include responsive-range(baseup) {
 			background-image: url("images/pic-subscribe-324.png");
 			background-size: auto;
+			width: 323px;
+			height: 182px;
 		}
 		// BASEDOWN
-		@include responsive-range(basedown) {
+		@include responsive-range(basebelowdown) {
 			background-size: cover;
+			@include aspect-ratio(16, 9);
 		}
 	}
-		
 
 // ITEM-SUBSCRIBE DISCLAIMER
 

@@ -1,4 +1,4 @@
-/* BASE_230 | ENTRY-ARCHIVE | 250_MODEL-BASICSETUP | ENTRYIMAGE - 2017-06-13 */
+/* BASE_230 | ENTRY-ARCHIVE | 250_COR | ENTRYIMAGE - 2017-07-28 */
 // BASE_230 | ENTRY-ARCHIVE | 230_BASE
 
 // -------------------------------------
@@ -13,7 +13,13 @@
 		%haspostthumbnail-entryimagealignright {}
 		%haspostthumbnail-imgentryimagealignright {}
 
-	%all-entryimage {}
+	%all-entryimage {
+		width: 160px;
+		height: 160px;
+		border: 1px solid #d9d9d9;
+		box-sizing: border-box;
+		padding: 4px;
+	}
 		%all-entryimagealignleft {}
 		%all-imgentryimagealignleft {}
 		%all-entryimagealignright {}
@@ -49,7 +55,7 @@
 	// ARCHIVE
 
 	.content .has-post-thumbnail {
-		.entry-image {
+		img.entry-image {
 			@extend %haspostthumbnail-entryimage !optional;
 		}
 			.entry-image.alignleft {
@@ -69,7 +75,7 @@
 	// ARCHIVE
 
 	.archive {
-		.entry-image {
+		img.entry-image {
 			@extend %all-entryimage !optional;
 			@extend %archive-entryimage !optional;
 		}
