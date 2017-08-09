@@ -45,7 +45,7 @@ include_once( get_stylesheet_directory() . '/lib/woocommerce/woocommerce-notice.
 //* Child theme (do not remove)
 define( 'CHILD_THEME_NAME', 'COR' );
 define( 'CHILD_THEME_URL', 'http://layout.basestructure.com/cor' );
-define( 'CHILD_THEME_VERSION', '2.3.0.7' );
+define( 'CHILD_THEME_VERSION', '2.4.0.8' );
 
 // Enqueue Scripts and Styles.
 add_action( 'wp_enqueue_scripts', 'basestarter_enqueue_scripts_styles' );
