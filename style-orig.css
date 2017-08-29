@@ -1,4 +1,4 @@
-/* BASE | COR | STYLE - 2017-08-09 8:32 AM */
+/* MODEL | SPK-BASIC | COR | STYLE - 2017-08-28 6:21pm */
 /*
 	Theme Name: COR
 	Theme URI: http://layout.basestructure.com/cor
@@ -220,20 +220,19 @@ textarea {
   src: local("Lato Black"), local("Lato-Black"), url("fonts/lato-v13-latin-900.eot?#iefix") format("embedded-opentype"), url("fonts/lato-v13-latin-900.woff2") format("woff2"), url("fonts/lato-v13-latin-900.woff") format("woff"), url("fonts/lato-v13-latin-900.ttf") format("truetype"), url("fonts/lato-v13-latin-900.svg#Lato") format("svg");
   /* Legacy iOS */ }
 
-/* BASE_230 | VARIABLES | 230_BASE | SUSY - 2017-01-12 */
 /* BASE_230 | VARIABLES | 230_BASE > COR | COLOR - 2016-11-21 */
 /* BASE_230 | VARIABLES | 230_BASE | SPACE - 2017-01-12 */
 /* BASE_230 | VARIABLES | 230_BASE | LINE - 2017-01-12 */
-/* BASE_230 | VARIABLES | 230_BASE > COR | FONTFAMILY - 2017-7-26 */
-/* BASE_230 | VARIABLES | 230_BASE > COR | FONTSIZE - 2016-12-30 */
-/* BASE_230 | VARIABLES | 230_MODEL-BASICSETUP | FONTWEIGHT - 2017-02-12 */
+/* SETUP | VARIABLES | 250_SETUPBASIC | FONTFAMILY - 2018-08-17 */
+/* SETUP | VARIABLES | 250_SETUPBASIC | FONTSIZE - 2018-08-17 */
+/* SETUP | VARIABLES | 250_SETUPBASIC | FONTWEIGHT - 2018-08-17 */
 /* BASE_230 | VARIABLES | 230_BASE > COR | LINEHEIGHT - 2016-08-04 */
 /* BASE_230 | VARIABLES | 250_COR | BREAK - 2017-06-27 */
 /* BASE_230 | VARIABLES | 250_COR | WIDTH - 2017-06-27 */
 /* BASE_230 | RESPONSIVE | 230_BASE | RANGE - 2017-01-12 */
 /* BASE_230 | LAYOUT | 230_BASE > COR | BODY - 2017-08-19 */
 body {
-  font-family: arial, sans-serif;
+  font-family: "Roboto", arial, sans-serif;
   font-weight: 400;
   color: red;
   background-color: #3768A0;
@@ -331,10 +330,22 @@ textarea:focus,
   display: inline-block; }
 
 /* BASE_230 | SELECTOR | 250_SETUP | ALIGN - 2017-07-19 */
-.alignleft, img.alignleft, .imageleft {
+.alignleft, img.alignleft, .imageleft, .panel.ms > .main,
+.panel.ms > .main.alignright,
+.panel.ms > .outer > .inner > .main,
+.panel.ms > .outer > .inner > .main.alignright, .panel.sm > .side,
+.panel.sm > .side.alignright,
+.panel.sm > .outer > .inner > .side,
+.panel.sm > .outer > .inner > .side.alignright {
   float: left; }
 
-.alignright, img.alignright, .imageright {
+.alignright, img.alignright, .imageright, .panel.ms > .side,
+.panel.ms > .side.alignleft,
+.panel.ms > .outer > .inner > .side,
+.panel.ms > .outer > .inner > .side.alignleft, .panel.sm > .main,
+.panel.sm > .main.alignleft,
+.panel.sm > .outer > .inner > .main,
+.panel.sm > .outer > .inner > .main.alignleft {
   float: right; }
 
 .aligncenter, img.aligncenter {
@@ -782,25 +793,7 @@ ol.no-liststyle {
 
 /* BASE_230 | TYPOGRAPHY | 250_SETUP | FAMILY - 2017-07-19 */
 .fontfamily-default {
-  font-family: "Lato", "Roboto", arial, sans-serif; }
-
-.fontfamily-headline {
-  font-family: "Lato", arial, sans-serif; }
-
-.fontfamily-compact {
-  font-family: "Lato", arial, sans-serif; }
-
-.fontfamily-narrow {
-  font-family: "Lato", "Roboto Condensed", arial, sans-serif; }
-
-.fontfamily-regular {
-  font-family: "Lato", "Roboto", arial, sans-serif; }
-
-.fontfamily-wide {
-  font-family: "Lato", arial, sans-serif; }
-
-.fontfamily-script {
-  font-family: "Lato", "Dancing Script", cursive, sans-serif; }
+  font-family: "Roboto", arial, sans-serif; }
 
 /* BASE_230 | TYPOGRAPHY | 250_SETUP | SIZE - 2017-07-19 */
 .fontsize-default {
@@ -973,15 +966,13 @@ blockquote.quote {
   margin: 0;
   font-weight: 300;
   background-color: transparent;
-  font-family: "Lato", arial, sans-serif;
-  font-size: 1.25rem;
+  font-size: 1.75rem;
   line-height: 1.6;
   font-weight: 300;
   color: #e57e00; }
 
 blockquote.quote p {
-  font-family: "Lato", arial, sans-serif;
-  font-size: 1.25rem;
+  font-size: 1.75rem;
   line-height: 1.6;
   font-weight: 300;
   color: #e57e00; }
@@ -1217,188 +1208,118 @@ button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type=
     right: 0;
     bottom: 0; }
 
-/* BASE_230 | GRID | 230_BASE | COLUMN - 2016-08-08 */
-.full, .half-grid > li:nth-child(2n+0), .third-grid > li:nth-child(3n+0), .fourth-grid > li:nth-child(4n+0), .fifth-grid > li:nth-child(5n+0), .sixth-grid > li:nth-of-type(6n+0), .eight-grid > li:nth-of-type(8n+0), .twelve-grid > li:nth-of-type(12n+0), .half.last,
-.half.space-right-zero, .third.last,
-.third.space-right-zero, .twothirds.last,
-.twothirds.space-right-zero, .fourth.last,
-.fourth.space-right-zero, .threefourths.last,
-.threefourths.space-right-zero, .fifth.last,
-.fifth.space-right-zero, .twofifths.last,
-.twofifths.space-right-zero, .threefifths.last,
-.threefifths.space-right-zero, .fourfifths.last,
-.fourfifths.space-right-zero, .sixth.last,
-.sixth.space-right-zero, .fivesixths.last,
-.fivesixths.space-right-zero, .eight.last,
-.eight.space-right-zero, .twelve.last,
-.twelve.space-right-zero, .eleventwelves.last,
-.eleventwelves.space-right-zero {
-  margin-right: 0; }
+/* BASE_230 | PANEL | 240_BASE | BASIC - 2017-01-17 */
+.panel > .main,
+.panel > .outer > .inner > .main {
+  width: 70%; }
 
-.half-grid > li, .third-grid > li, .fourth-grid > li, .fifth-grid > li, .sixth-grid > li, .eight-grid > li, .twelve-grid > li {
-  list-style-type: none; }
+.panel > .side,
+.panel > .outer > .inner > .side {
+  width: 30%; }
 
-.full {
-  width: 100%; }
+/* BASE_230 | PANEL | 230_BASE | WIDTH - 2016-11-18 */
+/* SETUP | GRID | 250_SETUPBASIC | COLUMN - 2018-08-23 */
+.columns {
+  grid-gap: 1rem; }
 
-.half, .half-grid > li {
-  width: 49.1525423729%;
-  float: left;
-  margin-right: 1.6949152542%; }
+.columns {
+  width: 100%;
+  display: inline-grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: auto; }
 
-.half-push {
-  margin-left: 50.8474576271%; }
+.columns.columns-fifth {
+  grid-template-columns: repeat(5, 1fr); }
 
-.third, .third-grid > li {
-  width: 32.2033898305%;
-  float: left;
-  margin-right: 1.6949152542%; }
+.columns.columns-eight {
+  grid-template-columns: repeat(8, 1fr); }
 
-.third-push {
-  margin-left: 33.8983050847%; }
+.panel-full > .main, .panel-full > .side, .full {
+  grid-column: span 12; }
 
-.twothirds {
-  width: 66.1016949153%;
-  float: left;
-  margin-right: 1.6949152542%; }
+.panel-half > .main, .panel-half > .side, .half {
+  grid-column: span 6; }
 
-.twothirds-push {
-  margin-left: 67.7966101695%; }
+.panel-third > .side, .third {
+  grid-column: span 4; }
 
-.fourth, .fourth-grid > li {
-  width: 23.7288135593%;
-  float: left;
-  margin-right: 1.6949152542%; }
+.panel-third > .main, .twothirds {
+  grid-column: span 8; }
 
-.fourth-push {
-  margin-left: 25.4237288136%; }
+.panel-fourth > .side, .fourth {
+  grid-column: span 3; }
 
-.threefourths {
-  width: 74.5762711864%;
-  float: left;
-  margin-right: 1.6949152542%; }
+.panel-fourth > .main, .threefourths {
+  grid-column: span 9; }
 
-.threefourths-push {
-  margin-left: 76.2711864407%; }
+.panel-fifth > .side, .fifth {
+  grid-column: span 1; }
 
-.fifth, .fifth-grid > li {
-  width: 16.6666666667%;
-  float: left;
-  margin-right: 4.1666666667%; }
+.panel-twofifth > .side, .twofifths {
+  grid-column: span 2; }
 
-.fifth-push {
-  margin-left: 20.8333333333%; }
+.panel-twofifth > .main, .threefifths {
+  grid-column: span 3; }
 
-.twofifths {
-  width: 37.5%;
-  float: left;
-  margin-right: 4.1666666667%; }
+.panel-fifth > .main, .fourfifths {
+  grid-column: span 4; }
 
-.twofifths-push {
-  margin-left: 41.6666666667%; }
+.panel-sixth > .side, .sixth {
+  grid-column: span 2; }
 
-.threefifths {
-  width: 58.3333333333%;
-  float: left;
-  margin-right: 4.1666666667%; }
+.panel-sixth > .main, .fivesixths {
+  grid-column: span 10; }
 
-.threefifths-push {
-  margin-left: 62.5%; }
+.eight {
+  grid-column: span 1; }
 
-.fourfifths {
-  width: 79.1666666667%;
-  float: left;
-  margin-right: 4.1666666667%; }
-
-.fourfifths-push {
-  margin-left: 83.3333333333%; }
-
-.sixth, .sixth-grid > li {
-  width: 15.2542372881%;
-  float: left;
-  margin-right: 1.6949152542%; }
-
-.sixth-push {
-  margin-left: 16.9491525424%; }
-
-.fivesixths {
-  width: 83.0508474576%;
-  float: left;
-  margin-right: 1.6949152542%; }
-
-.fivesixths-push {
-  margin-left: 84.7457627119%; }
-
-.eight, .eight-grid > li {
-  width: 10.2564102564%;
-  float: left;
-  margin-right: 2.5641025641%; }
-
-.eight-push {
-  margin-left: 12.8205128205%; }
-
-.twelve, .twelve-grid > li {
-  width: 6.7796610169%;
-  float: left;
-  margin-right: 1.6949152542%; }
-
-.twelve-push {
-  margin-left: 8.4745762712%; }
+.twelve {
+  grid-column: span 1; }
 
 .eleventwelves {
-  width: 91.5254237288%;
-  float: left;
-  margin-right: 1.6949152542%; }
+  grid-column: span 11; }
 
-.eleventwelves-push {
-  margin-left: 93.2203389831%; }
+/* SETUP | GRID | 250_SETUPBASIC | GRID - 2018-08-23 */
+.half-grid, .third-grid, .fourth-grid, .fifth-grid, .sixth-grid, .eight-grid, .twelve-grid {
+  display: grid; }
 
-/* BASE_230 | GRID | 230_BASE | GRID - 2016-08-08 */
-.full, .half-grid > li:nth-child(2n+0), .third-grid > li:nth-child(3n+0), .fourth-grid > li:nth-child(4n+0), .fifth-grid > li:nth-child(5n+0), .sixth-grid > li:nth-of-type(6n+0), .eight-grid > li:nth-of-type(8n+0), .twelve-grid > li:nth-of-type(12n+0), .half.last,
-.half.space-right-zero, .third.last,
-.third.space-right-zero, .twothirds.last,
-.twothirds.space-right-zero, .fourth.last,
-.fourth.space-right-zero, .threefourths.last,
-.threefourths.space-right-zero, .fifth.last,
-.fifth.space-right-zero, .twofifths.last,
-.twofifths.space-right-zero, .threefifths.last,
-.threefifths.space-right-zero, .fourfifths.last,
-.fourfifths.space-right-zero, .sixth.last,
-.sixth.space-right-zero, .fivesixths.last,
-.fivesixths.space-right-zero, .eight.last,
-.eight.space-right-zero, .twelve.last,
-.twelve.space-right-zero, .eleventwelves.last,
-.eleventwelves.space-right-zero {
-  margin-right: 0; }
+.half-grid, .third-grid, .fourth-grid, .fifth-grid, .sixth-grid, .eight-grid, .twelve-grid {
+  grid-gap: 1rem; }
 
-.half-grid > li, .third-grid > li, .fourth-grid > li, .fifth-grid > li, .sixth-grid > li, .eight-grid > li, .twelve-grid > li {
-  list-style-type: none; }
-
-.half-grid > li:nth-child(4n+1), .third-grid > li:nth-child(3n+1), .fourth-grid > li:nth-child(4n+1), .fifth-grid > li:nth-child(5n+1), .sixth-grid > li:nth-child(6n+1), .eight-grid > li:nth-child(8n+1), .twelve-grid > li:nth-child(12n+1) {
-  clear: left; }
-
-/* BASE_230 | GRID | 230_BASE | LAST - 2016-08-08 */
-/* BASE_230 | GRID | 230_BASE | LIST - 2016-08-08 */
-.content ul.half-grid, .content ul.third-grid, .content ul.twothirds-push, .content ul.fourth-grid, .content ul.fifth-grid, .content ul.sixth-grid, .content ul.eight-grid, .content ul.twelve-grid {
+ul.half-grid, ul.third-grid, ul.fourth-grid, ul.fifth-grid, ul.sixth-grid, ul.eight-grid, ul.twelve-grid {
+  list-style-type: none;
   margin-left: 0; }
 
-/* BASE_230 | GRID | 230_BASE | ALIGN - 2016-08-08 */
-.full.alignleft, .half.alignleft, .third.alignleft, .twothirds.alignleft, .fourth.alignleft, .threefourths.alignleft, .fifth.alignleft, .twofifths.alignleft, .threefifths.alignleft, .fourfifths.alignleft, .sixth.alignleft, .fivesixths.alignleft, .eight.alignleft, .twelve.alignleft, .eleventwelves.alignleft {
-  float: left; }
+.half-grid {
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto; }
 
-.full.alignright, .half.alignright, .third.alignright, .twothirds.alignright, .fourth.alignright, .threefourths.alignright, .fifth.alignright, .twofifths.alignright, .threefifths.alignright, .fourfifths.alignright, .sixth.alignright, .fivesixths.alignright, .eight.alignright, .twelve.alignright, .eleventwelves.alignright {
-  float: right; }
+.third-grid {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto; }
 
-.full.aligncenter, .half.aligncenter, .third.aligncenter, .twothirds.aligncenter, .fourth.aligncenter, .threefourths.aligncenter, .fifth.aligncenter, .twofifths.aligncenter, .threefifths.aligncenter, .fourfifths.aligncenter, .sixth.aligncenter, .fivesixths.aligncenter, .eight.aligncenter, .twelve.aligncenter, .eleventwelves.aligncenter {
-  margin: auto;
-  float: none; }
+.fourth-grid {
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto; }
 
-.full.alignnone, .half.alignnone, .third.alignnone, .twothirds.alignnone, .fourth.alignnone, .threefourths.alignnone, .fifth.alignnone, .twofifths.alignnone, .threefifths.alignnone, .fourfifths.alignnone, .sixth.alignnone, .fivesixths.alignnone, .eight.alignnone, .twelve.alignnone, .eleventwelves.alignnone {
-  float: none; }
+.fifth-grid {
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: auto; }
+
+.sixth-grid {
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: auto; }
+
+.eight-grid {
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: auto; }
+
+.twelve-grid {
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: auto; }
 
 /* BASE_226 | META | 226_CORMAIN_STYLE | BREADCRUMB - 2016-01-22 */
 .breadcrumb {
-  font-family: "Lato", arial, sans-serif;
   font-size: 0.75rem;
   border-bottom: 1px solid #bbb;
   margin-bottom: 1rem;
@@ -1664,7 +1585,7 @@ button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type=
 /* BASE_230 | FOOTER | 230_BASE | SITEFOOTER - 2017-02-13 */
 /* BASE_230 | LAYOUT | 250_COR | BODY - 2017-06-26 */
 body {
-  font-family: arial, sans-serif;
+  font-family: "Roboto", arial, sans-serif;
   background-color: #3768A0;
   line-height: 1.4; }
 
@@ -1700,8 +1621,7 @@ body {
       max-height: 120px; } }
 
 .site-title {
-  font-family: "Lato", "Roboto", arial, sans-serif;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 500;
   line-height: 1;
   margin-top: 40px;
@@ -1733,8 +1653,7 @@ body {
   overflow: hidden; }
 
 .site-description {
-  font-family: "Lato", "Roboto", arial, sans-serif;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 300;
   line-height: 1;
   margin-bottom: 0;
@@ -1859,7 +1778,7 @@ body {
       background-color: #fff; } }
 
 .widget-title {
-  font-size: rem;
+  font-size: 0.875rem;
   color: #ffcc00;
   background-color: #333;
   padding: 5px 5px 5px 8px;
@@ -2023,12 +1942,10 @@ body {
   margin-bottom: 2rem; }
 
 .entry-title {
-  font-family: "Lato", arial, sans-serif;
   font-weight: 700;
   line-height: 1.2; }
 
 .entry-meta {
-  font-family: "Lato", arial, sans-serif;
   font-size: 0.75rem;
   font-weight: bold;
   color: #808080; }
