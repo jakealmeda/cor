@@ -1,4 +1,4 @@
-/* BASE_230 | LAYOUT | 250_COR | INNER - 2017-06-26 */
+/* BASE_230 | LAYOUT | 250_COR | INNER - 2017-08-09 */
 // BASE_230 | INNER | 250_BASE
 
 // -------------------------------------
@@ -86,8 +86,8 @@
 			max-width: 25rem; // 400px
 		}
 
-		// MEDDOWN
-		@include responsive-range(meddown) {
+		// MEDBELOWDOWN
+		@include responsive-range(medbelowdown) {
 			margin-top: 1rem;
 			max-width: none;
 		}
