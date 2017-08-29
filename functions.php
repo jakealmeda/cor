@@ -132,7 +132,7 @@ add_action( 'genesis_before_content_sidebar_wrap', 'swp_hook_cswbefore' );
 		?>
 		<div class="hook-cswbefore"><div class="hook-wrap">
 			<div class="item-ad-top">
-				<div style="width: 100%; height: 90px; background: #428bca; color: #fff; line-height: 90px; text-align: center; ">LEADERBOARD</div>
+				<?php echo do_shortcode( '[spk_adsbygoogle_js]' ); ?>
 			</div>
 			<div id="subscribeto" class="item-subscribeto"></div>
 			<div id="booksto" class="item-booksto"></div>
@@ -146,7 +146,7 @@ add_action( 'genesis_after_content_sidebar_wrap', 'swp_hook_cswafter' );
 		?>
 		<div class="hook-cswafter"><div class="hook-wrap">
 			<div class="item-ad-bottom">
-				<div style="width: 100%; height: 90px; background: #428bca; color: #fff; line-height: 90px; text-align: center; ">LEADERBOARD</div>
+				<?php echo do_shortcode( '[spk_adsbygoogle_js]' ); ?>
 			</div>
 		</div></div>
 		<?php
