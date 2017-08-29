@@ -114,8 +114,9 @@
 			@import 	"gui/250_setup/aspectratio";
 
 // -------------------------------------------------------------------- PANEL | 2017-01-17
-@import		"panel/240_base/basic";
-@import		"panel/230_base/width";
+// DISABLED FOR CONFLICT WITH COR
+//@import		"panel/240_base/basic";
+//@import		"panel/230_base/width";
 
 // -------------------------------------------------------------------- GRID | 2016-08-08
 @import 	"grid/230_base/column";

@@ -231,10 +231,11 @@ textarea {
 /* BASE_230 | VARIABLES | 250_COR | BREAK - 2017-06-27 */
 /* BASE_230 | VARIABLES | 250_COR | WIDTH - 2017-06-27 */
 /* BASE_230 | RESPONSIVE | 230_BASE | RANGE - 2017-01-12 */
-/* BASE_230 | LAYOUT | 230_BASE > COR | BODY - 2016-9-14 */
+/* BASE_230 | LAYOUT | 230_BASE > COR | BODY - 2017-08-19 */
 body {
   font-family: arial, sans-serif;
   font-weight: 400;
+  color: red;
   background-color: #3768A0;
   line-height: 1.4; }
 
@@ -330,22 +331,10 @@ textarea:focus,
   display: inline-block; }
 
 /* BASE_230 | SELECTOR | 250_SETUP | ALIGN - 2017-07-19 */
-.alignleft, img.alignleft, .imageleft, .panel.ms > .main,
-.panel.ms > .main.alignright,
-.panel.ms > .outer > .inner > .main,
-.panel.ms > .outer > .inner > .main.alignright, .panel.sm > .side,
-.panel.sm > .side.alignright,
-.panel.sm > .outer > .inner > .side,
-.panel.sm > .outer > .inner > .side.alignright {
+.alignleft, img.alignleft, .imageleft {
   float: left; }
 
-.alignright, img.alignright, .imageright, .panel.ms > .side,
-.panel.ms > .side.alignleft,
-.panel.ms > .outer > .inner > .side,
-.panel.ms > .outer > .inner > .side.alignleft, .panel.sm > .main,
-.panel.sm > .main.alignleft,
-.panel.sm > .outer > .inner > .main,
-.panel.sm > .outer > .inner > .main.alignleft {
+.alignright, img.alignright, .imageright {
   float: right; }
 
 .aligncenter, img.aligncenter {
@@ -1228,33 +1217,8 @@ button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type=
     right: 0;
     bottom: 0; }
 
-/* BASE_230 | PANEL | 240_BASE | BASIC - 2017-01-17 */
-.panel > .main,
-.panel > .outer > .inner > .main {
-  width: 70%; }
-
-.panel > .side,
-.panel > .outer > .inner > .side {
-  width: 30%; }
-
-/* BASE_230 | PANEL | 230_BASE | WIDTH - 2016-11-18 */
 /* BASE_230 | GRID | 230_BASE | COLUMN - 2016-08-08 */
-.panel-half.sm > .main,
-.panel-half > .main.last,
-.panel-half.ms > .side,
-.panel-half > .side.last, .panel-third.sm > .main,
-.panel-third > .main.last,
-.panel-third.ms > .side,
-.panel-third > .side.last, .panel-twofifth.sm > .main,
-.panel-twofifth > .main.last,
-.panel-twofifth.ms > .side,
-.panel-twofifth > .side.last, .panel-fourth.sm > .main,
-.panel-fourth > .main.last,
-.panel-fourth.ms > .side,
-.panel-fourth > .side.last, .panel-sixth.sm > .main,
-.panel-sixth > .main.last,
-.panel-sixth.ms > .side,
-.panel-sixth > .side.last, .panel-full > .main, .panel-full > .side, .full, .half-grid > li:nth-child(2n+0), .third-grid > li:nth-child(3n+0), .fourth-grid > li:nth-child(4n+0), .fifth-grid > li:nth-child(5n+0), .sixth-grid > li:nth-of-type(6n+0), .eight-grid > li:nth-of-type(8n+0), .twelve-grid > li:nth-of-type(12n+0), .half.last,
+.full, .half-grid > li:nth-child(2n+0), .third-grid > li:nth-child(3n+0), .fourth-grid > li:nth-child(4n+0), .fifth-grid > li:nth-child(5n+0), .sixth-grid > li:nth-of-type(6n+0), .eight-grid > li:nth-of-type(8n+0), .twelve-grid > li:nth-of-type(12n+0), .half.last,
 .half.space-right-zero, .third.last,
 .third.space-right-zero, .twothirds.last,
 .twothirds.space-right-zero, .fourth.last,
@@ -1274,10 +1238,10 @@ button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type=
 .half-grid > li, .third-grid > li, .fourth-grid > li, .fifth-grid > li, .sixth-grid > li, .eight-grid > li, .twelve-grid > li {
   list-style-type: none; }
 
-.panel-full > .main, .panel-full > .side, .full {
+.full {
   width: 100%; }
 
-.panel-half > .main, .panel-half > .side, .half, .half-grid > li {
+.half, .half-grid > li {
   width: 49.1525423729%;
   float: left;
   margin-right: 1.6949152542%; }
@@ -1285,7 +1249,7 @@ button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type=
 .half-push {
   margin-left: 50.8474576271%; }
 
-.panel-third > .side, .third, .third-grid > li {
+.third, .third-grid > li {
   width: 32.2033898305%;
   float: left;
   margin-right: 1.6949152542%; }
@@ -1293,7 +1257,7 @@ button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type=
 .third-push {
   margin-left: 33.8983050847%; }
 
-.panel-third > .main, .twothirds {
+.twothirds {
   width: 66.1016949153%;
   float: left;
   margin-right: 1.6949152542%; }
@@ -1301,7 +1265,7 @@ button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type=
 .twothirds-push {
   margin-left: 67.7966101695%; }
 
-.panel-fourth > .side, .fourth, .fourth-grid > li {
+.fourth, .fourth-grid > li {
   width: 23.7288135593%;
   float: left;
   margin-right: 1.6949152542%; }
@@ -1309,7 +1273,7 @@ button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type=
 .fourth-push {
   margin-left: 25.4237288136%; }
 
-.panel-fourth > .main, .threefourths {
+.threefourths {
   width: 74.5762711864%;
   float: left;
   margin-right: 1.6949152542%; }
@@ -1317,7 +1281,7 @@ button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type=
 .threefourths-push {
   margin-left: 76.2711864407%; }
 
-.panel-fifth > .side, .fifth, .fifth-grid > li {
+.fifth, .fifth-grid > li {
   width: 16.6666666667%;
   float: left;
   margin-right: 4.1666666667%; }
@@ -1325,7 +1289,7 @@ button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type=
 .fifth-push {
   margin-left: 20.8333333333%; }
 
-.panel-twofifth > .side, .twofifths {
+.twofifths {
   width: 37.5%;
   float: left;
   margin-right: 4.1666666667%; }
@@ -1333,7 +1297,7 @@ button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type=
 .twofifths-push {
   margin-left: 41.6666666667%; }
 
-.panel-twofifth > .main, .threefifths {
+.threefifths {
   width: 58.3333333333%;
   float: left;
   margin-right: 4.1666666667%; }
@@ -1341,7 +1305,7 @@ button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type=
 .threefifths-push {
   margin-left: 62.5%; }
 
-.panel-fifth > .main, .fourfifths {
+.fourfifths {
   width: 79.1666666667%;
   float: left;
   margin-right: 4.1666666667%; }
@@ -1349,7 +1313,7 @@ button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type=
 .fourfifths-push {
   margin-left: 83.3333333333%; }
 
-.panel-sixth > .side, .sixth, .sixth-grid > li {
+.sixth, .sixth-grid > li {
   width: 15.2542372881%;
   float: left;
   margin-right: 1.6949152542%; }
@@ -1357,7 +1321,7 @@ button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type=
 .sixth-push {
   margin-left: 16.9491525424%; }
 
-.panel-sixth > .main, .fivesixths {
+.fivesixths {
   width: 83.0508474576%;
   float: left;
   margin-right: 1.6949152542%; }
@@ -1390,22 +1354,7 @@ button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type=
   margin-left: 93.2203389831%; }
 
 /* BASE_230 | GRID | 230_BASE | GRID - 2016-08-08 */
-.panel-half.sm > .main,
-.panel-half > .main.last,
-.panel-half.ms > .side,
-.panel-half > .side.last, .panel-third.sm > .main,
-.panel-third > .main.last,
-.panel-third.ms > .side,
-.panel-third > .side.last, .panel-twofifth.sm > .main,
-.panel-twofifth > .main.last,
-.panel-twofifth.ms > .side,
-.panel-twofifth > .side.last, .panel-fourth.sm > .main,
-.panel-fourth > .main.last,
-.panel-fourth.ms > .side,
-.panel-fourth > .side.last, .panel-sixth.sm > .main,
-.panel-sixth > .main.last,
-.panel-sixth.ms > .side,
-.panel-sixth > .side.last, .panel-full > .main, .panel-full > .side, .full, .half-grid > li:nth-child(2n+0), .third-grid > li:nth-child(3n+0), .fourth-grid > li:nth-child(4n+0), .fifth-grid > li:nth-child(5n+0), .sixth-grid > li:nth-of-type(6n+0), .eight-grid > li:nth-of-type(8n+0), .twelve-grid > li:nth-of-type(12n+0), .half.last,
+.full, .half-grid > li:nth-child(2n+0), .third-grid > li:nth-child(3n+0), .fourth-grid > li:nth-child(4n+0), .fifth-grid > li:nth-child(5n+0), .sixth-grid > li:nth-of-type(6n+0), .eight-grid > li:nth-of-type(8n+0), .twelve-grid > li:nth-of-type(12n+0), .half.last,
 .half.space-right-zero, .third.last,
 .third.space-right-zero, .twothirds.last,
 .twothirds.space-right-zero, .fourth.last,
@@ -1791,7 +1740,7 @@ body {
   margin-bottom: 0;
   display: none; }
 
-/* BASE_230 | LAYOUT | 250_COR | INNER - 2017-06-26 */
+/* BASE_230 | LAYOUT | 250_COR | INNER - 2017-08-09 */
 .site-inner {
   background-color: #ddd; }
 
@@ -1832,7 +1781,7 @@ body {
   .sidebar-primary {
     max-width: 25rem; } }
 
-@media only screen and (max-width: 48rem) {
+@media only screen and (max-width: 47.9375rem) {
   .sidebar-primary {
     margin-top: 1rem;
     max-width: none; } }
