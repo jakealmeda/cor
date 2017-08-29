@@ -1,4 +1,4 @@
-/* MODEL | SPK-BASIC | COR | STYLE - 2017-08-28 6:21pm */
+/* MODEL | SPK-BASIC | COR | STYLE - 2017-08-28 7:40pm */
 
 // requires CodeKit
 // requires Framework "base-theme"
@@ -43,8 +43,8 @@
 //@import 	"body/230_base/html";
 //@import 	"body/230_base/body";
 
-// -------------------------------------------------------------------- LAYOUT | 2017-01-12
-			@import 	"layout/230_cor/body";
+// -------------------------------------------------------------------- LAYOUT | 2017-08-28
+						@import 	"layout/250_cor/body";
 
 // -------------------------------------------------------------------- SELECTOR | 2017-07-19
 			@import 	"selector/250_setup/boxsizing";
@@ -189,8 +189,7 @@
 @import 	"footer/230_base/footerwidgets3";
 @import 	"footer/230_base/sitefooter";
 
-// -------------------------------------------------------------------- LAYOUT | 2017-07-26
-						@import 	"layout/250_cor/body";
+// -------------------------------------------------------------------- LAYOUT | 2017-08-28
 						@import 	"layout/250_cor/structure";
 			//@import 	"layout/250_model-basicsetup/structure-override";
 						@import 	"layout/250_cor/header";

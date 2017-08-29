@@ -1,4 +1,4 @@
-/* MODEL | SPK-BASIC | COR | STYLE - 2017-08-28 6:21pm */
+/* MODEL | SPK-BASIC | COR | STYLE - 2017-08-28 7:40pm */
 /*
 	Theme Name: COR
 	Theme URI: http://layout.basestructure.com/cor
@@ -230,11 +230,9 @@ textarea {
 /* BASE_230 | VARIABLES | 250_COR | BREAK - 2017-06-27 */
 /* BASE_230 | VARIABLES | 250_COR | WIDTH - 2017-06-27 */
 /* BASE_230 | RESPONSIVE | 230_BASE | RANGE - 2017-01-12 */
-/* BASE_230 | LAYOUT | 230_BASE > COR | BODY - 2017-08-19 */
+/* BASE_230 | LAYOUT | 250_COR | BODY - 2017-06-26 */
 body {
   font-family: "Roboto", arial, sans-serif;
-  font-weight: 400;
-  color: red;
   background-color: #3768A0;
   line-height: 1.4; }
 
@@ -1583,12 +1581,6 @@ ul.half-grid, ul.third-grid, ul.fourth-grid, ul.fifth-grid, ul.sixth-grid, ul.ei
 /* BASE_230 | FOOTER | 230_BASE | FOOTERWIDGETS2 - 2017-02-13 */
 /* BASE_230 | FOOTER | 230_BASE | FOOTERWIDGETS3 - 2017-02-13 */
 /* BASE_230 | FOOTER | 230_BASE | SITEFOOTER - 2017-02-13 */
-/* BASE_230 | LAYOUT | 250_COR | BODY - 2017-06-26 */
-body {
-  font-family: "Roboto", arial, sans-serif;
-  background-color: #3768A0;
-  line-height: 1.4; }
-
 /* BASE_230 | LAYOUT | 250_COR | STRUCTURE - 2017-06-26 */
 .site-container {
   background-color: #fff;
