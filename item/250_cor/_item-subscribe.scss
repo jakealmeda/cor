@@ -1,4 +1,4 @@
-/* BASE_230 | ITEM | 250_COR | ITEM-SUBSCRIBE - 2017-08-07 */
+/* BASE_230 | ITEM | 250_COR | ITEM-SUBSCRIBE - 2018-03-04 */
 
 // -------------------------------------
 // SILENT CLASS
@@ -90,21 +90,23 @@
 	}
 
 	.item-subscribe .photo {
-		background-image: url("images/pic-subscribe.png");
+		background-image: url("images/pic-subscribe-180303.png");
 		background-repeat: no-repeat;
 		background-position: center;
+		background-size: cover;
+		@include aspect-ratio(16, 9);
 
 		// BASEUP
 		@include responsive-range(baseup) {
-			background-image: url("images/pic-subscribe-324.png");
-			background-size: auto;
-			width: 323px;
-			height: 182px;
+			//background-image: url("images/pic-subscribe-180303-324w.png");
+			//background-size: auto;
+			//width: 323px;
+			//height: 182px;
 		}
 		// BASEDOWN
 		@include responsive-range(basebelowdown) {
-			background-size: cover;
-			@include aspect-ratio(16, 9);
+			//background-size: cover;
+			//@include aspect-ratio(16, 9);
 		}
 	}
 

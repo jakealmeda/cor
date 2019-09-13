@@ -1,3 +1,12 @@
+/* MODEL | COR | STYLE - 2018-07-27 8:27 AM */
+
+// requires CodeKit
+// requires Framework "base-theme"
+// requires Framework "setup"
+
+// THEME
+@import 	"wp/themeinfo";
+
 // NORMALIZE
 @import 	"wp/normalize";
 
@@ -301,8 +310,8 @@
 						@import 	"module/227_cormain/important";
 						//@import 	"module/227_cormain/cta";
 
-// -------------------------------------------------------------------- PLUGINS | 2018-07-27
-						@import 	"plugin/262_cor/swp-socialtoolbar";
+// -------------------------------------------------------------------- PLUGINS | 2018-06-14
+						@import 	"plugin/261_cor/swp-socialtoolbar";
 						@import 	"plugin/250_cor/swp-soliloquyslider";
 						@import 	"plugin/230_cor/spk-youtubeembeds";
 						@import 	"plugin/227_cormain/spk-accordion";
@@ -322,15 +331,15 @@
 						@import 	"item/227_cormain/item-product";
 						@import 	"item/default_2124/item-tabs";
 						@import 	"item/227_cormain/item-hideshow";
-						@import 	"item/2801_cor/item-cta";
+						@import 	"item/250_cor/item-cta";
 						@import 	"item/227_cormain/item-icon";
 						@import 	"item/227_cormain/item-ctacontent";
 						@import 	"item/230_cor/item-instagram";
 						@import 	"item/230_cor/item-focus";
 						@import 	"item/250_cor/item-members";
 
-// -------------------------------------------------------------------- RESPONSIVE ITEMS | 2019-03-04
+// -------------------------------------------------------------------- RESPONSIVE ITEMS | 2018-03-03
 //@import 	"responsive/227_base/layout";
 //@import 	"responsive/227_base/float";
 //@import 	"responsive/227_base/align";
-						@import 	"responsive/2801_cor/item-cta";
+						@import 	"responsive/250_cor/item-cta";

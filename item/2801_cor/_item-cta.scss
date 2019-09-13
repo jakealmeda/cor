@@ -1,4 +1,4 @@
-/* BASE_227 | ITEM | 227_CORMAIN | ITEM-CTA - 2017-12-11 */
+/* BASE_230 | ITEM | 2801_COR | ITEM-CTA - 2019-02-01 */
 
 // -------------------------------------
 // UNIVERSAL
@@ -59,6 +59,9 @@
 	%cta-bookpaperback {
 		background-position: -675px -265px;
 	}
+	%cta-book2paperback {
+		background-position: -895px -265px;
+	}
 	%cta-bookpaperback-icon {
 		background-position: -230px -303px;
 	}
@@ -72,6 +75,9 @@
 
 	%cta-bookebook {
 		background-position: -675px -390px;
+	}
+	%cta-book2ebook {
+		background-position: -895px -390px;
 	}
 	%cta-bookebook-icon {
 		background-position: -275px -303px;
@@ -87,6 +93,9 @@
 	%cta-bookaudio {
 		background-position: -675px -515px;
 	}
+	%cta-book2audio {
+		background-position: -895px -515px;
+	}
 	%cta-bookaudio-icon {
 		background-position: -320px -303px;
 	}
@@ -94,6 +103,12 @@
 		background-position: -486px -463px;
 		width: 120px;
 		height: 241px;
+	}
+
+// CTA-MERCHANDISE
+
+	%cta-merchandise {
+		background-position: -895px -140px;
 	}
 
 // CTA-BOOKCOMBINED
@@ -171,6 +186,11 @@
 		width: 50px;
 		height: 35px;
 	}
+	%cta-teespring {
+		background-position: -796px -99px;
+		width: 121px;
+		height: 19px;
+	}
 
 // TRIANGLE
 
@@ -230,6 +250,11 @@
 		@extend %cta-box !optional;
 		@extend %cta-bookpaperback !optional;
 	}
+	.cta-book2paperback {
+		@extend %cta-image !optional;
+		@extend %cta-box !optional;
+		@extend %cta-book2paperback !optional;
+	}
 	.cta-bookpaperback-icon {
 		@extend %cta-image !optional;
 		@extend %cta-icon !optional;
@@ -246,6 +271,11 @@
 		@extend %cta-image !optional;
 		@extend %cta-box !optional;
 		@extend %cta-bookebook !optional;
+	}
+	.cta-book2ebook {
+		@extend %cta-image !optional;
+		@extend %cta-box !optional;
+		@extend %cta-book2ebook !optional;
 	}
 	.cta-bookebook-icon {
 		@extend %cta-image !optional;
@@ -264,6 +294,11 @@
 		@extend %cta-box !optional;
 		@extend %cta-bookaudio !optional;
 	}
+	.cta-book2audio {
+		@extend %cta-image !optional;
+		@extend %cta-box !optional;
+		@extend %cta-book2audio !optional;
+	}
 	.cta-bookaudio-icon {
 		@extend %cta-image !optional;
 		@extend %cta-icon !optional;
@@ -272,6 +307,14 @@
 	.cta-bookaudio-amazon {
 		@extend %cta-image !optional;
 		@extend %cta-bookaudio-amazon !optional;
+	}
+
+// CTA-MERCHANDISE
+
+	.cta-merchandise {
+		@extend %cta-image !optional;
+		@extend %cta-box !optional;
+		@extend %cta-merchandise !optional;
 	}
 
 // CTA-BOOKCOMBINED
@@ -348,6 +391,10 @@
 	.cta-lulu {
 		@extend %cta-image !optional;
 		@extend %cta-lulu !optional;
+	}
+	.cta-teespring {
+		@extend %cta-image !optional;
+		@extend %cta-teespring !optional;
 	}
 
 // CTA-TRIANGLE

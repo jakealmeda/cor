@@ -1,4 +1,4 @@
-/* BASE_227 | RESPONSIVE | 227_CORMAIN | MEDIA - 2017-12-11 */
+/* BASE_230 | RESPONSIVE | 250_COR | MEDIA - 2018-03-03 */
 
 // -------------------------------------
 // EXTEND
@@ -99,13 +99,25 @@
 	.item-cta .cta-bookpaperback {
 		@extend %item-cta-hide !optional;
 	}
+	.item-cta .cta-book2paperback {
+		@extend %item-cta-hide !optional;
+	}
 	.item-cta .cta-bookebook {
+		@extend %item-cta-hide !optional;
+	}
+	.item-cta .cta-book2ebook {
 		@extend %item-cta-hide !optional;
 	}
 	.item-cta .cta-bookaudio {
 		@extend %item-cta-hide !optional;
 	}
+	.item-cta .cta-book2audio {
+		@extend %item-cta-hide !optional;
+	}
 	.item-cta .cta-bookcombined {
+		@extend %item-cta-hide !optional;
+	}
+	.item-cta .cta-book2combined {
 		@extend %item-cta-hide !optional;
 	}
 	.item-cta .columns .third {

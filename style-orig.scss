@@ -1,4 +1,4 @@
-/* MODEL | SPK-BASIC | COR | STYLE - 2017-08-28 7:40pm */
+/* MODEL | COR | STYLE - 2018-07-27 8:29 AM */
 
 // requires CodeKit
 // requires Framework "base-theme"
@@ -113,13 +113,13 @@
 @import 	"gui/230_base/media";
 			@import 	"gui/250_setup/aspectratio";
 
-// -------------------------------------------------------------------- PANEL | 2017-01-17
-@import		"panel/240_base/basic";
-@import		"panel/230_base/width";
-
 // -------------------------------------------------------------------- GRID | 2017-08-23
 			@import 	"grid/250_setupbasic/column";
 			@import 	"grid/250_setupbasic/grid";
+
+// -------------------------------------------------------------------- PANEL | 2017-08-30
+//@import	"panel/240_base/basic";
+@import		"panel/230_base/width";
 
 // -------------------------------------------------------------------- META | 2017-01-12
 						@import 	"meta/226_cormain/breadcrumb";
@@ -227,7 +227,7 @@
 
 						@import 	"layout/250_cor/entry";
 
-			@import 	"layout/250_model-basicsetup/hide";
+						@import 	"layout/250_cor/hide";
 			@import 	"layout/250_model-basicsetup/width";
 
 			// GUIDE
@@ -310,8 +310,8 @@
 						@import 	"module/227_cormain/important";
 						//@import 	"module/227_cormain/cta";
 
-// -------------------------------------------------------------------- PLUGINS | 2017-07-24
-						@import 	"plugin/250_cor/swp-socialtoolbar";
+// -------------------------------------------------------------------- PLUGINS | 2018-07-27
+						@import 	"plugin/262_cor/swp-socialtoolbar";
 						@import 	"plugin/250_cor/swp-soliloquyslider";
 						@import 	"plugin/230_cor/spk-youtubeembeds";
 						@import 	"plugin/227_cormain/spk-accordion";
@@ -319,11 +319,11 @@
 // -------------------------------------------------------------------- PANEL | 2016-07-05
 						@import 	"panel/227_cormain/panel-ctacontent";
 
-// -------------------------------------------------------------------- ITEM | 2017-07-28
+// -------------------------------------------------------------------- ITEM | 2018-03-03
 						@import 	"item/250_cor/item-transfer";
 						@import 	"item/250_cor/item-subscribe";
 
-						@import 	"item/227_cormain/item-adsense";
+						@import 	"item/250_cor/item-adsense";
 						@import 	"item/default_2124/item-content";
 						@import 	"item/250_cor/item-titlebar";
 						@import 	"item/default_2124/item-box";
@@ -331,14 +331,15 @@
 						@import 	"item/227_cormain/item-product";
 						@import 	"item/default_2124/item-tabs";
 						@import 	"item/227_cormain/item-hideshow";
-						@import 	"item/227_cormain/item-cta";
+						@import 	"item/2801_cor/item-cta";
 						@import 	"item/227_cormain/item-icon";
 						@import 	"item/227_cormain/item-ctacontent";
 						@import 	"item/230_cor/item-instagram";
 						@import 	"item/230_cor/item-focus";
+						@import 	"item/250_cor/item-members";
 
-// -------------------------------------------------------------------- RESPONSIVE ITEMS | 2016-05-11
+// -------------------------------------------------------------------- RESPONSIVE ITEMS | 2019-03-04
 //@import 	"responsive/227_base/layout";
 //@import 	"responsive/227_base/float";
 //@import 	"responsive/227_base/align";
-						@import 	"responsive/227_cormain/item-cta";
+						@import 	"responsive/2801_cor/item-cta";

@@ -1,4 +1,4 @@
-/* MODEL | SPK-BASIC | COR | STYLE - 2017-08-28 7:40pm */
+/* MODEL | COR | STYLE - 2018-07-27 8:29 AM */
 /*
 	Theme Name: COR
 	Theme URI: http://layout.basestructure.com/cor
@@ -6,7 +6,7 @@
 	Author: Mark Corpuz
 	Author URI: http://markcorpuz.com/
 
-	Version: 2.4.0.8
+	Version: 2.4.0.10
 
 	Tags:
 
@@ -223,8 +223,8 @@ textarea {
 /* BASE_230 | VARIABLES | 230_BASE > COR | COLOR - 2016-11-21 */
 /* BASE_230 | VARIABLES | 230_BASE | SPACE - 2017-01-12 */
 /* BASE_230 | VARIABLES | 230_BASE | LINE - 2017-01-12 */
-/* SETUP | VARIABLES | 250_SETUPBASIC | FONTFAMILY - 2018-08-17 */
-/* SETUP | VARIABLES | 250_SETUPBASIC | FONTSIZE - 2018-08-17 */
+/* SETUP | VARIABLES | 250_SETUPBASIC | FONTFAMILY - 2018-08-31 */
+/* SETUP | VARIABLES | 250_SETUPBASIC | FONTSIZE - 2018-08-31 */
 /* SETUP | VARIABLES | 250_SETUPBASIC | FONTWEIGHT - 2018-08-17 */
 /* BASE_230 | VARIABLES | 230_BASE > COR | LINEHEIGHT - 2016-08-04 */
 /* BASE_230 | VARIABLES | 250_COR | BREAK - 2017-06-27 */
@@ -328,22 +328,10 @@ textarea:focus,
   display: inline-block; }
 
 /* BASE_230 | SELECTOR | 250_SETUP | ALIGN - 2017-07-19 */
-.alignleft, img.alignleft, .imageleft, .panel.ms > .main,
-.panel.ms > .main.alignright,
-.panel.ms > .outer > .inner > .main,
-.panel.ms > .outer > .inner > .main.alignright, .panel.sm > .side,
-.panel.sm > .side.alignright,
-.panel.sm > .outer > .inner > .side,
-.panel.sm > .outer > .inner > .side.alignright {
+.alignleft, img.alignleft, .imageleft {
   float: left; }
 
-.alignright, img.alignright, .imageright, .panel.ms > .side,
-.panel.ms > .side.alignleft,
-.panel.ms > .outer > .inner > .side,
-.panel.ms > .outer > .inner > .side.alignleft, .panel.sm > .main,
-.panel.sm > .main.alignleft,
-.panel.sm > .outer > .inner > .main,
-.panel.sm > .outer > .inner > .main.alignleft {
+.alignright, img.alignright, .imageright {
   float: right; }
 
 .aligncenter, img.aligncenter {
@@ -1128,7 +1116,7 @@ input[type="submit"],
   background-image: -o-linear-gradient(top, #76d5eb 0%, #5cb9d8 50%, #007aae 51%, #016ca3 75%, #004176 100%);
   background-image: linear-gradient(to bottom, #76d5eb 0%, #5cb9d8 50%, #007aae 51%, #016ca3 75%, #004176 100%); }
 
-button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover, .button:hover {
+button:hover, input:hover[type="button"], input:hover[type="reset"], input:hover[type="submit"], .button:hover {
   color: #fff;
   background-color: #279BEC;
   text-decoration: none;
@@ -1206,16 +1194,6 @@ button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type=
     right: 0;
     bottom: 0; }
 
-/* BASE_230 | PANEL | 240_BASE | BASIC - 2017-01-17 */
-.panel > .main,
-.panel > .outer > .inner > .main {
-  width: 70%; }
-
-.panel > .side,
-.panel > .outer > .inner > .side {
-  width: 30%; }
-
-/* BASE_230 | PANEL | 230_BASE | WIDTH - 2016-11-18 */
 /* SETUP | GRID | 250_SETUPBASIC | COLUMN - 2018-08-23 */
 .columns {
   grid-gap: 1rem; }
@@ -1232,40 +1210,40 @@ button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type=
 .columns.columns-eight {
   grid-template-columns: repeat(8, 1fr); }
 
-.panel-full > .main, .panel-full > .side, .full {
+.full, .panel-full > .main, .panel-full > .side {
   grid-column: span 12; }
 
-.panel-half > .main, .panel-half > .side, .half {
+.half, .panel-half > .main, .panel-half > .side {
   grid-column: span 6; }
 
-.panel-third > .side, .third {
+.third, .panel-third > .side {
   grid-column: span 4; }
 
-.panel-third > .main, .twothirds {
+.twothirds, .panel-third > .main {
   grid-column: span 8; }
 
-.panel-fourth > .side, .fourth {
+.fourth, .panel-fourth > .side {
   grid-column: span 3; }
 
-.panel-fourth > .main, .threefourths {
+.threefourths, .panel-fourth > .main {
   grid-column: span 9; }
 
-.panel-fifth > .side, .fifth {
+.fifth, .panel-fifth > .side {
   grid-column: span 1; }
 
-.panel-twofifth > .side, .twofifths {
+.twofifths, .panel-twofifth > .side {
   grid-column: span 2; }
 
-.panel-twofifth > .main, .threefifths {
+.threefifths, .panel-twofifth > .main {
   grid-column: span 3; }
 
-.panel-fifth > .main, .fourfifths {
+.fourfifths, .panel-fifth > .main {
   grid-column: span 4; }
 
-.panel-sixth > .side, .sixth {
+.sixth, .panel-sixth > .side {
   grid-column: span 2; }
 
-.panel-sixth > .main, .fivesixths {
+.fivesixths, .panel-sixth > .main {
   grid-column: span 10; }
 
 .eight {
@@ -1316,6 +1294,7 @@ ul.half-grid, ul.third-grid, ul.fourth-grid, ul.fifth-grid, ul.sixth-grid, ul.ei
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: auto; }
 
+/* BASE_230 | PANEL | 230_BASE | WIDTH - 2016-11-18 */
 /* BASE_226 | META | 226_CORMAIN_STYLE | BREADCRUMB - 2016-01-22 */
 .breadcrumb {
   font-size: 0.75rem;
@@ -1942,10 +1921,6 @@ ul.half-grid, ul.third-grid, ul.fourth-grid, ul.fifth-grid, ul.sixth-grid, ul.ei
   font-weight: bold;
   color: #808080; }
 
-/* BASE_250 | LAYOUT | 250_MODEL-BASICSETUP | HIDE - 2017-06-08 */
-.hide-header .site-header, .hide-inner .site-inner, .hide-footerwidgets .footer-widgets, .hide-footer .site-footer, .hide-archivedescription .archive-description {
-  display: none; }
-
 /* BASE_250 | LAYOUT | 250_MODEL-BASICSETUP | WIDTH - 2017-06-07 */
 .fullwidth, body.fullwidth .container,
 body.fullwidth-container .site-container, body.fullwidth-header .site-header,
@@ -1983,12 +1958,6 @@ body.midwidth-center .content-sidebar-wrap {
   float: none;
   margin-right: auto;
   margin-left: auto; }
-
-/* BASE_230 | HOOK | 250_COR | CSWBEFORE - 2017-07-25 */
-.hook-cswbefore .hook-wrap {
-  padding-top: 1rem;
-  padding-right: 1rem;
-  padding-left: 1rem; }
 
 /* BASE_230 | HOOK | 250_COR | CSWAFTER - 2017-07-25 */
 .hook-cswafter .hook-wrap {
@@ -2327,7 +2296,7 @@ body.midwidth-center .content-sidebar-wrap {
   font-size: 0.75rem; }
 
 /* BASE_226 | MODULE | 227_CORMAIN | IMPORTANT - 2016-04-08 */
-/* BASE_230 | PLUGIN | 250_COR | SWP-SOCIALTOOLBAR - 2017-06-20 */
+/* BASE_230 | PLUGIN | 262_COR | SWP-SOCIALTOOLBAR - 2018-07-27 */
 #at15pf, #at16pf {
   display: none !important; }
 
@@ -2437,8 +2406,8 @@ body.midwidth-center .content-sidebar-wrap {
   background-position: -21px -432px; }
 
 .st-desktop-cta-book {
-  width: 187px;
-  height: 42px;
+  width: 202px;
+  height: 44px;
   background-position: -21px -267px; }
 
 .st-desktop-cta-book:hover {
@@ -2578,10 +2547,10 @@ body.midwidth-center .content-sidebar-wrap {
 
 .item-pic.pic-ebook {
   background-image: url("images/sprites.png");
-  background-position: -236px -222px;
+  background-position: -22px -699px;
   background-repeat: no-repeat;
-  width: 70px;
-  height: 70px;
+  width: 102px;
+  height: 85px;
   display: block; }
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .item-pic.pic-ebook {
@@ -2634,6 +2603,15 @@ body.midwidth-center .content-sidebar-wrap {
 
 .item-icon.icon-medium {
   background-position: -420px -108px; }
+
+.item-icon.icon-soundcloud {
+  background-position: -630px -18px; }
+
+.item-icon.icon-itunes {
+  background-position: -629px -94px; }
+
+.item-icon.icon-podcast {
+  background-position: -628px -55px; }
 
 .item-icon-bar {
   background-image: url("images/sprites.png");
@@ -2769,7 +2747,7 @@ body .soliloquy-fc-slider .soliloquy-caption-inside .soliloquy-fc-title-link {
     border: 1px solid #ccc;
     box-shadow: 2px 2px 2px 0px #bbbbbb; } }
 
-/* BASE_230 | ITEM | 250_COR | ITEM-SUBSCRIBE - 2017-08-07 */
+/* BASE_230 | ITEM | 250_COR | ITEM-SUBSCRIBE - 2018-03-04 */
 .item-subscribe .pretitle {
   background-color: #ffcc00;
   color: #333;
@@ -2809,32 +2787,24 @@ body .soliloquy-fc-slider .soliloquy-caption-inside .soliloquy-fc-title-link {
   clear: both; }
 
 .item-subscribe .photo {
-  background-image: url("images/pic-subscribe.png");
+  background-image: url("images/pic-subscribe-180303.png");
   background-repeat: no-repeat;
-  background-position: center; }
-  @media only screen and (min-width: 75rem) {
-    .item-subscribe .photo {
-      background-image: url("images/pic-subscribe-324.png");
-      background-size: auto;
-      width: 323px;
-      height: 182px; } }
-  @media only screen and (max-width: 74.9375rem) {
-    .item-subscribe .photo {
-      background-size: cover;
-      position: relative; }
-      .item-subscribe .photo:before {
-        display: block;
-        content: "";
-        width: 100%;
-        padding-top: 56.25%; }
-      .item-subscribe .photo > .aspect {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0; } }
+  background-position: center;
+  background-size: cover;
+  position: relative; }
+  .item-subscribe .photo:before {
+    display: block;
+    content: "";
+    width: 100%;
+    padding-top: 56.25%; }
+  .item-subscribe .photo > .aspect {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; }
 
-/* BASE_227 | ITEM | 227_CORMAIN | ITEM-ADSENSE - 2016-5-17 */
+/* BASE_250 | ITEM | 250_COR | ITEM-ADSENSE - 2018-03-12 */
 .adsense-leaderboard {
   text-align: center; }
 
@@ -2842,9 +2812,15 @@ body .soliloquy-fc-slider .soliloquy-caption-inside .soliloquy-fc-title-link {
   text-align: center;
   overflow: hidden; }
 
-.adsense-sidebar {
-  max-width: 300px;
-  margin: 0 auto; }
+@media only screen and (min-width: 321px) {
+  .adsense-sidebar {
+    margin: 0 auto;
+    max-width: 300px; } }
+
+@media only screen and (max-width: 320px) {
+  .adsense-sidebar {
+    text-align: center;
+    overflow: hidden; } }
 
 /* BASIC_2123 | ITEM-COR | DEFAULT_2124 | ITEM-CONTENT - 2015-7-14 */
 .su-youtube.item-youtube, .item-youtube {
@@ -3149,17 +3125,17 @@ body .soliloquy-fc-slider .soliloquy-caption-inside .soliloquy-fc-title-link {
   .hide-smlbelowdown {
     display: none; } }
 
-/* BASE_227 | ITEM | 227_CORMAIN | ITEM-CTA - 2016-05-26 */
-.cta-box, .cta-coachingphone, .cta-coachingphone-icon, .cta-coachingemail, .cta-coachingemail-icon, .cta-bookpaperback, .cta-bookpaperback-icon, .cta-bookpaperback-amazon, .cta-bookebook, .cta-bookebook-icon, .cta-bookebook-amazon, .cta-bookaudio, .cta-bookaudio-icon, .cta-bookaudio-amazon, .cta-bookcombined, .cta-bookuniversal, .cta-donate, .cta-donate-icon, .cta-buy-paypalbutton, .cta-donate-paypalbutton, .cta-amazon, .cta-amazon-large, .cta-paypal, .cta-audible, .cta-audible-large, .cta-ibooks, .cta-itunes, .cta-kindle {
+/* BASE_230 | ITEM | 2801_COR | ITEM-CTA - 2019-02-01 */
+.cta-box, .cta-coachingphone, .cta-coachingphone-icon, .cta-coachingemail, .cta-coachingemail-icon, .cta-bookpaperback, .cta-book2paperback, .cta-bookpaperback-icon, .cta-bookpaperback-amazon, .cta-bookebook, .cta-book2ebook, .cta-bookebook-icon, .cta-bookebook-amazon, .cta-bookaudio, .cta-book2audio, .cta-bookaudio-icon, .cta-bookaudio-amazon, .cta-merchandise, .cta-bookcombined, .cta-bookuniversal, .cta-donate, .cta-donate-icon, .cta-buy-paypalbutton, .cta-donate-paypalbutton, .cta-amazon, .cta-amazon-large, .cta-paypal, .cta-audible, .cta-audible-large, .cta-ibooks, .cta-itunes, .cta-kindle, .cta-lulu, .cta-teespring {
   background-image: url("images/sprites.png");
   background-repeat: no-repeat;
   display: block; }
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-    .cta-box, .cta-coachingphone, .cta-coachingphone-icon, .cta-coachingemail, .cta-coachingemail-icon, .cta-bookpaperback, .cta-bookpaperback-icon, .cta-bookpaperback-amazon, .cta-bookebook, .cta-bookebook-icon, .cta-bookebook-amazon, .cta-bookaudio, .cta-bookaudio-icon, .cta-bookaudio-amazon, .cta-bookcombined, .cta-bookuniversal, .cta-donate, .cta-donate-icon, .cta-buy-paypalbutton, .cta-donate-paypalbutton, .cta-amazon, .cta-amazon-large, .cta-paypal, .cta-audible, .cta-audible-large, .cta-ibooks, .cta-itunes, .cta-kindle {
+    .cta-box, .cta-coachingphone, .cta-coachingphone-icon, .cta-coachingemail, .cta-coachingemail-icon, .cta-bookpaperback, .cta-book2paperback, .cta-bookpaperback-icon, .cta-bookpaperback-amazon, .cta-bookebook, .cta-book2ebook, .cta-bookebook-icon, .cta-bookebook-amazon, .cta-bookaudio, .cta-book2audio, .cta-bookaudio-icon, .cta-bookaudio-amazon, .cta-merchandise, .cta-bookcombined, .cta-bookuniversal, .cta-donate, .cta-donate-icon, .cta-buy-paypalbutton, .cta-donate-paypalbutton, .cta-amazon, .cta-amazon-large, .cta-paypal, .cta-audible, .cta-audible-large, .cta-ibooks, .cta-itunes, .cta-kindle, .cta-lulu, .cta-teespring {
       background-image: url("images/sprites2x.png");
       background-size: 1000px; } }
 
-.cta-box, .cta-coachingphone, .cta-coachingemail, .cta-bookpaperback, .cta-bookebook, .cta-bookaudio, .cta-bookcombined, .cta-bookuniversal, .cta-donate {
+.cta-box, .cta-coachingphone, .cta-coachingemail, .cta-bookpaperback, .cta-book2paperback, .cta-bookebook, .cta-book2ebook, .cta-bookaudio, .cta-book2audio, .cta-merchandise, .cta-bookcombined, .cta-bookuniversal, .cta-donate {
   width: 100px;
   height: 100px; }
 
@@ -3185,6 +3161,9 @@ body .soliloquy-fc-slider .soliloquy-caption-inside .soliloquy-fc-title-link {
 .cta-bookpaperback {
   background-position: -675px -265px; }
 
+.cta-book2paperback {
+  background-position: -895px -265px; }
+
 .cta-bookpaperback-icon {
   background-position: -230px -303px; }
 
@@ -3195,6 +3174,9 @@ body .soliloquy-fc-slider .soliloquy-caption-inside .soliloquy-fc-title-link {
 
 .cta-bookebook {
   background-position: -675px -390px; }
+
+.cta-book2ebook {
+  background-position: -895px -390px; }
 
 .cta-bookebook-icon {
   background-position: -275px -303px; }
@@ -3207,6 +3189,9 @@ body .soliloquy-fc-slider .soliloquy-caption-inside .soliloquy-fc-title-link {
 .cta-bookaudio {
   background-position: -675px -515px; }
 
+.cta-book2audio {
+  background-position: -895px -515px; }
+
 .cta-bookaudio-icon {
   background-position: -320px -303px; }
 
@@ -3214,6 +3199,9 @@ body .soliloquy-fc-slider .soliloquy-caption-inside .soliloquy-fc-title-link {
   background-position: -486px -463px;
   width: 120px;
   height: 241px; }
+
+.cta-merchandise {
+  background-position: -895px -140px; }
 
 .cta-bookcombined {
   background-position: -785px -265px; }
@@ -3276,6 +3264,16 @@ body .soliloquy-fc-slider .soliloquy-caption-inside .soliloquy-fc-title-link {
   background-position: -228px -425px;
   width: 120px;
   height: 26px; }
+
+.cta-lulu {
+  background-position: -151px -499px;
+  width: 50px;
+  height: 35px; }
+
+.cta-teespring {
+  background-position: -796px -99px;
+  width: 121px;
+  height: 19px; }
 
 .cta-triangle {
   width: 0;
@@ -3355,7 +3353,42 @@ body .soliloquy-fc-slider .soliloquy-caption-inside .soliloquy-fc-title-link {
   font-weight: 400;
   background-color: #f7f7f7; }
 
-/* BASE_227 | RESPONSIVE | 227_CORMAIN | MEDIA - 2016-06-07 */
+/* BASE_230 | ITEM | COR_250 | ITEM-MEMBERS - 2018-03-06 */
+.members-tabs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: -1px; }
+
+.members-tabs > div {
+  flex: 1 33%; }
+
+.members-tab {
+  display: flex; }
+
+.members-tab p, .members-tab-current p {
+  display: none; }
+
+.members-tab-current {
+  display: block;
+  background-color: #f0f0f0;
+  border-top: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-left: 1px solid #ccc; }
+
+.members-tab > a:link {
+  background-color: #ccc;
+  border-top: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-left: 1px solid #ddd;
+  flex: 1; }
+
+.members-tab > a:hover {
+  background-color: #f0f0f0;
+  border-top: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-left: 1px solid #ccc; }
+
+/* BASE_230 | RESPONSIVE | 2801_COR | MEDIA - 2019-03-04 */
 @media only screen and (max-width: 48rem) {
   .item-cta.media .media-img, .item-cta.media .media-right {
     float: none;
@@ -3368,12 +3401,12 @@ body .soliloquy-fc-slider .soliloquy-caption-inside .soliloquy-fc-title-link {
     text-align: center; } }
 
 @media only screen and (max-width: 26.563rem) {
-  .item-cta .cta-amazon, .item-cta .cta-amazon-large, .item-cta .cta-paypal, .item-cta .cta-audible, .item-cta .cta-audible-large, .item-cta .cta-ibooks, .item-cta .cta-itunes, .item-cta .cta-kindle {
+  .item-cta .cta-amazon, .item-cta .cta-amazon-large, .item-cta .cta-paypal, .item-cta .cta-audible, .item-cta .cta-audible-large, .item-cta .cta-ibooks, .item-cta .cta-itunes, .item-cta .cta-kindle, .item-cta .cta-lulu, .item-cta .cta-teespring {
     margin-right: auto;
     margin-left: auto; } }
 
 @media only screen and (max-width: 26.563rem) {
-  .item-cta-hide, .item-cta .cta-bookpaperback, .item-cta .cta-bookebook, .item-cta .cta-bookaudio, .item-cta .cta-bookcombined {
+  .item-cta-hide, .item-cta .cta-merchandise, .item-cta .cta-bookpaperback, .item-cta .cta-book2paperback, .item-cta .cta-bookebook, .item-cta .cta-book2ebook, .item-cta .cta-bookaudio, .item-cta .cta-book2audio, .item-cta .cta-bookcombined, .item-cta .cta-book2combined {
     display: none; } }
 
 @media only screen and (max-width: 26.563rem) {
@@ -3383,3 +3416,7 @@ body .soliloquy-fc-slider .soliloquy-caption-inside .soliloquy-fc-title-link {
     margin-right: 0;
     border-top: 1px dashed #ccc;
     padding-top: 1rem; } }
+
+@media only screen and (max-width: 26.563rem) {
+  .item-cta .columns .third {
+    grid-column: span 12; } }
