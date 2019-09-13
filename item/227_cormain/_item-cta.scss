@@ -1,4 +1,4 @@
-/* BASE_227 | ITEM | 227_CORMAIN | ITEM-CTA - 2016-05-26 */
+/* BASE_227 | ITEM | 227_CORMAIN | ITEM-CTA - 2017-12-11 */
 
 // -------------------------------------
 // UNIVERSAL
@@ -165,6 +165,11 @@
 		background-position: -228px -425px;
 		width: 120px;
 		height: 26px;
+	}
+	%cta-lulu {
+		background-position: -151px -499px;
+		width: 50px;
+		height: 35px;
 	}
 
 // TRIANGLE
@@ -339,6 +344,10 @@
 	}
 	.cta-kindle.height-40 {
 		margin-bottom: 14px;
+	}
+	.cta-lulu {
+		@extend %cta-image !optional;
+		@extend %cta-lulu !optional;
 	}
 
 // CTA-TRIANGLE

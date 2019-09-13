@@ -5,7 +5,8 @@
 
 	%entrymeta {
 		font-family: $fontfamily-entrymeta;
-		font-size: #{$fontsize-xxsml}rem;	// 11px
+		font-size: #{$fontsize-xxxsml}rem;	// 11px
+		margin-top: 1rem;
 	}
 		%entrymeta-a {}
 		%entrymeta-hvr {}

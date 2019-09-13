@@ -1,4 +1,4 @@
-/* BASE_227 | RESPONSIVE | 227_CORMAIN | MEDIA - 2016-06-07 */
+/* BASE_227 | RESPONSIVE | 227_CORMAIN | MEDIA - 2017-12-11 */
 
 // -------------------------------------
 // EXTEND
@@ -38,6 +38,12 @@
 			margin-right: 0;
 			border-top: 1px dashed #ccc;
 			padding-top: 1rem;
+		}
+	}
+
+	%item-cta-columns-max {
+		@include responsive-range(smldown) {
+			grid-column: span 12;
 		}
 	}
 
@@ -86,6 +92,9 @@
 	.item-cta .cta-kindle {
 		@extend %item-cta-center !optional;
 	}
+	.item-cta .cta-lulu {
+		@extend %item-cta-center !optional;
+	}
 
 	.item-cta .cta-bookpaperback {
 		@extend %item-cta-hide !optional;
@@ -98,4 +107,7 @@
 	}
 	.item-cta .cta-bookcombined {
 		@extend %item-cta-hide !optional;
+	}
+	.item-cta .columns .third {
+		@extend %item-cta-columns-max !optional;
 	}

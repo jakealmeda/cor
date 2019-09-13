@@ -1,4 +1,4 @@
-/* BASE_230 | VARIABLES | 230_BASE > COR | FONTFAMILY - 2016-12-30 */
+/* BASE_230 | VARIABLES | 230_BASE > COR | FONTFAMILY - 2017-7-26 */
 
 // -------------------------------------
 // VARIABLES
@@ -6,14 +6,14 @@
 // RELATIVE
 
 	$fontfamily-compact:				"Lato",arial,sans-serif;
-	$fontfamily-narrow:					"Roboto Condensed",arial,sans-serif;
-	$fontfamily-regular:				"Roboto",arial,sans-serif;
+	$fontfamily-narrow:					"Lato","Roboto Condensed",arial,sans-serif;
+	$fontfamily-regular:				"Lato","Roboto",arial,sans-serif;
 	$fontfamily-wide:					"Lato",arial,sans-serif;
-	$fontfamily-script:					"Dancing Script",cursive,sans-serif;
+	$fontfamily-script:					"Lato","Dancing Script",cursive,sans-serif;
 
 // DEFAULT (HTML)
 
-	$fontfamily-default:				"Roboto",arial,sans-serif;
+	$fontfamily-default:				"Lato","Roboto",arial,sans-serif;
 
 // BODY
 
@@ -83,8 +83,8 @@
 
 // HEADER
 
-	$fontfamily-sitetitle:				"Roboto",arial,sans-serif;
-	$fontfamily-sitedescription:		"Roboto",arial,sans-serif;
+	$fontfamily-sitetitle:				"Lato","Roboto",arial,sans-serif;
+	$fontfamily-sitedescription:		"Lato","Roboto",arial,sans-serif;
 
 // COPYRIGHT
 

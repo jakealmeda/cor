@@ -1,4 +1,4 @@
-/* BASE_230 | LAYOUT | 230_BASE > COR | BODY - 2016-9-14 */
+/* BASE_230 | LAYOUT | 230_BASE > COR | BODY - 2017-08-19 */
 
 // -------------------------------------
 // EXTEND
@@ -12,7 +12,9 @@
 	%body_layout {
 		font-family: $fontfamily-body;
 		font-weight: $fontweight-normal;
-		color: $color-body;
+		//font-weight: 800;
+		//color: $color-body;
+		color: red;
 		background-color: $bgcolor-body;
 		line-height: $lineheight-body;
 	}
